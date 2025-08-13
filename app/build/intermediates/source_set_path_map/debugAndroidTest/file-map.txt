@@ -1,0 +1,4 @@
+com.allcryptotokens.test.app-androidTest-0 /home/philipw/philipwayneapps/app/build/generated/res/resValues/androidTest/debug
+com.allcryptotokens.test.app-mergeDebugAndroidTestResources-1 /home/philipw/philipwayneapps/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
+com.allcryptotokens.test.app-mergeDebugAndroidTestResources-2 /home/philipw/philipwayneapps/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
+com.allcryptotokens.test.app-merged_res-3 /home/philipw/philipwayneapps/app/build/intermediates/merged_res/debugAndroidTest
