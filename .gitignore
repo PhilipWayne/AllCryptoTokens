@@ -29,3 +29,11 @@ captures/
 *.apk
 *.aab
 *.keystore
+
+# Large/ephemeral
+*.hprof
+*.apk
+*.aab
+/app/build/
+/.gradle/
+.idea/
