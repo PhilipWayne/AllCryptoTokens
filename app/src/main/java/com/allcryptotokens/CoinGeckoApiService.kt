@@ -1,18 +1,22 @@
+// app/src/main/java/com/allcryptotokens/CoinGeckoApiService.kt
 package com.allcryptotokens
 
 import retrofit2.http.GET
 import retrofit2.http.Path
 import retrofit2.http.Query
+import com.google.gson.annotations.SerializedName
 
 interface CoinGeckoApiService {
-    // 1) Full coin catalog (id, symbol, name)
-    @GET("/api/v3/coins/list")
+
+    @GET("search")
+    suspend fun search(@Query("query") query: String): CgSearchResponse
+
+    @GET("coins/list")
     suspend fun coinsList(
         @Query("include_platform") includePlatform: Boolean = false
     ): List<CgCoinListItem>
 
-    // 2) Optional: markets (not required for your current screen)
-    @GET("/api/v3/coins/markets")
+    @GET("coins/markets")
     suspend fun markets(
         @Query("vs_currency") vsCurrency: String = "usd",
         @Query("order") order: String = "market_cap_desc",
@@ -22,8 +26,7 @@ interface CoinGeckoApiService {
         @Query("ids") ids: String? = null
     ): List<CgMarketItem>
 
-    // 3) Detail for one coin (for description + image)
-    @GET("/api/v3/coins/{id}")
+    @GET("coins/{id}")
     suspend fun coinDetail(
         @Path("id") id: String,
         @Query("localization") localization: Boolean = false,
@@ -34,6 +37,8 @@ interface CoinGeckoApiService {
         @Query("sparkline") sparkline: Boolean = false
     ): CgCoinDetail
 }
+
+// ===== Models =====
 
 data class CgCoinListItem(
     val id: String,
@@ -54,6 +59,14 @@ data class CgCoinDetail(
     val name: String,
     val description: CgDescription? = null,
     val image: CgImage? = null
+)
+
+data class CgSearchResponse(val coins: List<CgSearchCoin> = emptyList())
+data class CgSearchCoin(
+    val id: String,
+    val name: String,
+    val symbol: String,
+    @SerializedName("market_cap_rank") val marketCapRank: Int? = null
 )
 
 data class CgDescription(val en: String? = null)

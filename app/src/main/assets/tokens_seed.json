@@ -1,0 +1,11 @@
+[
+  {
+    "cgId": "bitcoin",
+    "name": "Bitcoin",
+    "symbol": "BTC",
+    "description": "Bitcoin is a decentralized digital currency ...",
+    "imageUrl": "https://assets.coingecko.com/.../large.png",
+    "updatedAt": 0
+  }
+  // add your commonly viewed tokens here
+]

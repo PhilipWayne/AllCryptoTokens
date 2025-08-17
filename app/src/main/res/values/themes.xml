@@ -1,11 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- App theme based on Material 3 -->
     <style name="Theme.AllCryptoTokens" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Material 3 colors -->
-        <item name="colorPrimary">#6200EE</item>
-        <item name="colorOnPrimary">#FFFFFF</item>
-        <item name="colorSecondary">#03DAC5</item>
-        <item name="colorOnSecondary">#000000</item>
-        <item name="android:statusBarColor">?attr/colorPrimary</item>
+        <!-- No M2 attributes like colorPrimary here -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:forceDarkAllowed">true</item>
     </style>
 </resources>

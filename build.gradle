@@ -1,5 +1,4 @@
-// Top-level build file
-
+// Root-level build.gradle (PROJECT)
 buildscript {
     repositories {
         google()
@@ -11,9 +10,5 @@ buildscript {
     }
 }
 
-allprojects {
-    repositories {
-        google()
-        mavenCentral()
-    }
-}
+// Nothing else should be here.
+// App-specific dependencies go in app/build.gradle
