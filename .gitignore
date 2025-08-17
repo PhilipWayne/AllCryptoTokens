@@ -18,3 +18,14 @@ captures/
 
 # Other
 .DS_Store
+# Android/Gradle
+/.gradle/
+/app/build/
+/captures/
+/.idea/
+/*.iml
+
+*.hprof
+*.apk
+*.aab
+*.keystore
