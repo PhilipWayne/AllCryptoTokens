@@ -1,4 +1,3 @@
-// app/src/main/java/com/allcryptotokens/AppDatabase.kt
 package com.allcryptotokens
 
 import android.content.Context
@@ -6,7 +5,11 @@ import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
 
-@Database(entities = [TokenEntity::class], version = 2, exportSchema = false)
+@Database(
+    entities = [TokenEntity::class],
+    version = 2,
+    exportSchema = false
+)
 abstract class AppDatabase : RoomDatabase() {
     abstract fun tokenDao(): TokenDao
 
@@ -20,7 +23,10 @@ abstract class AppDatabase : RoomDatabase() {
                     AppDatabase::class.java,
                     "allcryptotokens.db"
                 )
-                    .fallbackToDestructiveMigration() // wipe if schema changed while we iterate
+                    // Copy the prebuilt DB from app/src/main/assets on first run
+                    .createFromAsset("prebuilt_tokens.db")
+                    // If we change schema while iterating, just reset (OK for this app)
+                    .fallbackToDestructiveMigration()
                     .build()
                     .also { INSTANCE = it }
             }

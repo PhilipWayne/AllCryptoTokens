@@ -37,3 +37,8 @@ captures/
 /app/build/
 /.gradle/
 .idea/
+
+# SQLite temp files
+*.db-journal
+*.db-wal
+*.db-shm
