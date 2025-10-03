@@ -28,7 +28,7 @@ fun TokenListScreen() {
     }
 
     Scaffold(
-        topBar = { TopAppBar(title = { Text("All Crypto Tokens (Offline)") }) }
+        topBar = { TopAppBar(title = { Text("All Crypto Tokens") }) }
     ) { pad ->
         if (rows.isEmpty()) {
             Column(
