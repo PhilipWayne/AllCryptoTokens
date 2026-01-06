@@ -1,0 +1,79 @@
+{
+  "id": "anime",
+  "symbol": "anime",
+  "name": "Animecoin",
+  "web_slug": "anime",
+  "asset_platform_id": "arbitrum-one",
+  "platforms": {
+    "arbitrum-one": "0x37a645648df29205c6261289983fb04ecd70b4b3",
+    "ethereum": "0x4dc26fc5854e7648a064a4abd590bbe71724c277"
+  },
+  "detail_platforms": {
+    "arbitrum-one": {
+      "decimal_place": 18,
+      "contract_address": "0x37a645648df29205c6261289983fb04ecd70b4b3",
+      "geckoterminal_url": "https://www.geckoterminal.com/arbitrum/tokens/0x37a645648df29205c6261289983fb04ecd70b4b3"
+    },
+    "ethereum": {
+      "decimal_place": 18,
+      "contract_address": "0x4dc26fc5854e7648a064a4abd590bbe71724c277",
+      "geckoterminal_url": "https://www.geckoterminal.com/eth/tokens/0x4dc26fc5854e7648a064a4abd590bbe71724c277"
+    }
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "categories": [
+    "NFT",
+    "Meme",
+    "Arbitrum Ecosystem",
+    "Ethereum Ecosystem",
+    "Anime-Themed",
+    "Binance HODLer Airdrops",
+    "Airdropped Tokens by NFT Projects"
+  ],
+  "preview_listing": false,
+  "public_notice": null,
+  "additional_notices": [],
+  "description": {
+    "en": "Backed by Azuki, the premier Web3 anime brand, ANIME empowers one billion global fans to shape and own the future of anime culture. Anime fans are some of the most passionate and creative communities in the world, yet they have long been passive consumers. Animecoin transforms the anime ecosystem into a community-driven creative economy. This marks a new phenomenon called Anime 2.0, where creators and fans collaborate to shape the industry’s evolution."
+  },
+  "links": {
+    "homepage": [
+      "https://www.anime.xyz/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x4dc26fc5854e7648a064a4abd590bbe71724c277",
+      "https://intel.arkm.com/explorer/token/anime",
+      "https://ethplorer.io/address/0x4dc26fc5854e7648a064a4abd590bbe71724c277",
+      "https://arbiscan.io/token/0x37a645648df29205c6261289983fb04ecd70b4b3"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "animecoin",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/53575/thumb/anime.jpg?1736748703",
+    "small": "https://coin-images.coingecko.com/coins/images/53575/small/anime.jpg?1736748703",
+    "large": "https://coin-images.coingecko.com/coins/images/53575/large/anime.jpg?1736748703"
+  },
+  "country_origin": "",
+  "genesis_date": null,
+  "contract_address": "0x37a645648df29205c6261289983fb04ecd70b4b3",
+  "sentiment_votes_up_percentage": 100.0,
+  "sentiment_votes_down_percentage": 0.0,
+  "watchlist_portfolio_users": 5223,
+  "market_cap_rank": 758,
+  "status_updates": [],
+  "last_updated": "2026-01-05T00:07:10.466Z"
+}

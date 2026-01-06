@@ -1,0 +1,86 @@
+{
+  "id": "plume",
+  "symbol": "plume",
+  "name": "Plume",
+  "web_slug": "plume",
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x4c1746a800d224393fe2470c70a35717ed4ea5f1",
+    "binance-smart-chain": "0x5afadcd1e8e3ca78ee2d37100102f2aec8bc0aa8"
+  },
+  "detail_platforms": {
+    "ethereum": {
+      "decimal_place": 18,
+      "contract_address": "0x4c1746a800d224393fe2470c70a35717ed4ea5f1",
+      "geckoterminal_url": "https://www.geckoterminal.com/eth/tokens/0x4c1746a800d224393fe2470c70a35717ed4ea5f1"
+    },
+    "binance-smart-chain": {
+      "decimal_place": 18,
+      "contract_address": "0x5afadcd1e8e3ca78ee2d37100102f2aec8bc0aa8",
+      "geckoterminal_url": "https://www.geckoterminal.com/bsc/tokens/0x5afadcd1e8e3ca78ee2d37100102f2aec8bc0aa8"
+    }
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "categories": [
+    "Smart Contract Platform",
+    "BNB Chain Ecosystem",
+    "Layer 1 (L1)",
+    "Ethereum Ecosystem",
+    "Real World Assets (RWA)",
+    "RWA Protocol",
+    "Binance HODLer Airdrops",
+    "Made in USA",
+    "Plume Network Ecosystem"
+  ],
+  "preview_listing": false,
+  "public_notice": null,
+  "additional_notices": [],
+  "description": {
+    "en": "Plume is the first RWAfi L1 network focused on crypto natives. We build infrastructure to make it easy to connect the real world and the crypto markets. We go against the traditional view of RWAs by changing its definition – it’s not just TradFi onchain but instead building net new crypto-first RWA use cases to the market including things like RWA derivatives/speculation, borrow/lend, yield farming, and more.\r\n\r\nWe are a permissionless EVM chain and ecosystem that is redefining and driving the RWA market forward. We do this through novel technologies that vertically integrate all the elements of RWAs into a single stack and ecosystem. Our tokenization engine, an EVM chain, compliance &amp; regulatory tooling, RWA data normalization, etc are all first class objects so that they work seamlessly together to make it easy to bring anything in the real world (assets, data, etc.) onchain."
+  },
+  "links": {
+    "homepage": [
+      "https://plume.org/"
+    ],
+    "whitepaper": "https://docs.plume.org/",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x4C1746A800D224393fE2470C70A35717eD4eA5F1",
+      "https://intel.arkm.com/explorer/token/plume",
+      "https://ethplorer.io/address/0x4C1746A800D224393fE2470C70A35717eD4eA5F1",
+      "https://bscscan.com/token/0x5aFadCd1E8E3CA78Ee2D37100102f2aec8Bc0Aa8",
+      "https://binplorer.com/address/0x5aFadCd1E8E3CA78Ee2D37100102f2aec8Bc0Aa8"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/plume-network"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "plumenetwork",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "plumenetwork_community",
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [
+        "https://github.com/plumenetwork"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/53623/thumb/plume-token.png?1736896935",
+    "small": "https://coin-images.coingecko.com/coins/images/53623/small/plume-token.png?1736896935",
+    "large": "https://coin-images.coingecko.com/coins/images/53623/large/plume-token.png?1736896935"
+  },
+  "country_origin": "",
+  "genesis_date": null,
+  "contract_address": "0x4c1746a800d224393fe2470c70a35717ed4ea5f1",
+  "sentiment_votes_up_percentage": 100.0,
+  "sentiment_votes_down_percentage": 0.0,
+  "watchlist_portfolio_users": 22695,
+  "market_cap_rank": 624,
+  "status_updates": [],
+  "last_updated": "2026-01-05T01:53:39.711Z"
+}

@@ -1,0 +1,85 @@
+{
+  "id": "numeraire",
+  "symbol": "nmr",
+  "name": "Numeraire",
+  "web_slug": "numeraire",
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x1776e1f26f98b1a5df9cd347953a26dd3cb46671",
+    "energi": "0xd72922e849477a042a7e6dc84309f4bc1c1227a2"
+  },
+  "detail_platforms": {
+    "ethereum": {
+      "decimal_place": 18,
+      "contract_address": "0x1776e1f26f98b1a5df9cd347953a26dd3cb46671",
+      "geckoterminal_url": "https://www.geckoterminal.com/eth/tokens/0x1776e1f26f98b1a5df9cd347953a26dd3cb46671"
+    },
+    "energi": {
+      "decimal_place": 18,
+      "contract_address": "0xd72922e849477a042a7e6dc84309f4bc1c1227a2",
+      "geckoterminal_url": "https://www.geckoterminal.com/nrg/tokens/0xd72922e849477a042a7e6dc84309f4bc1c1227a2"
+    }
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "categories": [
+    "Business Services",
+    "Decentralized Finance (DeFi)",
+    "Ethereum Ecosystem",
+    "Paradigm Portfolio",
+    "DragonFly Capital Portfolio",
+    "Energi Ecosystem"
+  ],
+  "preview_listing": false,
+  "public_notice": null,
+  "additional_notices": [],
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://numer.ai/"
+    ],
+    "whitepaper": "https://numer.ai/whitepaper.pdf",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x1776e1f26f98b1a5df9cd347953a26dd3cb46671",
+      "https://intel.arkm.com/explorer/token/numeraire",
+      "https://ethplorer.io/address/0x1776e1f26f98b1a5df9cd347953a26dd3cb46671",
+      "https://explorer.energi.network/token/0xd72922e849477a042a7e6dc84309f4bc1c1227a2"
+    ],
+    "official_forum_url": [
+      "https://community.numer.ai/channel/erasure"
+    ],
+    "chat_url": [],
+    "announcement_url": [
+      "https://medium.com/numerai"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "numerai",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com/r/numerai",
+    "repos_url": {
+      "github": [
+        "https://github.com/erasureprotocol/erasure-protocol",
+        "https://github.com/numerai/numerapi-1"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/752/thumb/numeraire.png?1696501906",
+    "small": "https://coin-images.coingecko.com/coins/images/752/small/numeraire.png?1696501906",
+    "large": "https://coin-images.coingecko.com/coins/images/752/large/numeraire.png?1696501906"
+  },
+  "country_origin": "",
+  "genesis_date": "2017-06-20",
+  "contract_address": "0x1776e1f26f98b1a5df9cd347953a26dd3cb46671",
+  "sentiment_votes_up_percentage": null,
+  "sentiment_votes_down_percentage": null,
+  "watchlist_portfolio_users": 33336,
+  "market_cap_rank": 502,
+  "status_updates": [],
+  "last_updated": "2026-01-05T01:41:59.485Z"
+}

@@ -1,0 +1,116 @@
+{
+  "id": "quant-network",
+  "symbol": "qnt",
+  "name": "Quant",
+  "web_slug": "quant",
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x4a220e6096b25eadb88358cb44068a3248254675",
+    "energi": "0x462b35452e552a66b519ecf70aedb1835d434965"
+  },
+  "detail_platforms": {
+    "ethereum": {
+      "decimal_place": 18,
+      "contract_address": "0x4a220e6096b25eadb88358cb44068a3248254675",
+      "geckoterminal_url": "https://www.geckoterminal.com/eth/tokens/0x4a220e6096b25eadb88358cb44068a3248254675"
+    },
+    "energi": {
+      "decimal_place": 18,
+      "contract_address": "0x462b35452e552a66b519ecf70aedb1835d434965",
+      "geckoterminal_url": "https://www.geckoterminal.com/nrg/tokens/0x462b35452e552a66b519ecf70aedb1835d434965"
+    }
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": "Ethash",
+  "categories": [
+    "Infrastructure",
+    "Ethereum Ecosystem",
+    "Real World Assets (RWA)",
+    "Energi Ecosystem",
+    "Coinbase 50 Index"
+  ],
+  "preview_listing": false,
+  "public_notice": null,
+  "additional_notices": [],
+  "description": {
+    "en": "London-based Quant Network is set to revolutionise blockchain technology with the development of their blockchain operating system Overledger. The experienced team are determined to fulfil the original vision of the internet by creating an open trusted network for people, machines, and data to operate securely and safely.\r\n\r\nOverledger -the first interoperable blockchain operating system that facilitates internet-scale development of decentralised, multi-chain applications. Overledger has the ability to unlock and distribute value and applications across current and future blockchains. It is an agnostic platform that connects the world's networks to blockchains and ensures you're not limited to any single a vendor or technology. Overledger is the only platform that facilitates the development of internet-scales development of decentralised, multi-chain applications."
+  },
+  "links": {
+    "homepage": [
+      "https://www.quant.network"
+    ],
+    "whitepaper": "http://files.quant.network/files.quant.network/Quant_Overledger_Whitepaper_v0.1.pdf",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x4a220e6096b25eadb88358cb44068a3248254675",
+      "https://intel.arkm.com/explorer/token/quant-network",
+      "https://ethplorer.io/address/0x4a220e6096b25eadb88358cb44068a3248254675",
+      "https://explorer.energi.network/token/0x462b35452e552a66b519ecf70aedb1835d434965"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://t.me/QuantOverledger"
+    ],
+    "announcement_url": [
+      "https://quantnetwork.medium.com/"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "quant_network",
+    "facebook_username": "quantnetwork",
+    "bitcointalk_thread_identifier": 3200795,
+    "telegram_channel_identifier": "quantnetworkannouncements",
+    "subreddit_url": "https://www.reddit.com/r/QuantNetwork/",
+    "repos_url": {
+      "github": [
+        "https://github.com/quantnetwork/Overledger-Interfaces",
+        "https://github.com/quantnetwork/eth-contract-metadata"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/3370/thumb/5ZOu7brX_400x400.jpg?1696504070",
+    "small": "https://coin-images.coingecko.com/coins/images/3370/small/5ZOu7brX_400x400.jpg?1696504070",
+    "large": "https://coin-images.coingecko.com/coins/images/3370/large/5ZOu7brX_400x400.jpg?1696504070"
+  },
+  "country_origin": "GB",
+  "genesis_date": "2018-06-25",
+  "contract_address": "0x4a220e6096b25eadb88358cb44068a3248254675",
+  "sentiment_votes_up_percentage": 85.71,
+  "sentiment_votes_down_percentage": 14.29,
+  "ico_data": {
+    "ico_start_date": "2018-04-02T00:00:00.000Z",
+    "ico_end_date": "2018-04-30T00:00:00.000Z",
+    "short_desc": "The first Blockchain operating system that facilitates the development of multi-chain applications.",
+    "description": "",
+    "links": {},
+    "softcap_currency": "ETH",
+    "hardcap_currency": "ETH",
+    "total_raised_currency": "USD",
+    "softcap_amount": "6500.0",
+    "hardcap_amount": "57000.0",
+    "total_raised": "11000000.0",
+    "quote_pre_sale_currency": "ETH",
+    "base_pre_sale_amount": "687.0",
+    "quote_pre_sale_amount": "1.0",
+    "quote_public_sale_currency": "ETH",
+    "base_public_sale_amount": 430.0,
+    "quote_public_sale_amount": 1.0,
+    "accepting_currencies": "ETH",
+    "country_origin": "GB",
+    "pre_sale_start_date": "2018-03-19T00:00:00.000Z",
+    "pre_sale_end_date": "2018-04-01T00:00:00.000Z",
+    "whitelist_url": "",
+    "whitelist_start_date": null,
+    "whitelist_end_date": null,
+    "bounty_detail_url": "",
+    "amount_for_sale": "31000000.0",
+    "kyc_required": true,
+    "whitelist_available": null,
+    "pre_sale_available": true,
+    "pre_sale_ended": false
+  },
+  "watchlist_portfolio_users": 130225,
+  "market_cap_rank": 95,
+  "status_updates": [],
+  "last_updated": "2026-01-05T02:00:33.340Z"
+}

@@ -1,0 +1,75 @@
+{
+  "id": "wen-4",
+  "symbol": "wen",
+  "name": "Wen",
+  "web_slug": "wen-solana",
+  "asset_platform_id": "solana",
+  "platforms": {
+    "solana": "WENWENvqqNya429ubCdR81ZmD69brwQaaBYY6p3LCpk"
+  },
+  "detail_platforms": {
+    "solana": {
+      "decimal_place": 5,
+      "contract_address": "WENWENvqqNya429ubCdR81ZmD69brwQaaBYY6p3LCpk",
+      "geckoterminal_url": "https://www.geckoterminal.com/solana/tokens/WENWENvqqNya429ubCdR81ZmD69brwQaaBYY6p3LCpk"
+    }
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "categories": [
+    "NFT",
+    "Solana Ecosystem",
+    "Meme",
+    "Fractionalized NFT",
+    "Solana Meme",
+    "NFTFi",
+    "Cat-Themed",
+    "AI Meme",
+    "Anime-Themed",
+    "Made in USA",
+    "IP Meme"
+  ],
+  "preview_listing": false,
+  "public_notice": null,
+  "additional_notices": [],
+  "description": {
+    "en": "Wen is a community coin based on a fractional NFT. The NFT refers to @weremeow’s poem 'A Love Letter to Wen Bros'.\r\nThe NFT is fractionalized into a trillion pieces that trade like normal Solana tokens. Each Wen token equals proportional ownership in Meow's poem."
+  },
+  "links": {
+    "homepage": [
+      "https://www.wenwencoin.com/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://solscan.io/token/WENWENvqqNya429ubCdR81ZmD69brwQaaBYY6p3LCpk",
+      "https://intel.arkm.com/explorer/token/wen-4"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "wenwencoin",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/34856/thumb/wen-logo-new.jpg?1741334229",
+    "small": "https://coin-images.coingecko.com/coins/images/34856/small/wen-logo-new.jpg?1741334229",
+    "large": "https://coin-images.coingecko.com/coins/images/34856/large/wen-logo-new.jpg?1741334229"
+  },
+  "country_origin": "",
+  "genesis_date": null,
+  "contract_address": "WENWENvqqNya429ubCdR81ZmD69brwQaaBYY6p3LCpk",
+  "sentiment_votes_up_percentage": 100.0,
+  "sentiment_votes_down_percentage": 0.0,
+  "watchlist_portfolio_users": 42221,
+  "market_cap_rank": 1775,
+  "status_updates": [],
+  "last_updated": "2026-01-05T02:39:10.866Z"
+}

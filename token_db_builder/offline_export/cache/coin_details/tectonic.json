@@ -1,0 +1,70 @@
+{
+  "id": "tectonic",
+  "symbol": "tonic",
+  "name": "Tectonic",
+  "web_slug": "tectonic",
+  "asset_platform_id": "cronos",
+  "platforms": {
+    "cronos": "0xdd73dea10abc2bff99c60882ec5b2b81bb1dc5b2"
+  },
+  "detail_platforms": {
+    "cronos": {
+      "decimal_place": 18,
+      "contract_address": "0xdd73dea10abc2bff99c60882ec5b2b81bb1dc5b2",
+      "geckoterminal_url": "https://www.geckoterminal.com/cro/tokens/0xdd73dea10abc2bff99c60882ec5b2b81bb1dc5b2"
+    }
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "categories": [
+    "Decentralized Finance (DeFi)",
+    "Cronos Ecosystem"
+  ],
+  "preview_listing": false,
+  "public_notice": null,
+  "additional_notices": [],
+  "description": {
+    "en": "Tectonic is a decentralised non-custodial algorithmic-based money market protocol that allows users to participate as liquidity suppliers or borrowers. Suppliers provide liquidity to the market to earn a passive income, while borrowers are able to borrow liquidity in an over-collateralized fashion. "
+  },
+  "links": {
+    "homepage": [
+      "https://tectonic.finance/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://cronos.crypto.org/explorer/address/0xdd73dea10abc2bff99c60882ec5b2b81bb1dc5b2/transactions",
+      "https://explorer.cronos.org/token/0xdd73dea10abc2bff99c60882ec5b2b81bb1dc5b2"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/jqaxqK7KBR"
+    ],
+    "announcement_url": [
+      "https://medium.com/tectonicfi"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "tectonicfi",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "TectonicOfficial",
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/21982/thumb/TONIC_logo.png?1696521330",
+    "small": "https://coin-images.coingecko.com/coins/images/21982/small/TONIC_logo.png?1696521330",
+    "large": "https://coin-images.coingecko.com/coins/images/21982/large/TONIC_logo.png?1696521330"
+  },
+  "country_origin": "",
+  "genesis_date": null,
+  "contract_address": "0xdd73dea10abc2bff99c60882ec5b2b81bb1dc5b2",
+  "sentiment_votes_up_percentage": 100.0,
+  "sentiment_votes_down_percentage": 0.0,
+  "watchlist_portfolio_users": 13788,
+  "market_cap_rank": 2105,
+  "status_updates": [],
+  "last_updated": "2026-01-05T02:25:54.198Z"
+}

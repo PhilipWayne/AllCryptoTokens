@@ -1,0 +1,84 @@
+{
+  "id": "veno-finance",
+  "symbol": "vno",
+  "name": "Veno Finance",
+  "web_slug": "veno-finance",
+  "asset_platform_id": "cronos",
+  "platforms": {
+    "cronos": "0xdb7d0a1ec37de1de924f8e8adac6ed338d4404e9",
+    "zksync": "0xe75a17b4f5c4f844688d5670b684515d7c785e63"
+  },
+  "detail_platforms": {
+    "cronos": {
+      "decimal_place": 18,
+      "contract_address": "0xdb7d0a1ec37de1de924f8e8adac6ed338d4404e9",
+      "geckoterminal_url": "https://www.geckoterminal.com/cro/tokens/0xdb7d0a1ec37de1de924f8e8adac6ed338d4404e9"
+    },
+    "zksync": {
+      "decimal_place": 18,
+      "contract_address": "0xe75a17b4f5c4f844688d5670b684515d7c785e63",
+      "geckoterminal_url": "https://www.geckoterminal.com/zksync/tokens/0xe75a17b4f5c4f844688d5670b684515d7c785e63"
+    }
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "categories": [
+    "Decentralized Finance (DeFi)",
+    "Cronos Ecosystem",
+    "Liquid Staking Governance Tokens",
+    "ZkSync Ecosystem",
+    "Liquid Staking"
+  ],
+  "preview_listing": false,
+  "public_notice": null,
+  "additional_notices": [],
+  "description": {
+    "en": "Veno is a liquid staking protocol where you can stake your CRO and receive the auto-compounding, yield-bearing receipt token LCRO. The LCRO token is designed to maximize composability. Just by owning LCRO, you automatically accrue the CRO staking yield value in your LCRO token; LCRO can thus be used freely across the Cronos DeFi ecosystem.\r\nVeno’s liquid staking token LCRO offers the most extensive, lowest cost, and most reliable method of utilizing your staked CRO.\r\n\r\nWe are a vertically integrated liquid staking protocol, maximizing the reliability and efficiency of our service; allowing us to provide a price-competitive service in the long term;\r\n\r\n- Cost savings are achieved by leveraging our own node infrastructure and/or infrastructure of our partners\r\n- Reliability is achieved with our enterprise-grade node set-up and deep expertise in running node infrastructure\r\n- We also have an insurance module that will help to secure user funds in the unlikely event of a slashing penalty\r\n\r\nWe will aim to maximize the adoption and utility of our tokens across the ecosystem, and we are working with some of the largest ecosystem partners to make this happen;\r\n\r\n- We want to maximize the liquidity of LCRO in the Cronos Ecosystem and beyond, attracting the largest amount of capital, and attaining the lowest spread, with our high reliability and low-fee promises\r\n- LCRO is an auto-compounding yield-bearing token to maximize composability\r\n- We can further maximize user liquidity by providing a tradeable NFT after user unstakes their CRO"
+  },
+  "links": {
+    "homepage": [
+      "https://veno.finance/",
+      "https://veno.finance/stake/",
+      "https://veno.finance/vno/"
+    ],
+    "whitepaper": "https://veno-finance.gitbook.io/veno-finance/veno/litepaper",
+    "blockchain_site": [
+      "https://era.zksync.network/token/0xe75a17b4f5c4f844688d5670b684515d7c785e63",
+      "https://explorer.zksync.io/address/0xe75a17b4f5c4f844688d5670b684515d7c785e63",
+      "https://explorer.cronos.org/token/0xdb7d0a1ec37de1de924f8e8adac6ed338d4404e9"
+    ],
+    "official_forum_url": [
+      "https://t.me/VenoFinanceAnn",
+      "https://discord.com/invite/xQK8f8wu26",
+      "https://medium.com/@VenoFinance"
+    ],
+    "chat_url": [],
+    "announcement_url": [
+      "https://bit.ly/m/venofinance"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "VenoFinance",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "VenoFinanceAnn",
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/28799/thumb/Veno_Token_dark.png?1696527777",
+    "small": "https://coin-images.coingecko.com/coins/images/28799/small/Veno_Token_dark.png?1696527777",
+    "large": "https://coin-images.coingecko.com/coins/images/28799/large/Veno_Token_dark.png?1696527777"
+  },
+  "country_origin": "",
+  "genesis_date": null,
+  "contract_address": "0xdb7d0a1ec37de1de924f8e8adac6ed338d4404e9",
+  "sentiment_votes_up_percentage": null,
+  "sentiment_votes_down_percentage": null,
+  "watchlist_portfolio_users": 1253,
+  "market_cap_rank": 2238,
+  "status_updates": [],
+  "last_updated": "2026-01-05T02:35:49.561Z"
+}

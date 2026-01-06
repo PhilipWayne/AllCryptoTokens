@@ -1,0 +1,90 @@
+{
+  "id": "numbers-protocol",
+  "symbol": "num",
+  "name": "Numbers Protocol",
+  "web_slug": "numbers-protocol",
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x3496b523e5c00a4b4150d6721320cddb234c3079",
+    "binance-smart-chain": "0xeceb87cf00dcbf2d4e2880223743ff087a995ad9"
+  },
+  "detail_platforms": {
+    "ethereum": {
+      "decimal_place": 18,
+      "contract_address": "0x3496b523e5c00a4b4150d6721320cddb234c3079",
+      "geckoterminal_url": "https://www.geckoterminal.com/eth/tokens/0x3496b523e5c00a4b4150d6721320cddb234c3079"
+    },
+    "binance-smart-chain": {
+      "decimal_place": 18,
+      "contract_address": "0xeceb87cf00dcbf2d4e2880223743ff087a995ad9",
+      "geckoterminal_url": "https://www.geckoterminal.com/bsc/tokens/0xeceb87cf00dcbf2d4e2880223743ff087a995ad9"
+    }
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "categories": [
+    "Artificial Intelligence (AI)",
+    "Smart Contract Platform",
+    "BNB Chain Ecosystem",
+    "DaoMaker Launchpad",
+    "Ethereum Ecosystem",
+    "Avalanche L1",
+    "YZi Labs (Prev. Binance Labs) Portfolio",
+    "Outlier Ventures Portfolio"
+  ],
+  "preview_listing": false,
+  "public_notice": null,
+  "additional_notices": [],
+  "description": {
+    "en": "NUM token is the native protocol token of Numbers Protocol. Numbers Protocol is building a Decentralized Photo Network for Web 3.0 For creating community, value, and trust in digital media. "
+  },
+  "links": {
+    "homepage": [
+      "https://www.numbersprotocol.io/",
+      "https://num.numbersprotocol.io/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x3496b523e5c00a4b4150d6721320cddb234c3079",
+      "https://intel.arkm.com/explorer/token/numbers-protocol ",
+      "https://ethplorer.io/address/0x3496b523e5c00a4b4150d6721320cddb234c3079",
+      "https://bscscan.com/token/0xeceb87cf00dcbf2d4e2880223743ff087a995ad9",
+      "https://binplorer.com/address/0xeceb87cf00dcbf2d4e2880223743ff087a995ad9",
+      "https://intel.arkm.com/explorer/token/numbers-protocol"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/KF8TNeWd2u",
+      "https://discord.com/invite/KBtfEpxd3Z"
+    ],
+    "announcement_url": [
+      "https://medium.com/numbers-protocol"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "numbersprotocol",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "numbersprotocol",
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [
+        "https://github.com/numbersprotocol"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/20495/thumb/NP_Social_media_profile_pic.png?1696519902",
+    "small": "https://coin-images.coingecko.com/coins/images/20495/small/NP_Social_media_profile_pic.png?1696519902",
+    "large": "https://coin-images.coingecko.com/coins/images/20495/large/NP_Social_media_profile_pic.png?1696519902"
+  },
+  "country_origin": "",
+  "genesis_date": null,
+  "contract_address": "0x3496b523e5c00a4b4150d6721320cddb234c3079",
+  "sentiment_votes_up_percentage": null,
+  "sentiment_votes_down_percentage": null,
+  "watchlist_portfolio_users": 13331,
+  "market_cap_rank": 1839,
+  "status_updates": [],
+  "last_updated": "2026-01-05T01:44:21.584Z"
+}

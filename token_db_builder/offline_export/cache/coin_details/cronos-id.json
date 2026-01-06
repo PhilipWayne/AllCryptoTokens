@@ -1,0 +1,68 @@
+{
+  "id": "cronos-id",
+  "symbol": "croid",
+  "name": "Cronos ID",
+  "web_slug": "cronos-id",
+  "asset_platform_id": "cronos",
+  "platforms": {
+    "cronos": "0xcbf0adea24fd5f32c6e7f0474f0d1b94ace4e2e7"
+  },
+  "detail_platforms": {
+    "cronos": {
+      "decimal_place": 18,
+      "contract_address": "0xcbf0adea24fd5f32c6e7f0474f0d1b94ace4e2e7",
+      "geckoterminal_url": "https://www.geckoterminal.com/cro/tokens/0xcbf0adea24fd5f32c6e7f0474f0d1b94ace4e2e7"
+    }
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "categories": [
+    "Cronos Ecosystem",
+    "Name Service"
+  ],
+  "preview_listing": false,
+  "public_notice": null,
+  "additional_notices": [],
+  "description": {
+    "en": "Cronos ID is a decentralised identity and communication layer built on Cronos chain. On a broad level, Cronos ID will give users the ability to send and receive information on-chain, powered by human-readable identifiers.\r\n\r\nTo achieve this, Cronos ID is powered by 3 key subprotocols: \r\n* Starting with our Domains, every user will have a unique on-chain identity, allowing you to find friends and exchange crypto with ease \r\n* The Notifications service will help the community keep track of key protocol events, alerts, NFT bids and more - gone are the days of manually checking your DApps for bids or collateral factors. \r\n* Finally, by leveraging Messaging, users and projects will be able to connect and communicate with each other in a safe and verifiable environment.\r\n\r\nTokenomics &amp; Utility\r\n\r\n$CROID is Cronos ID’s native and governance token to be utilised in Cronos ID’s broader ecosystem. \r\n\r\n1. Domain Subscription Module \r\nUsers may utilize this module to register or extend their ownership over specific domains. Users will pay in $CRO or $CROID, the native underlying chain and native protocol tokens respectively, and may receive discounts based on the durations of their domain registrations \r\n\r\n2. Rewards Pool\r\nCronos ID domain holders can deposit their $CROID into maturity vaults to earn $CROID rewards. Users can choose between a 1-month, 9-months, 24-months, and 48-months maturity vaults to lock their $CROID. They will be rewarded with $CROID and $wCRO as staking rewards.\r\n\r\nCronos ID concluded its public sale on Nov 17th and started its emission on Nov 18th. $CROID is currently available for trading on VVS Finance at https://vvs.finance/swap\r\n\r\nRead more about Cronos ID at https://docs.cronosid.xyz/"
+  },
+  "links": {
+    "homepage": [
+      "https://cronosid.xyz/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://explorer.cronos.org/token/0xcbf0adea24fd5f32c6e7f0474f0d1b94ace4e2e7"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/FeFu22ny6A",
+      "https://medium.com/@cronos_identity"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "cronos_identity",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/28498/thumb/Cronos_ID_Logo.png?1696527490",
+    "small": "https://coin-images.coingecko.com/coins/images/28498/small/Cronos_ID_Logo.png?1696527490",
+    "large": "https://coin-images.coingecko.com/coins/images/28498/large/Cronos_ID_Logo.png?1696527490"
+  },
+  "country_origin": "",
+  "genesis_date": null,
+  "contract_address": "0xcbf0adea24fd5f32c6e7f0474f0d1b94ace4e2e7",
+  "sentiment_votes_up_percentage": 100.0,
+  "sentiment_votes_down_percentage": 0.0,
+  "watchlist_portfolio_users": 1184,
+  "market_cap_rank": 3166,
+  "status_updates": [],
+  "last_updated": "2026-01-05T00:35:17.947Z"
+}

@@ -1,0 +1,81 @@
+{
+  "id": "big-time",
+  "symbol": "bigtime",
+  "name": "Big Time",
+  "web_slug": "big-time",
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x64bc2ca1be492be7185faa2c8835d9b824c8a194"
+  },
+  "detail_platforms": {
+    "ethereum": {
+      "decimal_place": 18,
+      "contract_address": "0x64bc2ca1be492be7185faa2c8835d9b824c8a194",
+      "geckoterminal_url": "https://www.geckoterminal.com/eth/tokens/0x64bc2ca1be492be7185faa2c8835d9b824c8a194"
+    }
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "categories": [
+    "Gaming (GameFi)",
+    "Play To Earn",
+    "Ethereum Ecosystem",
+    "RPG",
+    "Alameda Research Portfolio",
+    "Circle Ventures Portfolio",
+    "OKX Ventures Portfolio",
+    "MMO"
+  ],
+  "preview_listing": false,
+  "public_notice": null,
+  "additional_notices": [],
+  "description": {
+    "en": "Big Time is a free-to-play, multiplayer action RPG game that combines fast-action combat and an adventure through time and space.\r\n \r\nExplore ancient mysteries and futuristic civilizations as you battle your way through history. Pick up rare collectibles Loot, Cosmetics and Tokens as you fight and defeat enemies. Collect and trade your Collectibles to decorate your avatar and personal metaverse, where you can hang out with your friends.\r\n\r\nExpand your personal metaverse and production capabilities with SPACE to join our in-game creator economy. \r\n\r\nPlay for free, collect in-game items and tokens, produce Collectibles, or hang out with friends...  Limitless environments and Adventure Instances give you INFINITE possibilities. The gameplay options are endless. "
+  },
+  "links": {
+    "homepage": [
+      "https://bigtime.gg/"
+    ],
+    "whitepaper": "https://wiki.bigtime.gg/big-time-getting-started/welcome-to-big-time-wiki",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x64bc2ca1be492be7185faa2c8835d9b824c8a194",
+      "https://intel.arkm.com/explorer/token/big-time",
+      "https://ethplorer.io/address/0x64bc2ca1be492be7185faa2c8835d9b824c8a194"
+    ],
+    "official_forum_url": [
+      "https://www.tiktok.com/@playbigtime",
+      "https://www.instagram.com/playbigtime/",
+      "https://www.twitch.tv/bigtimestudios"
+    ],
+    "chat_url": [
+      "https://discord.com/invite/bigtime",
+      "https://medium.com/playbigtime",
+      "https://www.youtube.com/@playbigtime"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "playbigtime",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "playbigtime",
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/32251/thumb/-6136155493475923781_121.jpg?1696998691",
+    "small": "https://coin-images.coingecko.com/coins/images/32251/small/-6136155493475923781_121.jpg?1696998691",
+    "large": "https://coin-images.coingecko.com/coins/images/32251/large/-6136155493475923781_121.jpg?1696998691"
+  },
+  "country_origin": "",
+  "genesis_date": null,
+  "contract_address": "0x64bc2ca1be492be7185faa2c8835d9b824c8a194",
+  "sentiment_votes_up_percentage": 100.0,
+  "sentiment_votes_down_percentage": 0.0,
+  "watchlist_portfolio_users": 21176,
+  "market_cap_rank": 751,
+  "status_updates": [],
+  "last_updated": "2026-01-05T00:20:55.704Z"
+}

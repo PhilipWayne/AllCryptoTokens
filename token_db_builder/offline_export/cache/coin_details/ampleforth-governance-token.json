@@ -1,0 +1,72 @@
+{
+  "id": "ampleforth-governance-token",
+  "symbol": "forth",
+  "name": "Ampleforth Governance",
+  "web_slug": "ampleforth-governance-token",
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x77fba179c79de5b7653f68b5039af940ada60ce0"
+  },
+  "detail_platforms": {
+    "ethereum": {
+      "decimal_place": 18,
+      "contract_address": "0x77fba179c79de5b7653f68b5039af940ada60ce0",
+      "geckoterminal_url": "https://www.geckoterminal.com/eth/tokens/0x77fba179c79de5b7653f68b5039af940ada60ce0"
+    }
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "categories": [
+    "Ethereum Ecosystem",
+    "Stablecoin Issuer",
+    "Governance"
+  ],
+  "preview_listing": false,
+  "public_notice": null,
+  "additional_notices": [],
+  "description": {
+    "en": "FORTH is the native governance token that powers Ampleforth, a protocol that automatically adjusts the supply of its native token, AMPL, in response to demand. FORTH holders can vote on proposed changes to the Ampleforth protocol or delegate their votes to representatives who vote on their behalf."
+  },
+  "links": {
+    "homepage": [
+      "https://www.ampleforth.org/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x77fba179c79de5b7653f68b5039af940ada60ce0",
+      "https://intel.arkm.com/explorer/token/ampleforth-governance-token",
+      "https://ethplorer.io/address/0x77fba179c79de5b7653f68b5039af940ada60ce0"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.gg/mptQ49m"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "AmpleforthOrg",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "Ampleforth",
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [
+        "https://github.com/ampleforth/Forth/"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/14917/thumb/photo_2021-04-22_00.00.03.jpeg?1696514579",
+    "small": "https://coin-images.coingecko.com/coins/images/14917/small/photo_2021-04-22_00.00.03.jpeg?1696514579",
+    "large": "https://coin-images.coingecko.com/coins/images/14917/large/photo_2021-04-22_00.00.03.jpeg?1696514579"
+  },
+  "country_origin": "",
+  "genesis_date": null,
+  "contract_address": "0x77fba179c79de5b7653f68b5039af940ada60ce0",
+  "sentiment_votes_up_percentage": null,
+  "sentiment_votes_down_percentage": null,
+  "watchlist_portfolio_users": 13550,
+  "market_cap_rank": 1149,
+  "status_updates": [],
+  "last_updated": "2026-01-05T00:56:43.926Z"
+}

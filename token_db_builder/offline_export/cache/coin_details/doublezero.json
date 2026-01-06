@@ -1,0 +1,76 @@
+{
+  "id": "doublezero",
+  "symbol": "2z",
+  "name": "DoubleZero",
+  "web_slug": "doublezero",
+  "asset_platform_id": "solana",
+  "platforms": {
+    "solana": "J6pQQ3FAcJQeWPPGppWRb4nM8jU3wLyYbRrLh7feMfvd"
+  },
+  "detail_platforms": {
+    "solana": {
+      "decimal_place": 8,
+      "contract_address": "J6pQQ3FAcJQeWPPGppWRb4nM8jU3wLyYbRrLh7feMfvd",
+      "geckoterminal_url": "https://www.geckoterminal.com/solana/tokens/J6pQQ3FAcJQeWPPGppWRb4nM8jU3wLyYbRrLh7feMfvd"
+    }
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "categories": [
+    "Infrastructure",
+    "Solana Ecosystem",
+    "Binance Alpha Spotlight",
+    "CoinList Launchpad"
+  ],
+  "preview_listing": false,
+  "public_notice": null,
+  "additional_notices": [],
+  "description": {
+    "en": "DoubleZero is a high-performance global network of independently contributed links, purpose-built for\r\nblockchain and other distributed systems. It provides direct, low-latency routing that strengthens validator\r\nperformance and supports faster, fairer participation worldwide.\r\n\r\n2Z Tokens are used to access the network’s connectivity service, and, on the other side, reward network contributors and resource providers based on performance and reliability. 2Z Tokens can also be staked to enhance the security of the network."
+  },
+  "links": {
+    "homepage": [
+      "https://doublezero.xyz/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://solscan.io/token/J6pQQ3FAcJQeWPPGppWRb4nM8jU3wLyYbRrLh7feMfvd",
+      "https://intel.arkm.com/explorer/token/doublezero"
+    ],
+    "official_forum_url": [
+      "https://www.linkedin.com/company/doublezerofoundation/"
+    ],
+    "chat_url": [
+      "https://discord.com/invite/doublezerotech",
+      "https://doublezero.xyz/journal",
+      "https://www.youtube.com/@DoubleZeroFoundation"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "doublezero",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [
+        "http://github.com/doublezerofoundation"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/68339/thumb/Coingecko_-_PFP.png?1755694420",
+    "small": "https://coin-images.coingecko.com/coins/images/68339/small/Coingecko_-_PFP.png?1755694420",
+    "large": "https://coin-images.coingecko.com/coins/images/68339/large/Coingecko_-_PFP.png?1755694420"
+  },
+  "country_origin": "",
+  "genesis_date": null,
+  "contract_address": "J6pQQ3FAcJQeWPPGppWRb4nM8jU3wLyYbRrLh7feMfvd",
+  "sentiment_votes_up_percentage": 0.0,
+  "sentiment_votes_down_percentage": 100.0,
+  "watchlist_portfolio_users": 2682,
+  "market_cap_rank": 168,
+  "status_updates": [],
+  "last_updated": "2026-01-04T23:45:56.097Z"
+}

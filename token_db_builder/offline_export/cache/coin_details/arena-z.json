@@ -1,0 +1,82 @@
+{
+  "id": "arena-z",
+  "symbol": "a2z",
+  "name": "Arena-Z",
+  "web_slug": "arena-z",
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x08dcb9b5989fb09ef80e85567ec1f49577a70d29"
+  },
+  "detail_platforms": {
+    "ethereum": {
+      "decimal_place": 18,
+      "contract_address": "0x08dcb9b5989fb09ef80e85567ec1f49577a70d29",
+      "geckoterminal_url": "https://www.geckoterminal.com/eth/tokens/0x08dcb9b5989fb09ef80e85567ec1f49577a70d29"
+    }
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "categories": [
+    "Gaming (GameFi)",
+    "NFT",
+    "Metaverse",
+    "Ethereum Ecosystem",
+    "Binance Launchpad",
+    "Gaming Governance Token",
+    "Gaming Utility Token",
+    "Strategy Games",
+    "Andreessen Horowitz (a16z) Portfolio",
+    "YZi Labs (Prev. Binance Labs) Portfolio",
+    "Sequoia Capital Portfolio"
+  ],
+  "preview_listing": false,
+  "public_notice": "League of Kingdoms (LOKA) has been rebranded to Arena-Z (A2Z). They migrated from their <a href=\"https://etherscan.io/token/0x61e90a50137e1f645c9ef4a0d3a4f01477738406\"target=\"_blank\">old contract</a> to a <a href=\"https://etherscan.io/token/0x08dcb9b5989fb09ef80e85567ec1f49577a70d29\"target=\"_blank\">new contract</a>. For more information, please visit this <a href=\"https://medium.com/arenaz-a2z/loka-network-upgrade-bf86a16cb151\"target=\"_blank\">post</a> and visit the old token page <a href=\"https://www.coingecko.com/en/coins/league-of-kingdoms\"target=\"_blank\">here</a>.<br>",
+  "additional_notices": [],
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://arena-z.gg/",
+      "https://linktr.ee/arenaz_a2z"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x08dcb9b5989fb09ef80e85567ec1f49577a70d29",
+      "https://intel.arkm.com/explorer/token/arena-z",
+      "https://ethplorer.io/address/0x08dcb9b5989fb09ef80e85567ec1f49577a70d29"
+    ],
+    "official_forum_url": [
+      "https://discord.com/invite/arenaz-a2z",
+      "https://medium.com/arenaz-a2z"
+    ],
+    "chat_url": [],
+    "announcement_url": [
+      "https://medium.com/league-of-kingdoms-eng"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "arenaz_a2z",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/67345/thumb/logo_transparent_200x200.png?1753173269",
+    "small": "https://coin-images.coingecko.com/coins/images/67345/small/logo_transparent_200x200.png?1753173269",
+    "large": "https://coin-images.coingecko.com/coins/images/67345/large/logo_transparent_200x200.png?1753173269"
+  },
+  "country_origin": "",
+  "genesis_date": null,
+  "contract_address": "0x08dcb9b5989fb09ef80e85567ec1f49577a70d29",
+  "sentiment_votes_up_percentage": 100.0,
+  "sentiment_votes_down_percentage": 0.0,
+  "watchlist_portfolio_users": 856,
+  "market_cap_rank": 1584,
+  "status_updates": [],
+  "last_updated": "2026-01-04T23:46:02.549Z"
+}

@@ -1,0 +1,130 @@
+{
+  "id": "golem",
+  "symbol": "glm",
+  "name": "Golem",
+  "web_slug": "golem",
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x7dd9c5cba05e151c895fde1cf355c9a1d5da6429",
+    "energi": "0xf3ff3bf1d1afcbebd98a304482c4099dc953e9a8"
+  },
+  "detail_platforms": {
+    "ethereum": {
+      "decimal_place": 18,
+      "contract_address": "0x7dd9c5cba05e151c895fde1cf355c9a1d5da6429",
+      "geckoterminal_url": "https://www.geckoterminal.com/eth/tokens/0x7dd9c5cba05e151c895fde1cf355c9a1d5da6429"
+    },
+    "energi": {
+      "decimal_place": 18,
+      "contract_address": "0xf3ff3bf1d1afcbebd98a304482c4099dc953e9a8",
+      "geckoterminal_url": "https://www.geckoterminal.com/nrg/tokens/0xf3ff3bf1d1afcbebd98a304482c4099dc953e9a8"
+    }
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "categories": [
+    "Artificial Intelligence (AI)",
+    "Ethereum Ecosystem",
+    "DePIN",
+    "Energi Ecosystem",
+    "GMCI DePIN Index",
+    "GMCI Index"
+  ],
+  "preview_listing": false,
+  "public_notice": "GNT is migrating to GLM. Refer to https://blog.golemproject.net/gnt-to-glm-migration/. Contract address has changed from 0xa74476443119a942de498590fe1f2454d7d4ac0d to 0x7DD9c5Cba05E151C895FDe1CF355C9A1D5DA6429.",
+  "additional_notices": [],
+  "description": {
+    "en": "What Is Golem Network?\r\n\r\nGolem Network is an open-source, decentralized computing platform that is building an ecosystem to provide computing power to the AI industry. A peer-to-peer marketplace for distributed computing resources. Users engage directly on the Golem platform, exchanging GLM tokens for the utilization of their idle computing resources.\r\n\r\nGolem allows to break down tasks into smaller subtasks and distribute them across multiple providers, enabling parallel processing. This approach boosts efficiency and speeds up the completion of complex computations.\r\n\r\nWhat is GLM?\r\n\r\nGLM or Golem Network Token is needed to pay for computations on the network and is the currency that drives the marketplace. As a Requestor, you set a bid for an amount of GLM you are willing to pay to have your task completed. As a Provider, you earn GLM by computing tasks for Requestors.\r\n\r\nHow can I get involved?\r\n\r\nIf you want to stay up to date with the latest developments and updates, join the Golem Network Discord community here: https://chat.golem.network/\r\n\r\nOn Discord you can also find support to become a Provider or a Requestor in the Golem platform."
+  },
+  "links": {
+    "homepage": [
+      "https://golem.network/"
+    ],
+    "whitepaper": "https://golem.network/doc/Golemwhitepaper.pdf",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x7dd9c5cba05e151c895fde1cf355c9a1d5da6429",
+      "https://intel.arkm.com/explorer/token/golem",
+      "https://ethplorer.io/address/0x7dd9c5cba05e151c895fde1cf355c9a1d5da6429",
+      "https://explorer.energi.network/token/0xf3ff3bf1d1afcbebd98a304482c4099dc953e9a8"
+    ],
+    "official_forum_url": [
+      "https://blog.golemproject.net/"
+    ],
+    "chat_url": [
+      "https://discord.com/invite/golem",
+      "https://www.youtube.com/c/golemnetwork"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "golemproject",
+    "facebook_username": "golemproject",
+    "bitcointalk_thread_identifier": 1655002,
+    "telegram_channel_identifier": "golemnetworkproject",
+    "subreddit_url": "https://www.reddit.com/r/GolemProject",
+    "repos_url": {
+      "github": [
+        "https://github.com/golemfactory/golem",
+        "https://github.com/golemfactory/golem-unlimited",
+        "https://github.com/golemfactory/golem-messages",
+        "https://github.com/golemfactory/concent-deployment",
+        "https://github.com/golemfactory/golem-electron"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/542/thumb/Golem_Submark_Positive_RGB.png?1696501761",
+    "small": "https://coin-images.coingecko.com/coins/images/542/small/Golem_Submark_Positive_RGB.png?1696501761",
+    "large": "https://coin-images.coingecko.com/coins/images/542/large/Golem_Submark_Positive_RGB.png?1696501761"
+  },
+  "country_origin": "PL",
+  "genesis_date": null,
+  "contract_address": "0x7dd9c5cba05e151c895fde1cf355c9a1d5da6429",
+  "sentiment_votes_up_percentage": null,
+  "sentiment_votes_down_percentage": null,
+  "ico_data": {
+    "ico_start_date": "2016-11-11T00:00:00.000Z",
+    "ico_end_date": "2016-12-02T00:00:00.000Z",
+    "short_desc": "Using personal computer to do jobs that are done today by servers",
+    "description": "Golem's aim is to use any personal computer to do jobs that are done today by servers, computing farms or supercomputers. Golem's features include a P2P network, a trading system, task definition and computation and reputation system.",
+    "links": {
+      "web": "https://golem.network/",
+      "blog": "",
+      "slack": "http://golemproject.org:3000/",
+      "github": "https://github.com/golemfactory/golem",
+      "twitter": "https://twitter.com/golemproject",
+      "facebook": "",
+      "telegram": "",
+      "whitepaper": "https://golem.network/doc/Golemwhitepaper.pdf"
+    },
+    "softcap_currency": "ETH",
+    "hardcap_currency": "ETH",
+    "total_raised_currency": "USD",
+    "softcap_amount": "150000.0",
+    "hardcap_amount": "820000.0",
+    "total_raised": "8000000.0",
+    "quote_pre_sale_currency": "",
+    "base_pre_sale_amount": null,
+    "quote_pre_sale_amount": null,
+    "quote_public_sale_currency": "USD",
+    "base_public_sale_amount": 1.0,
+    "quote_public_sale_amount": 0.01,
+    "accepting_currencies": "ETH",
+    "country_origin": "PL",
+    "pre_sale_start_date": null,
+    "pre_sale_end_date": null,
+    "whitelist_url": "",
+    "whitelist_start_date": null,
+    "whitelist_end_date": null,
+    "bounty_detail_url": "",
+    "amount_for_sale": "820000000.0",
+    "kyc_required": true,
+    "whitelist_available": null,
+    "pre_sale_available": null,
+    "pre_sale_ended": false
+  },
+  "watchlist_portfolio_users": 28748,
+  "market_cap_rank": 254,
+  "status_updates": [],
+  "last_updated": "2026-01-05T01:00:56.999Z"
+}

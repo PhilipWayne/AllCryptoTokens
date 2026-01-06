@@ -1,0 +1,109 @@
+{
+  "id": "nkn",
+  "symbol": "nkn",
+  "name": "NKN",
+  "web_slug": "nkn",
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x5cf04716ba20127f1e2297addcf4b5035000c9eb"
+  },
+  "detail_platforms": {
+    "ethereum": {
+      "decimal_place": 18,
+      "contract_address": "0x5cf04716ba20127f1e2297addcf4b5035000c9eb",
+      "geckoterminal_url": "https://www.geckoterminal.com/eth/tokens/0x5cf04716ba20127f1e2297addcf4b5035000c9eb"
+    }
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "categories": [
+    "Communication",
+    "Ethereum Ecosystem",
+    "DePIN"
+  ],
+  "preview_listing": false,
+  "public_notice": "NKN Token Swap: ERC-20 to Mainnet (bi-direction). http://swap.nkn.org/",
+  "additional_notices": [],
+  "description": {
+    "en": "NKN is building the largest blockchain for network sharing."
+  },
+  "links": {
+    "homepage": [
+      "https://www.nkn.org/"
+    ],
+    "whitepaper": "https://www.nkn.org/doc/NKN_Whitepaper.pdf",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x5cf04716ba20127f1e2297addcf4b5035000c9eb",
+      "https://intel.arkm.com/explorer/token/nkn",
+      "https://ethplorer.io/address/0x5cf04716ba20127f1e2297addcf4b5035000c9eb"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discordapp.com/invite/yVCWmkC"
+    ],
+    "announcement_url": [
+      "https://medium.com/nknetwork",
+      "https://www.linkedin.com/company/nknetwork/"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "NKN_ORG",
+    "facebook_username": "nkn.org",
+    "bitcointalk_thread_identifier": 3357439,
+    "telegram_channel_identifier": "nknorg",
+    "subreddit_url": "https://www.reddit.com/r/nknblockchain/",
+    "repos_url": {
+      "github": [
+        "https://github.com/nknorg/nkn-client-js",
+        "https://github.com/nknorg/nkn",
+        "https://github.com/nknorg/nkn-simulation"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/3375/thumb/nkn.png?1696504074",
+    "small": "https://coin-images.coingecko.com/coins/images/3375/small/nkn.png?1696504074",
+    "large": "https://coin-images.coingecko.com/coins/images/3375/large/nkn.png?1696504074"
+  },
+  "country_origin": "SG",
+  "genesis_date": null,
+  "contract_address": "0x5cf04716ba20127f1e2297addcf4b5035000c9eb",
+  "sentiment_votes_up_percentage": null,
+  "sentiment_votes_down_percentage": null,
+  "ico_data": {
+    "ico_start_date": "2018-04-19T00:00:00.000Z",
+    "ico_end_date": "2018-04-19T00:00:00.000Z",
+    "short_desc": "Free the bits, rebuild the Internet we always wanted",
+    "description": "",
+    "links": {},
+    "softcap_currency": "",
+    "hardcap_currency": "USD",
+    "total_raised_currency": "USD",
+    "softcap_amount": null,
+    "hardcap_amount": "18100000.0",
+    "total_raised": "18100000.0",
+    "quote_pre_sale_currency": "",
+    "base_pre_sale_amount": null,
+    "quote_pre_sale_amount": null,
+    "quote_public_sale_currency": "USD",
+    "base_public_sale_amount": 1.0,
+    "quote_public_sale_amount": 0.18,
+    "accepting_currencies": "",
+    "country_origin": "SG",
+    "pre_sale_start_date": null,
+    "pre_sale_end_date": null,
+    "whitelist_url": "",
+    "whitelist_start_date": null,
+    "whitelist_end_date": null,
+    "bounty_detail_url": "",
+    "amount_for_sale": null,
+    "kyc_required": true,
+    "whitelist_available": null,
+    "pre_sale_available": null,
+    "pre_sale_ended": false
+  },
+  "watchlist_portfolio_users": 19658,
+  "market_cap_rank": 1603,
+  "status_updates": [],
+  "last_updated": "2026-01-05T01:41:29.372Z"
+}

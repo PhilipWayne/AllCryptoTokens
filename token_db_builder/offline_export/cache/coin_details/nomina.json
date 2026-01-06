@@ -1,0 +1,71 @@
+{
+  "id": "nomina",
+  "symbol": "nom",
+  "name": "Nomina",
+  "web_slug": "nomina",
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x6e6f6d696e61decd6605bd4a57836c5db6923340"
+  },
+  "detail_platforms": {
+    "ethereum": {
+      "decimal_place": 18,
+      "contract_address": "0x6e6f6d696e61decd6605bd4a57836c5db6923340",
+      "geckoterminal_url": "https://www.geckoterminal.com/eth/tokens/0x6e6f6d696e61decd6605bd4a57836c5db6923340"
+    }
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "categories": [
+    "Smart Contract Platform",
+    "Decentralized Finance (DeFi)",
+    "Perpetuals",
+    "Ethereum Ecosystem"
+  ],
+  "preview_listing": false,
+  "public_notice": "Omni Network (OMNI) has been rebranded to Nomina (NOM). They migrated to a <a href=\"https://etherscan.io/token/0x6e6F6d696e61decd6605bD4a57836c5DB6923340\" target=\"_blank\">new contract</a>. For more information, please visit this <a href=\"https://x.com/Nomina/status/1967549734626980024\" target=\"_blank\">post</a> and visit the old token page <a href=\"https://www.coingecko.com/en/coins/omni-network-old\" target=\"_blank\">here</a>.<br>",
+  "additional_notices": [],
+  "description": {
+    "en": "$NOM is the primary network token of the Nomina, a unified trading platform built to execute complex trading strategies across DEXs."
+  },
+  "links": {
+    "homepage": [
+      "https://www.nomina.io/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x6e6F6d696e61decd6605bD4a57836c5DB6923340",
+      "https://intel.arkm.com/explorer/token/nomina",
+      "https://ethplorer.io/address/0x6e6F6d696e61decd6605bD4a57836c5DB6923340"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/nomina"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "nomina",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "nominaannouncements",
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/69687/thumb/nomina_400x400.jpg?1759312531",
+    "small": "https://coin-images.coingecko.com/coins/images/69687/small/nomina_400x400.jpg?1759312531",
+    "large": "https://coin-images.coingecko.com/coins/images/69687/large/nomina_400x400.jpg?1759312531"
+  },
+  "country_origin": "",
+  "genesis_date": null,
+  "contract_address": "0x6e6f6d696e61decd6605bd4a57836c5db6923340",
+  "sentiment_votes_up_percentage": 100.0,
+  "sentiment_votes_down_percentage": 0.0,
+  "watchlist_portfolio_users": 890,
+  "market_cap_rank": 1044,
+  "status_updates": [],
+  "last_updated": "2026-01-05T01:42:25.253Z"
+}

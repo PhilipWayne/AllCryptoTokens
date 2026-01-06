@@ -1,0 +1,72 @@
+{
+  "id": "polymesh",
+  "symbol": "polyx",
+  "name": "Polymesh",
+  "web_slug": "polymesh",
+  "asset_platform_id": null,
+  "platforms": {
+    "": ""
+  },
+  "detail_platforms": {
+    "": {
+      "decimal_place": null,
+      "contract_address": ""
+    }
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "categories": [
+    "Smart Contract Platform",
+    "Layer 1 (L1)",
+    "Real World Assets (RWA)",
+    "RWA Protocol"
+  ],
+  "preview_listing": false,
+  "public_notice": "Polymath (POLY) has been rebranded to Polymesh (POLYX). They migrated from their <a href=\"https://etherscan.io/token/0x9992ec3cf6a55b00978cddf2b27bc6882d88d1ec\"target=\"_blank\">old contract</a> to a <a href=\"https://polymesh.subscan.io/\"target=\"_blank\">new contract</a>. For more information, please visit this <a href=\"https://polymesh.network/blog/polymesh-mainnet-is-live\"target=\"_blank\">post</a> and visit the old token page <a href=\"https://www.coingecko.com/en/coins/polymath\"target=\"_blank\">here</a>.<br>",
+  "additional_notices": [],
+  "description": {
+    "en": "Polymesh is an institutional-grade permissioned blockchain built specifically for regulated assets. It streamlines antiquated processes and opens the door to new financial instruments by solving the challenges around governance, identity, compliance, confidentiality, and settlement. Polymesh is built on the Substrate framework and uses a Nominated Proof of Stake Consensus algorithm."
+  },
+  "links": {
+    "homepage": [
+      "https://polymesh.network/"
+    ],
+    "whitepaper": "https://info.polymesh.network/hubfs/Files/Polymesh-Whitepaper.pdf",
+    "blockchain_site": [
+      "https://polymesh.subscan.io/"
+    ],
+    "official_forum_url": [
+      "https://www.youtube.com/channel/UCgxdooZiW0Ktvsf1q-Bmm4A",
+      "https://www.linkedin.com/company/polymeshnetwork/"
+    ],
+    "chat_url": [
+      "https://discord.com/invite/Z9MAUtYaG7"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "PolymeshNetwork",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com/r/PolymathNetwork/",
+    "repos_url": {
+      "github": [
+        "https://github.com/PolymathNetwork/Polymesh"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/23496/thumb/Polymesh-symbol.png?1696522706",
+    "small": "https://coin-images.coingecko.com/coins/images/23496/small/Polymesh-symbol.png?1696522706",
+    "large": "https://coin-images.coingecko.com/coins/images/23496/large/Polymesh-symbol.png?1696522706"
+  },
+  "country_origin": "",
+  "genesis_date": null,
+  "sentiment_votes_up_percentage": null,
+  "sentiment_votes_down_percentage": null,
+  "watchlist_portfolio_users": 15940,
+  "market_cap_rank": 541,
+  "status_updates": [],
+  "last_updated": "2026-01-05T01:55:00.901Z"
+}

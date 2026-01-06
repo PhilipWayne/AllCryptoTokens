@@ -1,0 +1,132 @@
+{
+  "id": "storj",
+  "symbol": "storj",
+  "name": "Storj",
+  "web_slug": "storj",
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xb64ef51c888972c908cfacf59b47c1afbc0ab8ac",
+    "harmony-shard-0": "0x266f341e33aa61c30c6a9af89314811a5b097cb4",
+    "energi": "0xcde71daaffb6a12d584f55777d4c9e9d3c353c1e"
+  },
+  "detail_platforms": {
+    "ethereum": {
+      "decimal_place": 8,
+      "contract_address": "0xb64ef51c888972c908cfacf59b47c1afbc0ab8ac",
+      "geckoterminal_url": "https://www.geckoterminal.com/eth/tokens/0xb64ef51c888972c908cfacf59b47c1afbc0ab8ac"
+    },
+    "harmony-shard-0": {
+      "decimal_place": 8,
+      "contract_address": "0x266f341e33aa61c30c6a9af89314811a5b097cb4",
+      "geckoterminal_url": "https://www.geckoterminal.com/one/tokens/0x266f341e33aa61c30c6a9af89314811a5b097cb4"
+    },
+    "energi": {
+      "decimal_place": 8,
+      "contract_address": "0xcde71daaffb6a12d584f55777d4c9e9d3c353c1e",
+      "geckoterminal_url": "https://www.geckoterminal.com/nrg/tokens/0xcde71daaffb6a12d584f55777d4c9e9d3c353c1e"
+    }
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "categories": [
+    "Storage",
+    "Harmony Ecosystem",
+    "Ethereum Ecosystem",
+    "DePIN",
+    "Energi Ecosystem"
+  ],
+  "preview_listing": false,
+  "public_notice": null,
+  "additional_notices": [],
+  "description": {
+    "en": "Storj is an open-source platform that leverages the blockchain to provide end-to-end encrypted cloud storage services. Instead of maintaining its own data centres, Storj platform relies on a peer-to-peer network of individuals or entities sharing their storage spaces. The Storj project is owned and developed by Storj Labs Inc. Storj intends to facilitate a faster, cheaper, and secure file storage solution than traditional cloud storage platforms. To achieve its goal, Storj deploys several innovative technologies and methods to make sure that users are able to store and retrieve data in a fastest possible way while not compromising the security and integrity of data.\r\n\r\nStorj Labs Inc was founded in 2014 by Shawn Wilkinson with co-founders John Quinn. The company is headquartered at Atlanta, Georgia in the United States. Shawn was previously appointed as CEO, but in March 2018, he stepped down from the post to serve as CSO of the company.\r\n\r\nShawn was replaced by Ben Golub (Ex-CEO of Docker) who currently serves as the Executive Chairman &amp; Interim CEO. Co-founder John Quinn has been appointed as the Chief Revenue Officer. The company launched its initial coin offering (ICO) of the new tokens on May 19, 2017. At the end of the token sale on May 25, 2017, the company had raised about $30 million. Storj Labs allowed SJCX holders to exchange their tokens with the new ones in a 1:1 ratio through a token conversion campaign which lasted till October 2017.\r\n\r\nStorj Labs pre-mined its entire supply of tokens at the inception; no new tokens can be created via STORJ mining. Nevertheless, users can obtain STORJ tokens by becoming a farmer in the network. Another obvious way to acquire STORJ is through trading on a cryptocurrency exchange. Up until now, cloud storage companies have dictated the terms of service to their users, and as a result, there has been little to no competition within this digital sector. However, with the introduction of Storj, all of that may change.\"\r\n\r\nCheck out CoinBureau for the full review on OmiseGo."
+  },
+  "links": {
+    "homepage": [
+      "https://storj.io"
+    ],
+    "whitepaper": "https://www.storj.io/whitepaper",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xb64ef51c888972c908cfacf59b47c1afbc0ab8ac",
+      "https://intel.arkm.com/explorer/token/storj",
+      "https://ethplorer.io/address/0xb64ef51c888972c908cfacf59b47c1afbc0ab8ac",
+      "https://explorer.energi.network/token/0xcde71daaffb6a12d584f55777d4c9e9d3c353c1e",
+      "https://explorer.harmony.one/token/0x266f341e33aa61c30c6a9af89314811a5b097cb4"
+    ],
+    "official_forum_url": [
+      "https://community.storj.io/home"
+    ],
+    "chat_url": [
+      "https://www.youtube.com/@StorjLabs",
+      "https://www.linkedin.com/company/storj"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "storj",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": 555159,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com/r/storj",
+    "repos_url": {
+      "github": [
+        "https://github.com/storj/storj"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/949/thumb/storj.png?1696502065",
+    "small": "https://coin-images.coingecko.com/coins/images/949/small/storj.png?1696502065",
+    "large": "https://coin-images.coingecko.com/coins/images/949/large/storj.png?1696502065"
+  },
+  "country_origin": "US",
+  "genesis_date": "2017-06-19",
+  "contract_address": "0xb64ef51c888972c908cfacf59b47c1afbc0ab8ac",
+  "sentiment_votes_up_percentage": 100.0,
+  "sentiment_votes_down_percentage": 0.0,
+  "ico_data": {
+    "ico_start_date": "2017-05-19T00:00:00.000Z",
+    "ico_end_date": "2017-05-25T00:00:00.000Z",
+    "short_desc": "Decentralized cloud storage platform ",
+    "description": "Storj (pronounced: storage) aims to become a cloud storage platform that can’t be censored or monitored, or have downtime. Storj is a platform, cryptocurrency, and suite of decentralized applications that allows users to store data in a secure and decentralized manner. It uses blockchain features like a transaction ledger, public/private key encryption, and cryptographic hash functions for security. Furthermore, it will be way cheaper (10x-to-100x), faster, and more secure than traditional cloud storage services.Storj is working hard to solve data security issues with the help of its own web app, Storj Share, and Libstorj. It is a decentralized, end-to-end encrypted cloud storage that uses blockchain technology and cryptography to secure online files. There is no need to trust a corporation, vulnerable servers, or employees with your files. Storj completely removes trust from the equation.",
+    "links": {
+      "web": "https://storj.io/tokensale",
+      "blog": "",
+      "github": "https://github.com/Storj/storjshare-daemon",
+      "twitter": "https://twitter.com/storjproject",
+      "facebook": "https://www.facebook.com/storjproject",
+      "linkedin": "https://www.linkedin.com/company-beta/3839986/",
+      "telegram": "https://t.me/storjproject",
+      "whitepaper": "https://storj.io/storj.pdf"
+    },
+    "softcap_currency": "",
+    "hardcap_currency": "",
+    "total_raised_currency": "USD",
+    "softcap_amount": null,
+    "hardcap_amount": null,
+    "total_raised": "30000000.0",
+    "quote_pre_sale_currency": "",
+    "base_pre_sale_amount": null,
+    "quote_pre_sale_amount": null,
+    "quote_public_sale_currency": "USD",
+    "base_public_sale_amount": 1.0,
+    "quote_public_sale_amount": 0.5,
+    "accepting_currencies": "",
+    "country_origin": "US",
+    "pre_sale_start_date": null,
+    "pre_sale_end_date": null,
+    "whitelist_url": "",
+    "whitelist_start_date": null,
+    "whitelist_end_date": null,
+    "bounty_detail_url": "",
+    "amount_for_sale": "500000000.0",
+    "kyc_required": true,
+    "whitelist_available": null,
+    "pre_sale_available": null,
+    "pre_sale_ended": false
+  },
+  "watchlist_portfolio_users": 35949,
+  "market_cap_rank": 1197,
+  "status_updates": [],
+  "last_updated": "2026-01-05T02:18:54.030Z"
+}

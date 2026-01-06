@@ -1,0 +1,131 @@
+{
+  "id": "usd1-wlfi",
+  "symbol": "usd1",
+  "name": "USD1",
+  "web_slug": "usd1-wlfi",
+  "asset_platform_id": "binance-smart-chain",
+  "platforms": {
+    "binance-smart-chain": "0x8d0d000ee44948fc98c9b98a4fa4921476f08b0d",
+    "plume-network": "0x111111d2bf19e43c34263401e0cad979ed1cdb61",
+    "aptos": "0x05fabd1b12e39967a3c24e91b7b8f67719a6dacee74f3c8b9fb7d93e855437d2",
+    "ethereum": "0x8d0d000ee44948fc98c9b98a4fa4921476f08b0d",
+    "solana": "USD1ttGY1N17NEEHLmELoaybftRBUSErhqYiQzvEmuB",
+    "tron": "TPFqcBAaaUMCSVRCqPaQ9QnzKhmuoLR6Rc",
+    "monad": "0x111111d2bf19e43c34263401e0cad979ed1cdb61",
+    "mantle": "0x111111d2bf19e43c34263401e0cad979ed1cdb61",
+    "morph-l2": "0x111111d2bf19e43c34263401e0cad979ed1cdb61"
+  },
+  "detail_platforms": {
+    "binance-smart-chain": {
+      "decimal_place": 18,
+      "contract_address": "0x8d0d000ee44948fc98c9b98a4fa4921476f08b0d",
+      "geckoterminal_url": "https://www.geckoterminal.com/bsc/tokens/0x8d0d000ee44948fc98c9b98a4fa4921476f08b0d"
+    },
+    "plume-network": {
+      "decimal_place": 18,
+      "contract_address": "0x111111d2bf19e43c34263401e0cad979ed1cdb61",
+      "geckoterminal_url": "https://www.geckoterminal.com/plume-network/tokens/0x111111d2bf19e43c34263401e0cad979ed1cdb61"
+    },
+    "aptos": {
+      "decimal_place": 6,
+      "contract_address": "0x05fabd1b12e39967a3c24e91b7b8f67719a6dacee74f3c8b9fb7d93e855437d2",
+      "geckoterminal_url": "https://www.geckoterminal.com/aptos/tokens/0x05fabd1b12e39967a3c24e91b7b8f67719a6dacee74f3c8b9fb7d93e855437d2"
+    },
+    "ethereum": {
+      "decimal_place": 18,
+      "contract_address": "0x8d0d000ee44948fc98c9b98a4fa4921476f08b0d",
+      "geckoterminal_url": "https://www.geckoterminal.com/eth/tokens/0x8d0d000ee44948fc98c9b98a4fa4921476f08b0d"
+    },
+    "solana": {
+      "decimal_place": 6,
+      "contract_address": "USD1ttGY1N17NEEHLmELoaybftRBUSErhqYiQzvEmuB",
+      "geckoterminal_url": "https://www.geckoterminal.com/solana/tokens/USD1ttGY1N17NEEHLmELoaybftRBUSErhqYiQzvEmuB"
+    },
+    "tron": {
+      "decimal_place": 18,
+      "contract_address": "TPFqcBAaaUMCSVRCqPaQ9QnzKhmuoLR6Rc",
+      "geckoterminal_url": "https://www.geckoterminal.com/tron/tokens/TPFqcBAaaUMCSVRCqPaQ9QnzKhmuoLR6Rc"
+    },
+    "monad": {
+      "decimal_place": 6,
+      "contract_address": "0x111111d2bf19e43c34263401e0cad979ed1cdb61",
+      "geckoterminal_url": "https://www.geckoterminal.com/monad/tokens/0x111111d2bf19e43c34263401e0cad979ed1cdb61"
+    },
+    "mantle": {
+      "decimal_place": 18,
+      "contract_address": "0x111111d2bf19e43c34263401e0cad979ed1cdb61",
+      "geckoterminal_url": "https://www.geckoterminal.com/mantle/tokens/0x111111d2bf19e43c34263401e0cad979ed1cdb61"
+    },
+    "morph-l2": {
+      "decimal_place": 18,
+      "contract_address": "0x111111d2bf19e43c34263401e0cad979ed1cdb61"
+    }
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "categories": [
+    "Stablecoins",
+    "USD Stablecoin",
+    "Solana Ecosystem",
+    "Ethereum Ecosystem",
+    "Aptos Ecosystem",
+    "Mantle Ecosystem",
+    "Tron Ecosystem",
+    "Morph L2 Ecosystem",
+    "World Liberty Financial Portfolio",
+    "Plume Network Ecosystem",
+    "Trump-Affiliated",
+    "Monad Ecosystem"
+  ],
+  "preview_listing": false,
+  "public_notice": null,
+  "additional_notices": [],
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://www.worldlibertyfinancial.com/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://bscscan.com/token/0x8d0d000ee44948fc98c9b98a4fa4921476f08b0d",
+      "https://binplorer.com/address/0x8d0d000ee44948fc98c9b98a4fa4921476f08b0d",
+      "https://etherscan.io/token/0x8d0d000ee44948fc98c9b98a4fa4921476f08b0d",
+      "https://ethplorer.io/address/0x8d0d000ee44948fc98c9b98a4fa4921476f08b0d",
+      "https://tronscan.org/#/token20/TPFqcBAaaUMCSVRCqPaQ9QnzKhmuoLR6Rc",
+      "https://solscan.io/token/USD1ttGY1N17NEEHLmELoaybftRBUSErhqYiQzvEmuB",
+      "https://tracemove.io/coin/0x05fabd1b12e39967a3c24e91b7b8f67719a6dacee74f3c8b9fb7d93e855437d2",
+      "https://explorer.plume.org/token/0x111111d2bf19e43C34263401e0CAd979eD1cdb61",
+      "https://explorer.aptoslabs.com/coin/0x05fabd1b12e39967a3c24e91b7b8f67719a6dacee74f3c8b9fb7d93e855437d2?network=mainnet",
+      "https://aptscan.ai/coins/0x05fabd1b12e39967a3c24e91b7b8f67719a6dacee74f3c8b9fb7d93e855437d2"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "worldlibertyfi",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "defiant1s",
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/54977/thumb/USD1_1000x1000_transparent.png?1749297002",
+    "small": "https://coin-images.coingecko.com/coins/images/54977/small/USD1_1000x1000_transparent.png?1749297002",
+    "large": "https://coin-images.coingecko.com/coins/images/54977/large/USD1_1000x1000_transparent.png?1749297002"
+  },
+  "country_origin": "",
+  "genesis_date": null,
+  "contract_address": "0x8d0d000ee44948fc98c9b98a4fa4921476f08b0d",
+  "sentiment_votes_up_percentage": 60.0,
+  "sentiment_votes_down_percentage": 40.0,
+  "watchlist_portfolio_users": 6441,
+  "market_cap_rank": 47,
+  "status_updates": [],
+  "last_updated": "2026-01-05T02:31:53.813Z"
+}

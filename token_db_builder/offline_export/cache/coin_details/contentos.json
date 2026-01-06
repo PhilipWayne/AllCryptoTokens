@@ -1,0 +1,73 @@
+{
+  "id": "contentos",
+  "symbol": "cos",
+  "name": "Contentos",
+  "web_slug": "contentos",
+  "asset_platform_id": "binancecoin",
+  "platforms": {
+    "binancecoin": "COS-2E4"
+  },
+  "detail_platforms": {
+    "binancecoin": {
+      "decimal_place": 8,
+      "contract_address": "COS-2E4"
+    }
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "categories": [
+    "Entertainment",
+    "NFT",
+    "BNB Chain Ecosystem",
+    "YZi Labs (Prev. Binance Labs) Portfolio"
+  ],
+  "preview_listing": false,
+  "public_notice": null,
+  "additional_notices": [],
+  "description": {
+    "en": "Contentos is a decentralized global content ecosystem invested by Binance Labs (the blockchain incubator of world’s largest exchange, https://labs.binance.com), DHVC and various class-leading funds. Contentos TestNet was launched and its real-time network status can be viewed on Contentos Block Explorer (https://explorer.contentos.io). It aims to create a decentralized content ecosystem, where assets can be freely produced, authenticated, and distributed. The team consists of experts from the content industry, who have worked on top-tier consumer applications and blockchain projects. Contentos is not only a blueprint for what digital content ecosystem might look like in the future but we have multiple working use cases: Contentos is working with strategic partners, LiveMe and Cheetah Mobile, that have amassed over 60+ million monthly active users. With real-time user feedback, Contentos will become a premier blockchain project as it places the interest of users first."
+  },
+  "links": {
+    "homepage": [
+      "https://www.contentos.io/",
+      "cos.tv"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://explorer.binance.org/asset/cos-2e4",
+      "https://etherscan.io/token/0x589891a198195061cb8ad1a75357a3b7dbadd7bc",
+      "https://explorer.contentos.io/"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [
+      "https://medium.com/contentos-io"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "contentosio",
+    "facebook_username": "ContentosOfficial",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "ContentosGlobal",
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [
+        "https://github.com/coschain/contentos-go"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/8379/thumb/4036.png?1696508571",
+    "small": "https://coin-images.coingecko.com/coins/images/8379/small/4036.png?1696508571",
+    "large": "https://coin-images.coingecko.com/coins/images/8379/large/4036.png?1696508571"
+  },
+  "country_origin": "",
+  "genesis_date": null,
+  "contract_address": "COS-2E4",
+  "sentiment_votes_up_percentage": null,
+  "sentiment_votes_down_percentage": null,
+  "watchlist_portfolio_users": 17885,
+  "market_cap_rank": 1872,
+  "status_updates": [],
+  "last_updated": "2026-01-05T00:33:36.578Z"
+}

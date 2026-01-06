@@ -1,0 +1,201 @@
+{
+  "id": "ethena",
+  "symbol": "ena",
+  "name": "Ethena",
+  "web_slug": "ethena",
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x57e114b691db790c35207b2e685d4a43181e6061",
+    "mantle": "0x58538e6a46e07434d7e7375bc268d3cb839c0133",
+    "metis-andromeda": "0x58538e6a46e07434d7e7375bc268d3cb839c0133",
+    "fraxtal": "0x58538e6a46e07434d7e7375bc268d3cb839c0133",
+    "kava": "0x58538e6a46e07434d7e7375bc268d3cb839c0133",
+    "zircuit": "0x813635891aa06bd55036bbd8f7d1a34ab3de9a0f",
+    "swellchain": "0x58538e6a46e07434d7e7375bc268d3cb839c0133",
+    "zksync": "0x686b311f82b407f0be842652a98e5619f64cc25f",
+    "morph-l2": "0x58538e6a46e07434d7e7375bc268d3cb839c0133",
+    "scroll": "0x58538e6a46e07434d7e7375bc268d3cb839c0133",
+    "mode": "0x58538e6a46e07434d7e7375bc268d3cb839c0133",
+    "avalanche": "0x58538e6a46e07434d7e7375bc268d3cb839c0133",
+    "the-open-network": "EQAPh9RCprgg5kKumtJi8uB7nFKctPBwuRUu82JgTGmzklNV",
+    "base": "0x58538e6a46e07434d7e7375bc268d3cb839c0133",
+    "arbitrum-one": "0x58538e6a46e07434d7e7375bc268d3cb839c0133",
+    "manta-pacific": "0x58538e6a46e07434d7e7375bc268d3cb839c0133",
+    "blast": "0x58538e6a46e07434d7e7375bc268d3cb839c0133",
+    "optimistic-ethereum": "0x58538e6a46e07434d7e7375bc268d3cb839c0133"
+  },
+  "detail_platforms": {
+    "ethereum": {
+      "decimal_place": 18,
+      "contract_address": "0x57e114b691db790c35207b2e685d4a43181e6061",
+      "geckoterminal_url": "https://www.geckoterminal.com/eth/tokens/0x57e114b691db790c35207b2e685d4a43181e6061"
+    },
+    "mantle": {
+      "decimal_place": 18,
+      "contract_address": "0x58538e6a46e07434d7e7375bc268d3cb839c0133",
+      "geckoterminal_url": "https://www.geckoterminal.com/mantle/tokens/0x58538e6a46e07434d7e7375bc268d3cb839c0133"
+    },
+    "metis-andromeda": {
+      "decimal_place": 18,
+      "contract_address": "0x58538e6a46e07434d7e7375bc268d3cb839c0133",
+      "geckoterminal_url": "https://www.geckoterminal.com/metis/tokens/0x58538e6a46e07434d7e7375bc268d3cb839c0133"
+    },
+    "fraxtal": {
+      "decimal_place": 18,
+      "contract_address": "0x58538e6a46e07434d7e7375bc268d3cb839c0133",
+      "geckoterminal_url": "https://www.geckoterminal.com/fraxtal/tokens/0x58538e6a46e07434d7e7375bc268d3cb839c0133"
+    },
+    "kava": {
+      "decimal_place": 18,
+      "contract_address": "0x58538e6a46e07434d7e7375bc268d3cb839c0133",
+      "geckoterminal_url": "https://www.geckoterminal.com/kava/tokens/0x58538e6a46e07434d7e7375bc268d3cb839c0133"
+    },
+    "zircuit": {
+      "decimal_place": 18,
+      "contract_address": "0x813635891aa06bd55036bbd8f7d1a34ab3de9a0f",
+      "geckoterminal_url": "https://www.geckoterminal.com/zircuit/tokens/0x813635891aa06bd55036bbd8f7d1a34ab3de9a0f"
+    },
+    "swellchain": {
+      "decimal_place": 18,
+      "contract_address": "0x58538e6a46e07434d7e7375bc268d3cb839c0133",
+      "geckoterminal_url": "https://www.geckoterminal.com/swellchain/tokens/0x58538e6a46e07434d7e7375bc268d3cb839c0133"
+    },
+    "zksync": {
+      "decimal_place": 18,
+      "contract_address": "0x686b311f82b407f0be842652a98e5619f64cc25f",
+      "geckoterminal_url": "https://www.geckoterminal.com/zksync/tokens/0x686b311f82b407f0be842652a98e5619f64cc25f"
+    },
+    "morph-l2": {
+      "decimal_place": 18,
+      "contract_address": "0x58538e6a46e07434d7e7375bc268d3cb839c0133",
+      "geckoterminal_url": "https://www.geckoterminal.com/morph-l2/tokens/0x58538e6a46e07434d7e7375bc268d3cb839c0133"
+    },
+    "scroll": {
+      "decimal_place": 18,
+      "contract_address": "0x58538e6a46e07434d7e7375bc268d3cb839c0133",
+      "geckoterminal_url": "https://www.geckoterminal.com/scroll/tokens/0x58538e6a46e07434d7e7375bc268d3cb839c0133"
+    },
+    "mode": {
+      "decimal_place": 18,
+      "contract_address": "0x58538e6a46e07434d7e7375bc268d3cb839c0133",
+      "geckoterminal_url": "https://www.geckoterminal.com/mode/tokens/0x58538e6a46e07434d7e7375bc268d3cb839c0133"
+    },
+    "avalanche": {
+      "decimal_place": 18,
+      "contract_address": "0x58538e6a46e07434d7e7375bc268d3cb839c0133",
+      "geckoterminal_url": "https://www.geckoterminal.com/avax/tokens/0x58538e6a46e07434d7e7375bc268d3cb839c0133"
+    },
+    "the-open-network": {
+      "decimal_place": 0,
+      "contract_address": "EQAPh9RCprgg5kKumtJi8uB7nFKctPBwuRUu82JgTGmzklNV",
+      "geckoterminal_url": "https://www.geckoterminal.com/ton/tokens/EQAPh9RCprgg5kKumtJi8uB7nFKctPBwuRUu82JgTGmzklNV"
+    },
+    "base": {
+      "decimal_place": 18,
+      "contract_address": "0x58538e6a46e07434d7e7375bc268d3cb839c0133",
+      "geckoterminal_url": "https://www.geckoterminal.com/base/tokens/0x58538e6a46e07434d7e7375bc268d3cb839c0133"
+    },
+    "arbitrum-one": {
+      "decimal_place": 18,
+      "contract_address": "0x58538e6a46e07434d7e7375bc268d3cb839c0133",
+      "geckoterminal_url": "https://www.geckoterminal.com/arbitrum/tokens/0x58538e6a46e07434d7e7375bc268d3cb839c0133"
+    },
+    "manta-pacific": {
+      "decimal_place": 18,
+      "contract_address": "0x58538e6a46e07434d7e7375bc268d3cb839c0133",
+      "geckoterminal_url": "https://www.geckoterminal.com/manta-pacific/tokens/0x58538e6a46e07434d7e7375bc268d3cb839c0133"
+    },
+    "blast": {
+      "decimal_place": 18,
+      "contract_address": "0x58538e6a46e07434d7e7375bc268d3cb839c0133",
+      "geckoterminal_url": "https://www.geckoterminal.com/blast/tokens/0x58538e6a46e07434d7e7375bc268d3cb839c0133"
+    },
+    "optimistic-ethereum": {
+      "decimal_place": 18,
+      "contract_address": "0x58538e6a46e07434d7e7375bc268d3cb839c0133",
+      "geckoterminal_url": "https://www.geckoterminal.com/optimism/tokens/0x58538e6a46e07434d7e7375bc268d3cb839c0133"
+    }
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "categories": [
+    "Decentralized Finance (DeFi)",
+    "Binance Launchpool",
+    "Avalanche Ecosystem",
+    "Arbitrum Ecosystem",
+    "Ethereum Ecosystem",
+    "Metis Ecosystem",
+    "Optimism Ecosystem",
+    "ZkSync Ecosystem",
+    "Mantle Ecosystem",
+    "Base Ecosystem",
+    "TON Ecosystem",
+    "Manta Network Ecosystem",
+    "Scroll Ecosystem",
+    "Kava Ecosystem",
+    "Blast Ecosystem",
+    "Stablecoin Issuer",
+    "Mode Ecosystem",
+    "DragonFly Capital Portfolio",
+    "YZi Labs (Prev. Binance Labs) Portfolio",
+    "Fraxtal Ecosystem",
+    "Delphi Ventures Portfolio",
+    "OKX Ventures Portfolio",
+    "Zircuit Ecosystem",
+    "Morph L2 Ecosystem",
+    "World Liberty Financial Portfolio",
+    "Swellchain Ecosystem",
+    "Governance"
+  ],
+  "preview_listing": false,
+  "public_notice": null,
+  "additional_notices": [],
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://www.ethena.fi/"
+    ],
+    "whitepaper": "https://ethena-labs.gitbook.io/",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x57e114b691db790c35207b2e685d4a43181e6061",
+      "https://ethplorer.io/address/0x57e114b691db790c35207b2e685d4a43181e6061",
+      "https://basescan.org/token/0x58538e6A46E07434d7E7375Bc268D3cb839C0133",
+      "https://arbiscan.io/token/0x58538e6A46E07434d7E7375Bc268D3cb839C0133",
+      "https://andromeda-explorer.metis.io/token/0x58538e6A46E07434d7E7375Bc268D3cb839C0133",
+      "https://explorer.metis.io/token/0x58538e6A46E07434d7E7375Bc268D3cb839C0133",
+      "https://scrollscan.com/token/0x58538e6A46E07434d7E7375Bc268D3cb839C0133",
+      "https://scroll.l2scan.co/token/0x58538e6A46E07434d7E7375Bc268D3cb839C0133",
+      "https://optimistic.etherscan.io/token/0x58538e6A46E07434d7E7375Bc268D3cb839C0133",
+      "https://fraxscan.com/token/0x58538e6A46E07434d7E7375Bc268D3cb839C0133"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "ethena_labs",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "ethena_labs",
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/36530/thumb/ethena.png?1711701436",
+    "small": "https://coin-images.coingecko.com/coins/images/36530/small/ethena.png?1711701436",
+    "large": "https://coin-images.coingecko.com/coins/images/36530/large/ethena.png?1711701436"
+  },
+  "country_origin": "",
+  "genesis_date": null,
+  "contract_address": "0x57e114b691db790c35207b2e685d4a43181e6061",
+  "sentiment_votes_up_percentage": 100.0,
+  "sentiment_votes_down_percentage": 0.0,
+  "watchlist_portfolio_users": 108264,
+  "market_cap_rank": 59,
+  "status_updates": [],
+  "last_updated": "2026-01-05T00:47:19.283Z"
+}

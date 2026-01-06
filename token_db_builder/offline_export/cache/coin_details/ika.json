@@ -1,0 +1,73 @@
+{
+  "id": "ika",
+  "symbol": "ika",
+  "name": "Ika",
+  "web_slug": "ika",
+  "asset_platform_id": "sui",
+  "platforms": {
+    "sui": "0x7262fb2f7a3a14c888c438a3cd9b912469a58cf60f367352c46584262e8299aa::ika::IKA"
+  },
+  "detail_platforms": {
+    "sui": {
+      "decimal_place": 9,
+      "contract_address": "0x7262fb2f7a3a14c888c438a3cd9b912469a58cf60f367352c46584262e8299aa::ika::IKA",
+      "geckoterminal_url": "https://www.geckoterminal.com/sui-network/tokens/0x7262fb2f7a3a14c888c438a3cd9b912469a58cf60f367352c46584262e8299aa::ika::IKA"
+    }
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "categories": [
+    "Zero Knowledge (ZK)",
+    "Sui Ecosystem",
+    "Cross-chain Communication"
+  ],
+  "preview_listing": false,
+  "public_notice": null,
+  "additional_notices": [],
+  "description": {
+    "en": "Ika is a developing decentralized protocol and the economic mechanisms described here, also known as tokenomics, are subject to change based on governance decisions made by the larger community of Ika (as detailed below). This document describes certain economic fundamentals of the Ika token. This document is intended for informational purposes only and is meant to outline the usage and functionalities of the Ika token, IKA, facilitating operations and activities on Ika.\r\n\r\nThe Ika network token, IKA, enables participants of the network to interact with the network by facilitating operations and activities on the network. As specified hereunder, the manner IKA are created, reserved and released to the network community has relevance to the long term well maintenance and development of the network. It is important to understand that as a decentralised network it is impossible to pre-implement any absolute network operation rules or principles and the network and its characteristics are always subject to change based on governance decisions made by the larger community of Ika."
+  },
+  "links": {
+    "homepage": [
+      "https://ika.xyz/"
+    ],
+    "whitepaper": "https://docs.dwallet.io/whitepaper",
+    "blockchain_site": [
+      "https://suiscan.xyz/mainnet/coin/0x7262fb2f7a3a14c888c438a3cd9b912469a58cf60f367352c46584262e8299aa::ika::IKA/txs",
+      "https://suivision.xyz/coin/0x7262fb2f7a3a14c888c438a3cd9b912469a58cf60f367352c46584262e8299aa::ika::IKA"
+    ],
+    "official_forum_url": [
+      "https://ika.xyz/resources",
+      "https://discord.com/invite/ikadotxyz",
+      "https://www.youtube.com/@ikadotxyz"
+    ],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "ikadotxyz",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "ikadotxyz",
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [
+        "https://github.com/dwallet-labs/dwallet-network"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/67598/thumb/ika.jpg?1753770879",
+    "small": "https://coin-images.coingecko.com/coins/images/67598/small/ika.jpg?1753770879",
+    "large": "https://coin-images.coingecko.com/coins/images/67598/large/ika.jpg?1753770879"
+  },
+  "country_origin": "",
+  "genesis_date": null,
+  "contract_address": "0x7262fb2f7a3a14c888c438a3cd9b912469a58cf60f367352c46584262e8299aa::ika::IKA",
+  "sentiment_votes_up_percentage": 100.0,
+  "sentiment_votes_down_percentage": 0.0,
+  "watchlist_portfolio_users": 3509,
+  "market_cap_rank": 1083,
+  "status_updates": [],
+  "last_updated": "2026-01-05T01:12:00.705Z"
+}

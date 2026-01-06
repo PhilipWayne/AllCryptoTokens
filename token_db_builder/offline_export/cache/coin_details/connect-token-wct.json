@@ -1,0 +1,95 @@
+{
+  "id": "connect-token-wct",
+  "symbol": "wct",
+  "name": "WalletConnect Token",
+  "web_slug": "walletconnect-token",
+  "asset_platform_id": "optimistic-ethereum",
+  "platforms": {
+    "optimistic-ethereum": "0xef4461891dfb3ac8572ccf7c794664a8dd927945",
+    "base": "0xef4461891dfb3ac8572ccf7c794664a8dd927945",
+    "ethereum": "0xef4461891dfb3ac8572ccf7c794664a8dd927945",
+    "solana": "WCTk5xWdn5SYg56twGj32sUF3W4WFQ48ogezLBuYTBY"
+  },
+  "detail_platforms": {
+    "optimistic-ethereum": {
+      "decimal_place": 18,
+      "contract_address": "0xef4461891dfb3ac8572ccf7c794664a8dd927945",
+      "geckoterminal_url": "https://www.geckoterminal.com/optimism/tokens/0xef4461891dfb3ac8572ccf7c794664a8dd927945"
+    },
+    "base": {
+      "decimal_place": 18,
+      "contract_address": "0xef4461891dfb3ac8572ccf7c794664a8dd927945",
+      "geckoterminal_url": "https://www.geckoterminal.com/base/tokens/0xef4461891dfb3ac8572ccf7c794664a8dd927945"
+    },
+    "ethereum": {
+      "decimal_place": 18,
+      "contract_address": "0xef4461891dfb3ac8572ccf7c794664a8dd927945",
+      "geckoterminal_url": "https://www.geckoterminal.com/eth/tokens/0xef4461891dfb3ac8572ccf7c794664a8dd927945"
+    },
+    "solana": {
+      "decimal_place": 9,
+      "contract_address": "WCTk5xWdn5SYg56twGj32sUF3W4WFQ48ogezLBuYTBY",
+      "geckoterminal_url": "https://www.geckoterminal.com/solana/tokens/WCTk5xWdn5SYg56twGj32sUF3W4WFQ48ogezLBuYTBY"
+    }
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "categories": [
+    "Binance Launchpool",
+    "Solana Ecosystem",
+    "Wallets",
+    "Ethereum Ecosystem",
+    "Optimism Ecosystem",
+    "Base Ecosystem",
+    "CoinList Launchpad"
+  ],
+  "preview_listing": false,
+  "public_notice": null,
+  "additional_notices": [],
+  "description": {
+    "en": "The WalletConnect Network is the onchain UX ecosystem. It is the open and decentralized network that enables users to connect to apps across the globe. It continues to power over 15M monthly connections for users across the world's leading decentralized applications and 300+ chains. In the past 12 months, the WalletConnect Network has grown by over 240%. Simply put, the WalletConnect Network plays a critical role in the $2+ trillion that flows throughout web3 today."
+  },
+  "links": {
+    "homepage": [
+      "https://walletconnect.network"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://optimistic.etherscan.io/token/0xeF4461891DfB3AC8572cCf7C794664A8DD927945",
+      "https://intel.arkm.com/explorer/token/connect-token-wct",
+      "https://etherscan.io/token/0xef4461891dfb3ac8572ccf7c794664a8dd927945",
+      "https://ethplorer.io/address/0xef4461891dfb3ac8572ccf7c794664a8dd927945",
+      "https://solscan.io/token/WCTk5xWdn5SYg56twGj32sUF3W4WFQ48ogezLBuYTBY",
+      "https://basescan.org/token/0xef4461891dfb3ac8572ccf7c794664a8dd927945"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://www.youtube.com/@walletconnectofficial"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "WalletConnect",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "walletconnect",
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/50390/thumb/wc-token1.png?1727569464",
+    "small": "https://coin-images.coingecko.com/coins/images/50390/small/wc-token1.png?1727569464",
+    "large": "https://coin-images.coingecko.com/coins/images/50390/large/wc-token1.png?1727569464"
+  },
+  "country_origin": "",
+  "genesis_date": null,
+  "contract_address": "0xef4461891dfb3ac8572ccf7c794664a8dd927945",
+  "sentiment_votes_up_percentage": 100.0,
+  "sentiment_votes_down_percentage": 0.0,
+  "watchlist_portfolio_users": 8783,
+  "market_cap_rank": 1313,
+  "status_updates": [],
+  "last_updated": "2026-01-05T02:38:47.813Z"
+}

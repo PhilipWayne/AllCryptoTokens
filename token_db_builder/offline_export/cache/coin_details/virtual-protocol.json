@@ -1,0 +1,91 @@
+{
+  "id": "virtual-protocol",
+  "symbol": "virtual",
+  "name": "Virtuals Protocol",
+  "web_slug": "virtual-protocol",
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x44ff8620b8ca30902395a7bd3f2407e1a091bf73",
+    "base": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
+    "solana": "3iQL8BFS2vE7mww4ehAqQHAsbmRNCrPxizWAT2Zfyr9y"
+  },
+  "detail_platforms": {
+    "ethereum": {
+      "decimal_place": 18,
+      "contract_address": "0x44ff8620b8ca30902395a7bd3f2407e1a091bf73",
+      "geckoterminal_url": "https://www.geckoterminal.com/eth/tokens/0x44ff8620b8ca30902395a7bd3f2407e1a091bf73"
+    },
+    "base": {
+      "decimal_place": 18,
+      "contract_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
+      "geckoterminal_url": "https://www.geckoterminal.com/base/tokens/0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b"
+    },
+    "solana": {
+      "decimal_place": 9,
+      "contract_address": "3iQL8BFS2vE7mww4ehAqQHAsbmRNCrPxizWAT2Zfyr9y",
+      "geckoterminal_url": "https://www.geckoterminal.com/solana/tokens/3iQL8BFS2vE7mww4ehAqQHAsbmRNCrPxizWAT2Zfyr9y"
+    }
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "categories": [
+    "Artificial Intelligence (AI)",
+    "Solana Ecosystem",
+    "Launchpad",
+    "Ethereum Ecosystem",
+    "Base Ecosystem",
+    "AI Agents",
+    "Virtuals Protocol Ecosystem",
+    "AI Agent Launchpad",
+    "Binance Alpha Spotlight",
+    "AI Framework",
+    "Robotics"
+  ],
+  "preview_listing": false,
+  "public_notice": null,
+  "additional_notices": [],
+  "description": {
+    "en": "Virtuals Protocol is a launchpad platform launched in 2024 that enables users to create, tokenize, and monetize AI agents for gaming, entertainment, and virtual environments without requiring technical expertise. Initially built on Ethereum's Base Layer 2 network, the protocol has expanded to Ethereum mainnet, Solana, and Ronin as of 2025. VIRTUAL serves as the base liquidity pair and transactional currency for all AI agent interactions across the ecosystem.\r\n\r\nThe protocol operates through a bonding curve system where new AI agents are created with a 100 VIRTUAL fee. Users can buy and sell agent tokens until the agent reaches 42,000 VIRTUAL, at which point it graduates to a permanent liquidity pool paired with VIRTUAL. AI agents are multimodal, capable of text, speech, and 3D animation, and can manage on-chain wallets autonomously. Notable examples include Luna, an AI girl band vocalist with over 500,000 TikTok followers. The GAME framework powers agent functionality, enabling them to process inputs, generate responses, and remember past interactions.\r\n\r\nVirtuals Protocol was founded by Jansen Teng and Weekee Tiew, evolving from PathDAO, a gaming guild established in 2021 that pivoted to AI agents in January 2024. The team raised $16 million in seed funding led by DeFiance Capital and Beam. In 2025, major partnerships were announced with Animoca Brands and a collaboration with Zyfai and BasisOS to launch an Agentic Fund of Funds.\r\n\r\nUsers can stake VIRTUAL tokens for veVIRTUAL to participate in DAO governance and may receive airdrops of agent tokens. When users interact with agents, they pay fees in VIRTUAL that generate protocol revenue. This revenue funds periodic buybacks and burns of the VIRTUAL token, reducing its total supply as a value-accrual mechanism for holders."
+  },
+  "links": {
+    "homepage": [
+      "https://www.virtuals.io/"
+    ],
+    "whitepaper": "https://whitepaper.virtuals.io/",
+    "blockchain_site": [
+      "https://etherscan.io/address/0x44ff8620b8ca30902395a7bd3f2407e1a091bf73",
+      "https://intel.arkm.com/explorer/token/virtual-protocol",
+      "https://etherscan.io/token/0x44ff8620b8ca30902395a7bd3f2407e1a091bf73",
+      "https://ethplorer.io/address/0x44ff8620b8ca30902395a7bd3f2407e1a091bf73",
+      "https://basescan.org/token/0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
+      "https://solscan.io/token/3iQL8BFS2vE7mww4ehAqQHAsbmRNCrPxizWAT2Zfyr9y"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "virtuals_io",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "virtuals",
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/34057/thumb/LOGOMARK.png?1708356054",
+    "small": "https://coin-images.coingecko.com/coins/images/34057/small/LOGOMARK.png?1708356054",
+    "large": "https://coin-images.coingecko.com/coins/images/34057/large/LOGOMARK.png?1708356054"
+  },
+  "country_origin": "",
+  "genesis_date": null,
+  "contract_address": "0x44ff8620b8ca30902395a7bd3f2407e1a091bf73",
+  "sentiment_votes_up_percentage": 54.55,
+  "sentiment_votes_down_percentage": 45.45,
+  "watchlist_portfolio_users": 96869,
+  "market_cap_rank": 131,
+  "status_updates": [],
+  "last_updated": "2026-01-05T02:35:27.245Z"
+}

@@ -1,0 +1,166 @@
+{
+  "id": "stargate-finance",
+  "symbol": "stg",
+  "name": "Stargate Finance",
+  "web_slug": "stargate-finance",
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xaf5191b0de278c7286d6c7cc6ab6bb8a73ba2cd6",
+    "berachain": "0x9895d81bb462a195b4922ed7de0e3acd007c32cb",
+    "mantle": "0x8731d54e9d02c286767d56ac03e8037c07e01e98",
+    "kava": "0x83c30eb8bc9ad7c56532895840039e62659896ea",
+    "linea": "0x808d7c71ad2ba3fa531b068a2417c63106bc0949",
+    "fantom": "0x2f6f07cdcf3588944bf4c42ac74ff24bf56e7590",
+    "scroll": "0x8731d54e9d02c286767d56ac03e8037c07e01e98",
+    "base": "0xe3b53af74a4bf62ae5511055290838050bf764df",
+    "avalanche": "0x2f6f07cdcf3588944bf4c42ac74ff24bf56e7590",
+    "polygon-pos": "0x2f6f07cdcf3588944bf4c42ac74ff24bf56e7590",
+    "binance-smart-chain": "0xb0d502e938ed5f4df2e681fe6e419ff29631d62b",
+    "arbitrum-one": "0x6694340fc020c5e6b96567843da2df01b2ce1eb6",
+    "optimistic-ethereum": "0x296f55f8fb28e498b858d0bcda06d955b2cb3f97"
+  },
+  "detail_platforms": {
+    "ethereum": {
+      "decimal_place": 18,
+      "contract_address": "0xaf5191b0de278c7286d6c7cc6ab6bb8a73ba2cd6",
+      "geckoterminal_url": "https://www.geckoterminal.com/eth/tokens/0xaf5191b0de278c7286d6c7cc6ab6bb8a73ba2cd6"
+    },
+    "berachain": {
+      "decimal_place": 18,
+      "contract_address": "0x9895d81bb462a195b4922ed7de0e3acd007c32cb",
+      "geckoterminal_url": "https://www.geckoterminal.com/berachain/tokens/0x9895d81bb462a195b4922ed7de0e3acd007c32cb"
+    },
+    "mantle": {
+      "decimal_place": 18,
+      "contract_address": "0x8731d54e9d02c286767d56ac03e8037c07e01e98",
+      "geckoterminal_url": "https://www.geckoterminal.com/mantle/tokens/0x8731d54e9d02c286767d56ac03e8037c07e01e98"
+    },
+    "kava": {
+      "decimal_place": 18,
+      "contract_address": "0x83c30eb8bc9ad7c56532895840039e62659896ea",
+      "geckoterminal_url": "https://www.geckoterminal.com/kava/tokens/0x83c30eb8bc9ad7c56532895840039e62659896ea"
+    },
+    "linea": {
+      "decimal_place": 18,
+      "contract_address": "0x808d7c71ad2ba3fa531b068a2417c63106bc0949",
+      "geckoterminal_url": "https://www.geckoterminal.com/linea/tokens/0x808d7c71ad2ba3fa531b068a2417c63106bc0949"
+    },
+    "fantom": {
+      "decimal_place": 18,
+      "contract_address": "0x2f6f07cdcf3588944bf4c42ac74ff24bf56e7590",
+      "geckoterminal_url": "https://www.geckoterminal.com/ftm/tokens/0x2f6f07cdcf3588944bf4c42ac74ff24bf56e7590"
+    },
+    "scroll": {
+      "decimal_place": 18,
+      "contract_address": "0x8731d54e9d02c286767d56ac03e8037c07e01e98",
+      "geckoterminal_url": "https://www.geckoterminal.com/scroll/tokens/0x8731d54e9d02c286767d56ac03e8037c07e01e98"
+    },
+    "base": {
+      "decimal_place": 18,
+      "contract_address": "0xe3b53af74a4bf62ae5511055290838050bf764df",
+      "geckoterminal_url": "https://www.geckoterminal.com/base/tokens/0xe3b53af74a4bf62ae5511055290838050bf764df"
+    },
+    "avalanche": {
+      "decimal_place": 18,
+      "contract_address": "0x2f6f07cdcf3588944bf4c42ac74ff24bf56e7590",
+      "geckoterminal_url": "https://www.geckoterminal.com/avax/tokens/0x2f6f07cdcf3588944bf4c42ac74ff24bf56e7590"
+    },
+    "polygon-pos": {
+      "decimal_place": 18,
+      "contract_address": "0x2f6f07cdcf3588944bf4c42ac74ff24bf56e7590",
+      "geckoterminal_url": "https://www.geckoterminal.com/polygon_pos/tokens/0x2f6f07cdcf3588944bf4c42ac74ff24bf56e7590"
+    },
+    "binance-smart-chain": {
+      "decimal_place": 18,
+      "contract_address": "0xb0d502e938ed5f4df2e681fe6e419ff29631d62b",
+      "geckoterminal_url": "https://www.geckoterminal.com/bsc/tokens/0xb0d502e938ed5f4df2e681fe6e419ff29631d62b"
+    },
+    "arbitrum-one": {
+      "decimal_place": 18,
+      "contract_address": "0x6694340fc020c5e6b96567843da2df01b2ce1eb6",
+      "geckoterminal_url": "https://www.geckoterminal.com/arbitrum/tokens/0x6694340fc020c5e6b96567843da2df01b2ce1eb6"
+    },
+    "optimistic-ethereum": {
+      "decimal_place": 18,
+      "contract_address": "0x296f55f8fb28e498b858d0bcda06d955b2cb3f97",
+      "geckoterminal_url": "https://www.geckoterminal.com/optimism/tokens/0x296f55f8fb28e498b858d0bcda06d955b2cb3f97"
+    }
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "categories": [
+    "Decentralized Finance (DeFi)",
+    "Yield Farming",
+    "BNB Chain Ecosystem",
+    "Avalanche Ecosystem",
+    "Polygon Ecosystem",
+    "Fantom Ecosystem",
+    "Arbitrum Ecosystem",
+    "Ethereum Ecosystem",
+    "Optimism Ecosystem",
+    "Mantle Ecosystem",
+    "Linea Ecosystem",
+    "Bridge Governance Tokens",
+    "Base Ecosystem",
+    "FTX Holdings",
+    "Scroll Ecosystem",
+    "Berachain Ecosystem",
+    "Kava Ecosystem"
+  ],
+  "preview_listing": false,
+  "public_notice": null,
+  "additional_notices": [],
+  "description": {
+    "en": "A composable native asset bridge with unified liquidity and instant guaranteed finality"
+  },
+  "links": {
+    "homepage": [
+      "https://stargate.finance/",
+      "https://stargateprotocol.gitbook.io/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xaf5191b0de278c7286d6c7cc6ab6bb8a73ba2cd6",
+      "https://ethplorer.io/address/0xaf5191b0de278c7286d6c7cc6ab6bb8a73ba2cd6",
+      "https://bscscan.com/token/0xb0d502e938ed5f4df2e681fe6e419ff29631d62b",
+      "https://snowtrace.io/token/0x2f6f07cdcf3588944bf4c42ac74ff24bf56e7590",
+      "https://polygonscan.com/token/0x2f6f07cdcf3588944bf4c42ac74ff24bf56e7590",
+      "https://arbiscan.io/token/0x6694340fc020c5e6b96567843da2df01b2ce1eb6",
+      "https://ftmscan.com/token/0x2f6f07cdcf3588944bf4c42ac74ff24bf56e7590",
+      "https://avascan.info/blockchain/c/address/0x2f6f07cdcf3588944bf4c42ac74ff24bf56e7590/token",
+      "https://optimistic.etherscan.io/token/0x296f55f8fb28e498b858d0bcda06d955b2cb3f97",
+      "https://binplorer.com/address/0xb0d502e938ed5f4df2e681fe6e419ff29631d62b"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://stargate.finance/discord"
+    ],
+    "announcement_url": [
+      "https://medium.com/stargate-official"
+    ],
+    "snapshot_url": "https://snapshot.org/#/stgdao.eth",
+    "twitter_screen_name": "StargateFinance",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/24413/thumb/STG_LOGO.png?1696523595",
+    "small": "https://coin-images.coingecko.com/coins/images/24413/small/STG_LOGO.png?1696523595",
+    "large": "https://coin-images.coingecko.com/coins/images/24413/large/STG_LOGO.png?1696523595"
+  },
+  "country_origin": "",
+  "genesis_date": null,
+  "contract_address": "0xaf5191b0de278c7286d6c7cc6ab6bb8a73ba2cd6",
+  "sentiment_votes_up_percentage": 100.0,
+  "sentiment_votes_down_percentage": 0.0,
+  "watchlist_portfolio_users": 36724,
+  "market_cap_rank": 695,
+  "status_updates": [],
+  "last_updated": "2026-01-05T02:18:29.412Z"
+}

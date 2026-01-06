@@ -1,0 +1,107 @@
+{
+  "id": "superfarm",
+  "symbol": "super",
+  "name": "SuperVerse",
+  "web_slug": "superverse",
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xe53ec727dbdeb9e2d5456c3be40cff031ab40a55",
+    "avalanche": "0x09fa58228bb791ea355c90da1e4783452b9bd8c3",
+    "soneium": "0xf765356c901a064a74fa4560622f21c91048c3d7",
+    "base": "0x391359ab0ccef572dcac78f74e47d7c06db0b982",
+    "polygon-pos": "0xa1428174f516f527fafdd146b883bb4428682737"
+  },
+  "detail_platforms": {
+    "ethereum": {
+      "decimal_place": 18,
+      "contract_address": "0xe53ec727dbdeb9e2d5456c3be40cff031ab40a55",
+      "geckoterminal_url": "https://www.geckoterminal.com/eth/tokens/0xe53ec727dbdeb9e2d5456c3be40cff031ab40a55"
+    },
+    "avalanche": {
+      "decimal_place": 18,
+      "contract_address": "0x09fa58228bb791ea355c90da1e4783452b9bd8c3",
+      "geckoterminal_url": "https://www.geckoterminal.com/avax/tokens/0x09fa58228bb791ea355c90da1e4783452b9bd8c3"
+    },
+    "soneium": {
+      "decimal_place": 18,
+      "contract_address": "0xf765356c901a064a74fa4560622f21c91048c3d7",
+      "geckoterminal_url": "https://www.geckoterminal.com/soneium/tokens/0xf765356c901a064a74fa4560622f21c91048c3d7"
+    },
+    "base": {
+      "decimal_place": 18,
+      "contract_address": "0x391359ab0ccef572dcac78f74e47d7c06db0b982",
+      "geckoterminal_url": "https://www.geckoterminal.com/base/tokens/0x391359ab0ccef572dcac78f74e47d7c06db0b982"
+    },
+    "polygon-pos": {
+      "decimal_place": 18,
+      "contract_address": "0xa1428174f516f527fafdd146b883bb4428682737",
+      "geckoterminal_url": "https://www.geckoterminal.com/polygon_pos/tokens/0xa1428174f516f527fafdd146b883bb4428682737"
+    }
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "categories": [
+    "Gaming (GameFi)",
+    "NFT",
+    "Avalanche Ecosystem",
+    "Collectibles",
+    "Polygon Ecosystem",
+    "Ethereum Ecosystem",
+    "Animoca Brands Portfolio",
+    "Base Ecosystem",
+    "Gaming Blockchains",
+    "Soneium Ecosystem",
+    "Made in USA"
+  ],
+  "preview_listing": false,
+  "public_notice": null,
+  "additional_notices": [],
+  "description": {
+    "en": "SuperVerse is a unified Web3 ecosystem connecting gaming, DeFi, and AI under a single interoperable protocol. Its native token, $SUPER, powers transactions, governance, and access to immersive games, AI-powered tools, and liquidity infrastructure such as Blackhole DEX. Designed for real utility across multiple chains, $SUPER enables staking, protocol buybacks, and sustainable yield while supporting a growing suite of decentralized applications."
+  },
+  "links": {
+    "homepage": [
+      "https://superverse.co/"
+    ],
+    "whitepaper": "https://docs.superverse.co/",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xe53ec727dbdeb9e2d5456c3be40cff031ab40a55",
+      "https://ethplorer.io/address/0xe53ec727dbdeb9e2d5456c3be40cff031ab40a55",
+      "https://polygonscan.com/token/0xa1428174f516f527fafdd146b883bb4428682737",
+      "https://bscscan.com/token/0x51ba0b044d96c3abfca52b64d733603ccc4f0d4d",
+      "https://binplorer.com/address/0x51ba0b044d96c3abfca52b64d733603ccc4f0d4d",
+      "https://explorer.energi.network/token/0x8b2ed0247a3fd9706ac033dd7e926161e5c4753b",
+      "https://avascan.info/blockchain/c/address/0x09fa58228bb791ea355c90da1e4783452b9bd8c3/token",
+      "https://snowtrace.io/token/0x09fa58228bb791ea355c90da1e4783452b9bd8c3?type=erc20&chainid=43114",
+      "https://basescan.org/token/0x391359ab0ccef572dcac78f74e47d7c06db0b982",
+      "https://soneium.blockscout.com/token/0xf765356c901a064a74fa4560622f21c91048c3d7"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": "https://snapshot.org/#/superversedao.eth",
+    "twitter_screen_name": "SuperVerse",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "SuperVerseChat",
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/14040/thumb/SV-Logo-200x200.png?1706880312",
+    "small": "https://coin-images.coingecko.com/coins/images/14040/small/SV-Logo-200x200.png?1706880312",
+    "large": "https://coin-images.coingecko.com/coins/images/14040/large/SV-Logo-200x200.png?1706880312"
+  },
+  "country_origin": "",
+  "genesis_date": null,
+  "contract_address": "0xe53ec727dbdeb9e2d5456c3be40cff031ab40a55",
+  "sentiment_votes_up_percentage": 100.0,
+  "sentiment_votes_down_percentage": 0.0,
+  "watchlist_portfolio_users": 98307,
+  "market_cap_rank": 351,
+  "status_updates": [],
+  "last_updated": "2026-01-05T02:20:48.150Z"
+}

@@ -1,0 +1,99 @@
+{
+  "id": "shrapnel-2",
+  "symbol": "shrap",
+  "name": "Shrapnel",
+  "web_slug": "shrapnel",
+  "asset_platform_id": "avalanche",
+  "platforms": {
+    "avalanche": "0xd402298a793948698b9a63311404fbbee944eafd",
+    "ethereum": "0x31e4efe290973ebe91b3a875a7994f650942d28f",
+    "binance-smart-chain": "0x31e4efe290973ebe91b3a875a7994f650942d28f"
+  },
+  "detail_platforms": {
+    "avalanche": {
+      "decimal_place": 18,
+      "contract_address": "0xd402298a793948698b9a63311404fbbee944eafd",
+      "geckoterminal_url": "https://www.geckoterminal.com/avax/tokens/0xd402298a793948698b9a63311404fbbee944eafd"
+    },
+    "ethereum": {
+      "decimal_place": 18,
+      "contract_address": "0x31e4efe290973ebe91b3a875a7994f650942d28f",
+      "geckoterminal_url": "https://www.geckoterminal.com/eth/tokens/0x31e4efe290973ebe91b3a875a7994f650942d28f"
+    },
+    "binance-smart-chain": {
+      "decimal_place": 18,
+      "contract_address": "0x31e4efe290973ebe91b3a875a7994f650942d28f",
+      "geckoterminal_url": "https://www.geckoterminal.com/bsc/tokens/0x31e4efe290973ebe91b3a875a7994f650942d28f"
+    }
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "categories": [
+    "Gaming (GameFi)",
+    "BNB Chain Ecosystem",
+    "Avalanche Ecosystem",
+    "Ethereum Ecosystem",
+    "Shooting Games",
+    "On-chain Gaming",
+    "Gaming Governance Token",
+    "Gaming Utility Token",
+    "Avalanche L1",
+    "DragonFly Capital Portfolio",
+    "DeFiance Capital Portfolio",
+    "OKX Ventures Portfolio"
+  ],
+  "preview_listing": false,
+  "public_notice": null,
+  "additional_notices": [],
+  "description": {
+    "en": "SHRAPNEL is a first-person extraction shooter where you'll fight as a MEF (Mercenary Extraction Force) Operator. The gameplay is competitive and intense. In 2038 an asteroid collided with the moon, and years later meteorites rain down on earth repeatedly: dangerous yet valuable. Your mission is to collect this mysterious meteorite substance, survive in military combat, and get out alive. The progression system provides long-term goals and rewards for your Operator character. It’s the ultimate high-stakes treasure hunt."
+  },
+  "links": {
+    "homepage": [
+      "https://www.shrapnel.com/"
+    ],
+    "whitepaper": "https://public.shrapnel.com/Shrapnel-White-Paper.pdf",
+    "blockchain_site": [
+      "https://snowtrace.io/token/0xd402298a793948698b9a63311404fbbee944eafd",
+      "https://intel.arkm.com/explorer/token/shrapnel-2 ",
+      "https://avascan.info/blockchain/c/address/0xd402298a793948698b9a63311404fbbee944eafd/token",
+      "https://etherscan.io/token/0x31e4efe290973ebe91b3a875a7994f650942d28f",
+      "https://ethplorer.io/address/0x31e4efe290973ebe91b3a875a7994f650942d28f",
+      "https://bscscan.com/token/0x31e4efe290973ebe91b3a875a7994f650942d28f",
+      "https://binplorer.com/address/0x31e4efe290973ebe91b3a875a7994f650942d28f",
+      "https://tonscan.org/address/eqcqnhzndbgbwjppv8k_8wok58zkqpxls_bshau9dkwnaf-p",
+      "https://snowtrace.io/token/0xd402298a793948698b9a63311404fbbee944eafd?type=erc20&chainid=43114",
+      "https://intel.arkm.com/explorer/token/shrapnel-2"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/shrapnel",
+      "https://medium.com/@playSHRAPNEL"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "playSHRAPNEL",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "shrapnel",
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/32793/thumb/shrapnel.png?1699441661",
+    "small": "https://coin-images.coingecko.com/coins/images/32793/small/shrapnel.png?1699441661",
+    "large": "https://coin-images.coingecko.com/coins/images/32793/large/shrapnel.png?1699441661"
+  },
+  "country_origin": "",
+  "genesis_date": null,
+  "contract_address": "0xd402298a793948698b9a63311404fbbee944eafd",
+  "sentiment_votes_up_percentage": null,
+  "sentiment_votes_down_percentage": null,
+  "watchlist_portfolio_users": 30902,
+  "market_cap_rank": 2986,
+  "status_updates": [],
+  "last_updated": "2026-01-05T02:10:18.565Z"
+}

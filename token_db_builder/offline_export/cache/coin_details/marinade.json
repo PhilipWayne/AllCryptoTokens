@@ -1,0 +1,74 @@
+{
+  "id": "marinade",
+  "symbol": "mnde",
+  "name": "Marinade",
+  "web_slug": "marinade",
+  "asset_platform_id": "solana",
+  "platforms": {
+    "solana": "MNDEFzGvMt87ueuHvVU9VcTqsAP5b3fTGPsHuuPA5ey"
+  },
+  "detail_platforms": {
+    "solana": {
+      "decimal_place": 9,
+      "contract_address": "MNDEFzGvMt87ueuHvVU9VcTqsAP5b3fTGPsHuuPA5ey",
+      "geckoterminal_url": "https://www.geckoterminal.com/solana/tokens/MNDEFzGvMt87ueuHvVU9VcTqsAP5b3fTGPsHuuPA5ey"
+    }
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "categories": [
+    "Decentralized Finance (DeFi)",
+    "Solana Ecosystem",
+    "Liquid Staking Governance Tokens",
+    "Liquid Staking"
+  ],
+  "preview_listing": false,
+  "public_notice": null,
+  "additional_notices": [],
+  "description": {
+    "en": "MNDE is the governance token for Marinade. Marinade helps you to stake Solana without locking in liquidity by turning SOL into mSOL - tokenized version of staked SOL. This way you can both secure the network by staking SOL, and use your mSOL as the ultimate unit in Solana DeFi ecosystem. To provide liquidity, deposit in lending protocols and even buy NFTs."
+  },
+  "links": {
+    "homepage": [
+      "https://marinade.finance/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://solscan.io/token/MNDEFzGvMt87ueuHvVU9VcTqsAP5b3fTGPsHuuPA5ey",
+      "https://intel.arkm.com/explorer/token/marinade"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/6EtUf4Euu6"
+    ],
+    "announcement_url": [
+      "https://medium.com/marinade-finance"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "marinadeFinance",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [
+        "https://github.com/marinade-finance/"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/18867/thumb/c1.png?1750668234",
+    "small": "https://coin-images.coingecko.com/coins/images/18867/small/c1.png?1750668234",
+    "large": "https://coin-images.coingecko.com/coins/images/18867/large/c1.png?1750668234"
+  },
+  "country_origin": "",
+  "genesis_date": null,
+  "contract_address": "MNDEFzGvMt87ueuHvVU9VcTqsAP5b3fTGPsHuuPA5ey",
+  "sentiment_votes_up_percentage": null,
+  "sentiment_votes_down_percentage": null,
+  "watchlist_portfolio_users": 11109,
+  "market_cap_rank": 846,
+  "status_updates": [],
+  "last_updated": "2026-01-05T01:35:32.002Z"
+}

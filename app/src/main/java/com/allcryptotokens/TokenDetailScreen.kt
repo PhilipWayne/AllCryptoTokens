@@ -1,85 +1,45 @@
-// app/src/main/java/com/allcryptotokens/TokenDetailScreen.kt
 package com.allcryptotokens
 
-import androidx.compose.foundation.Image
-import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.dp
-import androidx.compose.ui.unit.sp
-import coil.compose.rememberAsyncImagePainter
-import kotlinx.coroutines.flow.collectLatest
+import coil.compose.AsyncImage
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun TokenDetailScreen(
-    cgId: String,
-    name: String,
-    symbol: String,
-    initialImageUrl: String? = null
+    cgId: String
 ) {
-    val ctx = LocalContext.current.applicationContext
+    val ctx = LocalContext.current
+    val dao = remember { AppDatabase.get(ctx).tokenDao() }
+
+    val token by dao.observeToken(cgId).collectAsState(initial = null)
     val scroll = rememberScrollState()
-    val service = remember { NetworkModule.coinGeckoService(ctx, debug = false) }
-    val repo = remember { OfflineFirstTokenRepository(ctx, service) }
 
-    var ui by remember {
-        mutableStateOf<TokenEntity?>(
-            TokenEntity(cgId, name, symbol, null, initialImageUrl, 0L)
-        )
-    }
-    var firstLoad by remember { mutableStateOf(true) }
+    val title = token?.let { "${it.name} (${it.symbol.uppercase()})" } ?: cgId
+    val desc = token?.description?.takeIf { it.isNotBlank() } ?: "No description yet."
 
-    // Observe DB for live updates
-    LaunchedEffect(cgId) {
-        repo.observe(cgId).collectLatest { entity ->
-            if (entity != null) ui = entity
-        }
-    }
-
-    // Ensure cached and refresh in background
-    LaunchedEffect(cgId) {
-        repo.ensureCached(cgId, name, symbol, initialImageUrl)
-        firstLoad = false
-    }
-
-    Scaffold(topBar = { TopAppBar(title = { Text("$name ($symbol)") }) }) { pad ->
+    Scaffold(
+        topBar = { TopAppBar(title = { Text(title) }) }
+    ) { pad ->
         Column(
             modifier = Modifier
-                .fillMaxSize()
                 .padding(pad)
-                .verticalScroll(scroll)
                 .padding(16.dp)
+                .verticalScroll(scroll)
         ) {
-            val entity = ui
-
-            if (firstLoad && entity?.description == null) {
-                CircularProgressIndicator()
-                Spacer(Modifier.height(12.dp))
-            }
-
-            (entity?.imageUrl ?: initialImageUrl)?.let { url ->
-                Image(
-                    painter = rememberAsyncImagePainter(url),
-                    contentDescription = "$name logo",
-                    contentScale = ContentScale.Fit,
-                    modifier = Modifier.size(72.dp)
-                )
-                Spacer(Modifier.height(12.dp))
-            }
-
-            // DB already holds plain text (HTML stripped in repository)
-            val bodyText = entity?.description ?: "No description available."
-            Text(
-                text = bodyText,
-                style = MaterialTheme.typography.bodyLarge,
-                lineHeight = 22.sp
+            AsyncImage(
+                model = token?.imageUrl?.takeIf { it.isNotBlank() },
+                contentDescription = null,
+                modifier = Modifier.padding(bottom = 12.dp)
             )
+            Text(desc)
         }
     }
 }

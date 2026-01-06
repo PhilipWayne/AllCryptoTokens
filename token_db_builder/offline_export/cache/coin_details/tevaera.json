@@ -1,0 +1,75 @@
+{
+  "id": "tevaera",
+  "symbol": "teva",
+  "name": "Tevaera",
+  "web_slug": "tevaera",
+  "asset_platform_id": "base",
+  "platforms": {
+    "base": "0x00309d634d11541b857f927be91ad2f0bd78894c"
+  },
+  "detail_platforms": {
+    "base": {
+      "decimal_place": 18,
+      "contract_address": "0x00309d634d11541b857f927be91ad2f0bd78894c",
+      "geckoterminal_url": "https://www.geckoterminal.com/base/tokens/0x00309d634d11541b857f927be91ad2f0bd78894c"
+    }
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "categories": [
+    "Gaming (GameFi)",
+    "Base Ecosystem",
+    "Gaming Platform"
+  ],
+  "preview_listing": false,
+  "public_notice": "Tevaera (TEVA) has recently migrated from their <a href=\"https://era.zksync.network/token/0xdbFF7c6d368904680706804645cAfA4dEfa3c224\"target=\"_blank\">old contract</a> to a <a href=\"https://basescan.org/token/0x00309D634d11541b857f927BE91aD2f0bD78894c\"target=\"_blank\">new contract</a>. For more information, please visit this <a href=\"https://x.com/tevaera/status/1887575362017894653\"target=\"_blank\">post</a>.<br>",
+  "additional_notices": [],
+  "description": {
+    "en": "Tevaera is a UX-first gaming ecosystem powered by the ZK Stack and AI, designed to be fun and fair. With over a million Soulbound Gamers, Tevaera is on a community-driven mission to redefine gaming through multi-genre Web3 games powered by Teva Chain, innovative gaming agents, and a robust gaming stack. Tevaera’s flagship game, Teva Run, available on web, iOS, and Android, has surpassed 20 million multiplayer matches, showcasing the project's momentum in reshaping Web3 gaming."
+  },
+  "links": {
+    "homepage": [
+      "https://tevaera.com/"
+    ],
+    "whitepaper": "https://docs.tevaera.com/",
+    "blockchain_site": [
+      "https://basescan.org/token/0x00309D634d11541b857f927BE91aD2f0bD78894c",
+      "https://intel.arkm.com/explorer/token/tevaera"
+    ],
+    "official_forum_url": [
+      "https://link3.to/tevaeraofficial"
+    ],
+    "chat_url": [
+      "https://discord.com/invite/tevaera",
+      "https://tevaera.medium.com/",
+      "https://www.youtube.com/@Tevaera"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "tevaera",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "TevaeraNews",
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [
+        "https://github.com/tevaera-labs/tevaera-dao"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/53086/thumb/Teva-200.png?1735204737",
+    "small": "https://coin-images.coingecko.com/coins/images/53086/small/Teva-200.png?1735204737",
+    "large": "https://coin-images.coingecko.com/coins/images/53086/large/Teva-200.png?1735204737"
+  },
+  "country_origin": "",
+  "genesis_date": null,
+  "contract_address": "0x00309d634d11541b857f927be91ad2f0bd78894c",
+  "sentiment_votes_up_percentage": 50.0,
+  "sentiment_votes_down_percentage": 50.0,
+  "watchlist_portfolio_users": 1384,
+  "market_cap_rank": 3077,
+  "status_updates": [],
+  "last_updated": "2026-01-05T02:22:20.130Z"
+}

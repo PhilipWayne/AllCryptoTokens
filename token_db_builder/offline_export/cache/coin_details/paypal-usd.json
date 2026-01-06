@@ -1,0 +1,95 @@
+{
+  "id": "paypal-usd",
+  "symbol": "pyusd",
+  "name": "PayPal USD",
+  "web_slug": "paypal-usd",
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x6c3ea9036406852006290770bedfcaba0e23a0e8",
+    "stellar": "PYUSD-GDQE7IXJ4HUHV6RQHIUPRJSEZE4DRS5WY577O2FY6YQ5LVWZ7JZTU2V5",
+    "solana": "2b1kV6DkPAnxd5ixfnxCpjxmKwqjjaYmCZfHsFu24GXo",
+    "arbitrum-one": "0x46850ad61c2b7d64d08c9c754f45254596696984"
+  },
+  "detail_platforms": {
+    "ethereum": {
+      "decimal_place": 6,
+      "contract_address": "0x6c3ea9036406852006290770bedfcaba0e23a0e8",
+      "geckoterminal_url": "https://www.geckoterminal.com/eth/tokens/0x6c3ea9036406852006290770bedfcaba0e23a0e8"
+    },
+    "stellar": {
+      "decimal_place": 7,
+      "contract_address": "PYUSD-GDQE7IXJ4HUHV6RQHIUPRJSEZE4DRS5WY577O2FY6YQ5LVWZ7JZTU2V5"
+    },
+    "solana": {
+      "decimal_place": 6,
+      "contract_address": "2b1kV6DkPAnxd5ixfnxCpjxmKwqjjaYmCZfHsFu24GXo",
+      "geckoterminal_url": "https://www.geckoterminal.com/solana/tokens/2b1kV6DkPAnxd5ixfnxCpjxmKwqjjaYmCZfHsFu24GXo"
+    },
+    "arbitrum-one": {
+      "decimal_place": 6,
+      "contract_address": "0x46850ad61c2b7d64d08c9c754f45254596696984",
+      "geckoterminal_url": "https://www.geckoterminal.com/arbitrum/tokens/0x46850ad61c2b7d64d08c9c754f45254596696984"
+    }
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "categories": [
+    "Stablecoins",
+    "USD Stablecoin",
+    "Solana Ecosystem",
+    "Arbitrum Ecosystem",
+    "Ethereum Ecosystem",
+    "Starknet Ecosystem",
+    "Stellar Ecosystem",
+    "Fiat-backed Stablecoin",
+    "Made in USA"
+  ],
+  "preview_listing": false,
+  "public_notice": null,
+  "additional_notices": [],
+  "description": {
+    "en": "PayPal USD is designed to contribute to the opportunity stablecoins offer for payments and is 100% backed by U.S. dollar deposits, short-term U.S Treasuries and similar cash equivalents. PayPal USD is redeemable 1:1 for U.S. dollars and is issued by Paxos Trust Company."
+  },
+  "links": {
+    "homepage": [
+      "https://www.paypal.com/us/digital-wallet/manage-money/crypto/pyusd"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x6c3ea9036406852006290770bedfcaba0e23a0e8",
+      "https://intel.arkm.com/explorer/token/paypal-usd",
+      "https://ethplorer.io/address/0x6c3ea9036406852006290770bedfcaba0e23a0e8",
+      "https://stablecoin.tokenview.io/en/pyusd",
+      "https://solscan.io/token/2b1kv6dkpanxd5ixfnxcpjxmkwqjjaymczfhsfu24gxo",
+      "https://arbiscan.io/token/0x46850ad61c2b7d64d08c9c754f45254596696984",
+      "https://stellar.expert/explorer/public/asset/PYUSD-GDQE7IXJ4HUHV6RQHIUPRJSEZE4DRS5WY577O2FY6YQ5LVWZ7JZTU2V5"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "PayPal",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/31212/thumb/PYUSD_Token_Logo_2x.png?1765987788",
+    "small": "https://coin-images.coingecko.com/coins/images/31212/small/PYUSD_Token_Logo_2x.png?1765987788",
+    "large": "https://coin-images.coingecko.com/coins/images/31212/large/PYUSD_Token_Logo_2x.png?1765987788"
+  },
+  "country_origin": "",
+  "genesis_date": null,
+  "contract_address": "0x6c3ea9036406852006290770bedfcaba0e23a0e8",
+  "sentiment_votes_up_percentage": 0.0,
+  "sentiment_votes_down_percentage": 100.0,
+  "watchlist_portfolio_users": 10831,
+  "market_cap_rank": 43,
+  "status_updates": [],
+  "last_updated": "2026-01-05T01:59:46.050Z"
+}

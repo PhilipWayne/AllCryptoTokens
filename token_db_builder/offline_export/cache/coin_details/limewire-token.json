@@ -1,0 +1,93 @@
+{
+  "id": "limewire-token",
+  "symbol": "lmwr",
+  "name": "LimeWire",
+  "web_slug": "limewire",
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x628a3b2e302c7e896acc432d2d0dd22b6cb9bc88",
+    "base": "0xe997017e0cb0ceb503565f181e9ea922cd979c35",
+    "binance-smart-chain": "0x307bc76e3d59ed73886a9cf9360a9286f6281ba7"
+  },
+  "detail_platforms": {
+    "ethereum": {
+      "decimal_place": 18,
+      "contract_address": "0x628a3b2e302c7e896acc432d2d0dd22b6cb9bc88",
+      "geckoterminal_url": "https://www.geckoterminal.com/eth/tokens/0x628a3b2e302c7e896acc432d2d0dd22b6cb9bc88"
+    },
+    "base": {
+      "decimal_place": 18,
+      "contract_address": "0xe997017e0cb0ceb503565f181e9ea922cd979c35",
+      "geckoterminal_url": "https://www.geckoterminal.com/base/tokens/0xe997017e0cb0ceb503565f181e9ea922cd979c35"
+    },
+    "binance-smart-chain": {
+      "decimal_place": 18,
+      "contract_address": "0x307bc76e3d59ed73886a9cf9360a9286f6281ba7",
+      "geckoterminal_url": "https://www.geckoterminal.com/bsc/tokens/0x307bc76e3d59ed73886a9cf9360a9286f6281ba7"
+    }
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "categories": [
+    "Artificial Intelligence (AI)",
+    "Music",
+    "SocialFi",
+    "NFT",
+    "BNB Chain Ecosystem",
+    "DePIN",
+    "Base Ecosystem"
+  ],
+  "preview_listing": false,
+  "public_notice": null,
+  "additional_notices": [],
+  "description": {
+    "en": "The iconic file-sharing platform from the 2000s made a major comeback in 2022, evolving into a cutting-edge ecosystem driven by AI and blockchain technology. The new LimeWire allows millions of users and businesses to securely create, upload, and share files of any size across all devices.\r\n\r\nThe LimeWire Token (LMWR) is the utility token at the heart of the LimeWire file-sharing and AI ecosystem. It serves as a payment and reward method on the LimeWire platform and powers the LimeWire Network, a leading decentralized storage network with enterprise-grade performance and full S3 compatibility."
+  },
+  "links": {
+    "homepage": [
+      "https://limewire.com/u/home",
+      "https://www.lmwr.com",
+      "https://limewire.network/"
+    ],
+    "whitepaper": "https://whitepaper.limewire.network/",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x628a3b2e302c7e896acc432d2d0dd22b6cb9bc88",
+      "https://intel.arkm.com/explorer/token/limewire-token ",
+      "https://ethplorer.io/address/0x628a3b2e302c7e896acc432d2d0dd22b6cb9bc88",
+      "https://bscscan.com/token/0x307bc76e3d59ed73886a9cf9360a9286f6281ba7",
+      "https://binplorer.com/address/0x307bc76e3d59ed73886a9cf9360a9286f6281ba7",
+      "https://basescan.org/token/0xe997017e0cb0ceb503565f181e9ea922cd979c35",
+      "https://intel.arkm.com/explorer/token/limewire-token",
+      "https://intel.arkm.com/explorer/token/<api_symbol>"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://lmwr.co/discord"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "limewire",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "limewire",
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/30356/thumb/LimeWire_Logo_Icon_200x200_%281%29.png?1696529256",
+    "small": "https://coin-images.coingecko.com/coins/images/30356/small/LimeWire_Logo_Icon_200x200_%281%29.png?1696529256",
+    "large": "https://coin-images.coingecko.com/coins/images/30356/large/LimeWire_Logo_Icon_200x200_%281%29.png?1696529256"
+  },
+  "country_origin": "",
+  "genesis_date": null,
+  "contract_address": "0x628a3b2e302c7e896acc432d2d0dd22b6cb9bc88",
+  "sentiment_votes_up_percentage": 100.0,
+  "sentiment_votes_down_percentage": 0.0,
+  "watchlist_portfolio_users": 15775,
+  "market_cap_rank": 1550,
+  "status_updates": [],
+  "last_updated": "2026-01-05T01:24:52.625Z"
+}

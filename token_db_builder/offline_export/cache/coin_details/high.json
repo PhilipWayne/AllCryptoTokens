@@ -1,0 +1,67 @@
+{
+  "id": "high",
+  "symbol": "high",
+  "name": "High",
+  "web_slug": "high",
+  "asset_platform_id": "base",
+  "platforms": {
+    "base": "0x4d25e94291fe8dcfbfa572cbb2aaa7b755087c91"
+  },
+  "detail_platforms": {
+    "base": {
+      "decimal_place": 18,
+      "contract_address": "0x4d25e94291fe8dcfbfa572cbb2aaa7b755087c91",
+      "geckoterminal_url": "https://www.geckoterminal.com/base/tokens/0x4d25e94291fe8dcfbfa572cbb2aaa7b755087c91"
+    }
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "categories": [
+    "Base Ecosystem"
+  ],
+  "preview_listing": false,
+  "public_notice": null,
+  "additional_notices": [],
+  "description": {
+    "en": "YEP, HIGH. The most lit base chain meme token."
+  },
+  "links": {
+    "homepage": [
+      "https://yephigh.com"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://basescan.org/token/0x4d25e94291fe8dcfbfa572cbb2aaa7b755087c91",
+      "https://intel.arkm.com/explorer/token/high"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.gg/F76AWtexpT"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "YEPHIGH",
+    "facebook_username": null,
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "HighBaseToken",
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/36318/thumb/high200x200.png?1711092521",
+    "small": "https://coin-images.coingecko.com/coins/images/36318/small/high200x200.png?1711092521",
+    "large": "https://coin-images.coingecko.com/coins/images/36318/large/high200x200.png?1711092521"
+  },
+  "country_origin": null,
+  "genesis_date": null,
+  "contract_address": "0x4d25e94291fe8dcfbfa572cbb2aaa7b755087c91",
+  "sentiment_votes_up_percentage": null,
+  "sentiment_votes_down_percentage": null,
+  "watchlist_portfolio_users": 276,
+  "market_cap_rank": null,
+  "status_updates": [],
+  "last_updated": "2026-01-04T09:59:07.453Z"
+}

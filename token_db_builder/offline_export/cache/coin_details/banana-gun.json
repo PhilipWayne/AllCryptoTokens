@@ -1,0 +1,70 @@
+{
+  "id": "banana-gun",
+  "symbol": "banana",
+  "name": "Banana Gun",
+  "web_slug": "banana-gun",
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x38e68a37e401f7271568cecaac63c6b1e19130b4"
+  },
+  "detail_platforms": {
+    "ethereum": {
+      "decimal_place": 18,
+      "contract_address": "0x38e68a37e401f7271568cecaac63c6b1e19130b4",
+      "geckoterminal_url": "https://www.geckoterminal.com/eth/tokens/0x38e68a37e401f7271568cecaac63c6b1e19130b4"
+    }
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "categories": [
+    "Ethereum Ecosystem",
+    "Telegram Apps",
+    "Binance HODLer Airdrops"
+  ],
+  "preview_listing": false,
+  "public_notice": null,
+  "additional_notices": [],
+  "description": {
+    "en": "What is the project about?\r\nA telegram bot where you can manually buy and snipe tokens on Ethereum (more chains coming soon). We offer the fastest set-up, simple and no-nonsense UX combined with bribing to ensure our users can be the first in line for new token launches.\r\n\r\nWhat makes your project unique?\r\nWe are an upcoming and fast-growing sniper bot on Ethereum with unique tokenomics fueled by our bot.\r\n\r\nHistory of your project.\r\nOur bot ran for 3 months generating a steady revenue, now our token will be deployed on main net\r\n\r\nWhat’s next for your project?\r\nMultichain, webapp, more features are in the pipeline. Obviously we will also listen to feedback of our users.\r\n\r\nWhat can your token be used for?\r\nFueling the Banana ecosystem\r\n"
+  },
+  "links": {
+    "homepage": [
+      "http://bananagun.io",
+      "https://t.me/BananaGunSniper_bot",
+      "https://t.me/BananaGunSell_bot"
+    ],
+    "whitepaper": "https://docs.bananagun.io/",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x38e68a37e401f7271568cecaac63c6b1e19130b4",
+      "https://intel.arkm.com/explorer/token/banana-gun",
+      "https://ethplorer.io/address/0x38e68a37e401f7271568cecaac63c6b1e19130b4"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "bananagun",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/31744/thumb/bg-logo-coingecko-200.png?1716971024",
+    "small": "https://coin-images.coingecko.com/coins/images/31744/small/bg-logo-coingecko-200.png?1716971024",
+    "large": "https://coin-images.coingecko.com/coins/images/31744/large/bg-logo-coingecko-200.png?1716971024"
+  },
+  "country_origin": "",
+  "genesis_date": null,
+  "contract_address": "0x38e68a37e401f7271568cecaac63c6b1e19130b4",
+  "sentiment_votes_up_percentage": 100.0,
+  "sentiment_votes_down_percentage": 0.0,
+  "watchlist_portfolio_users": 17389,
+  "market_cap_rank": 906,
+  "status_updates": [],
+  "last_updated": "2026-01-05T00:17:18.040Z"
+}

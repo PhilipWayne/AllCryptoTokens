@@ -1,0 +1,72 @@
+{
+  "id": "meteora",
+  "symbol": "met",
+  "name": "Meteora",
+  "web_slug": "meteora",
+  "asset_platform_id": "solana",
+  "platforms": {
+    "solana": "METvsvVRapdj9cFLzq4Tr43xK4tAjQfwX76z3n6mWQL"
+  },
+  "detail_platforms": {
+    "solana": {
+      "decimal_place": 6,
+      "contract_address": "METvsvVRapdj9cFLzq4Tr43xK4tAjQfwX76z3n6mWQL"
+    }
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "categories": [
+    "Decentralized Exchange (DEX)",
+    "Exchange-based Tokens",
+    "Decentralized Finance (DeFi)",
+    "Solana Ecosystem",
+    "Launchpad",
+    "Binance Alpha Spotlight"
+  ],
+  "preview_listing": false,
+  "public_notice": null,
+  "additional_notices": [],
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://www.meteora.ag/"
+    ],
+    "whitepaper": "https://docs.meteora.ag/",
+    "blockchain_site": [
+      "https://solscan.io/token/METvsvVRapdj9cFLzq4Tr43xK4tAjQfwX76z3n6mWQL",
+      "https://intel.arkm.com/explorer/token/meteora"
+    ],
+    "official_forum_url": [
+      "https://blog.meteora.ag/",
+      "https://discord.com/invite/meteora"
+    ],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "MeteoraAG",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/69110/thumb/meteora.png?1757517561",
+    "small": "https://coin-images.coingecko.com/coins/images/69110/small/meteora.png?1757517561",
+    "large": "https://coin-images.coingecko.com/coins/images/69110/large/meteora.png?1757517561"
+  },
+  "country_origin": "",
+  "genesis_date": null,
+  "contract_address": "METvsvVRapdj9cFLzq4Tr43xK4tAjQfwX76z3n6mWQL",
+  "sentiment_votes_up_percentage": 0.0,
+  "sentiment_votes_down_percentage": 100.0,
+  "watchlist_portfolio_users": 5094,
+  "market_cap_rank": 368,
+  "status_updates": [],
+  "last_updated": "2026-01-05T01:33:27.089Z"
+}

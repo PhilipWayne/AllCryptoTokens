@@ -1,0 +1,70 @@
+{
+  "id": "dogs-2",
+  "symbol": "dogs",
+  "name": "Dogs",
+  "web_slug": "dogs",
+  "asset_platform_id": "the-open-network",
+  "platforms": {
+    "the-open-network": "EQCvxJy4eG8hyHBFsZ7eePxrRsUQSFE_jpptRAYBmcG_DOGS"
+  },
+  "detail_platforms": {
+    "the-open-network": {
+      "decimal_place": 9,
+      "contract_address": "EQCvxJy4eG8hyHBFsZ7eePxrRsUQSFE_jpptRAYBmcG_DOGS",
+      "geckoterminal_url": "https://www.geckoterminal.com/ton/tokens/EQCvxJy4eG8hyHBFsZ7eePxrRsUQSFE_jpptRAYBmcG_DOGS"
+    }
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "categories": [
+    "Meme",
+    "Dog-Themed",
+    "TON Ecosystem",
+    "TON Meme"
+  ],
+  "preview_listing": false,
+  "public_notice": null,
+  "additional_notices": [],
+  "description": {
+    "en": "Dogs Community is a vibrant, community-driven initiative built on the TON Blockchain, designed to leverage Telegram's vast user base and native meme culture. Centered around a beloved dog mascot originally created by Telegram's founder, the project aims to introduce millions to blockchain technology through tokenized stickers, fostering a fun and engaging ecosystem with a focus on community ownership and fair rewards distribution."
+  },
+  "links": {
+    "homepage": [
+      "https://t.me/dogshouse_bot"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://tonviewer.com/EQCvxJy4eG8hyHBFsZ7eePxrRsUQSFE_jpptRAYBmcG_DOGS",
+      "https://platform.arkhamintelligence.com/explorer/token/dogs-2",
+      "https://tonscan.org/address/EQCvxJy4eG8hyHBFsZ7eePxrRsUQSFE_jpptRAYBmcG_DOGS",
+      "https://intel.arkm.com/explorer/token/dogs-2"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "realDogsHouse",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "dogs_community",
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/39699/thumb/dogs_logo_200x200.png?1723687163",
+    "small": "https://coin-images.coingecko.com/coins/images/39699/small/dogs_logo_200x200.png?1723687163",
+    "large": "https://coin-images.coingecko.com/coins/images/39699/large/dogs_logo_200x200.png?1723687163"
+  },
+  "country_origin": "",
+  "genesis_date": null,
+  "contract_address": "EQCvxJy4eG8hyHBFsZ7eePxrRsUQSFE_jpptRAYBmcG_DOGS",
+  "sentiment_votes_up_percentage": 100.0,
+  "sentiment_votes_down_percentage": 0.0,
+  "watchlist_portfolio_users": 54364,
+  "market_cap_rank": 1010,
+  "status_updates": [],
+  "last_updated": "2026-01-05T00:43:13.190Z"
+}

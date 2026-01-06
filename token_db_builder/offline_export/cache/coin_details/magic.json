@@ -1,0 +1,95 @@
+{
+  "id": "magic",
+  "symbol": "magic",
+  "name": "Treasure",
+  "web_slug": "treasure-2",
+  "asset_platform_id": "arbitrum-one",
+  "platforms": {
+    "arbitrum-one": "0x539bde0d7dbd336b79148aa742883198bbf60342",
+    "ethereum": "0xb0c7a3ba49c7a6eaba6cd4a96c55a1391070ac9a",
+    "base": "0xf1572d1da5c3cce14ee5a1c9327d17e9ff0e3f43"
+  },
+  "detail_platforms": {
+    "arbitrum-one": {
+      "decimal_place": 18,
+      "contract_address": "0x539bde0d7dbd336b79148aa742883198bbf60342",
+      "geckoterminal_url": "https://www.geckoterminal.com/arbitrum/tokens/0x539bde0d7dbd336b79148aa742883198bbf60342"
+    },
+    "ethereum": {
+      "decimal_place": 18,
+      "contract_address": "0xb0c7a3ba49c7a6eaba6cd4a96c55a1391070ac9a",
+      "geckoterminal_url": "https://www.geckoterminal.com/eth/tokens/0xb0c7a3ba49c7a6eaba6cd4a96c55a1391070ac9a"
+    },
+    "base": {
+      "decimal_place": 18,
+      "contract_address": "0xf1572d1da5c3cce14ee5a1c9327d17e9ff0e3f43",
+      "geckoterminal_url": "https://www.geckoterminal.com/base/tokens/0xf1572d1da5c3cce14ee5a1c9327d17e9ff0e3f43"
+    }
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "categories": [
+    "Artificial Intelligence (AI)",
+    "NFT",
+    "Metaverse",
+    "Arbitrum Ecosystem",
+    "Ethereum Ecosystem",
+    "Layer 2 (L2)",
+    "Zero Knowledge (ZK)",
+    "Base Ecosystem",
+    "AI Agents",
+    "AI Agent Launchpad",
+    "x402 Ecosystem"
+  ],
+  "preview_listing": false,
+  "public_notice": null,
+  "additional_notices": [],
+  "description": {
+    "en": "What is Magic?\r\n\r\nMAGIC is the native token of Treasure. Treasure creates AI-powered entertainment experiences using MAGIC."
+  },
+  "links": {
+    "homepage": [
+      "https://treasure.lol/"
+    ],
+    "whitepaper": "https://treasure.lol/",
+    "blockchain_site": [
+      "https://arbiscan.io/token/0x539bde0d7dbd336b79148aa742883198bbf60342",
+      "https://intel.arkm.com/explorer/token/magic",
+      "https://etherscan.io/token/0xb0c7a3ba49c7a6eaba6cd4a96c55a1391070ac9a",
+      "https://ethplorer.io/address/0xb0c7a3ba49c7a6eaba6cd4a96c55a1391070ac9a",
+      "https://basescan.org/token/0xf1572d1da5c3cce14ee5a1c9327d17e9ff0e3f43",
+      "https://intel.arkm.com/explorer/token/<api_symbol>"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [
+      "https://medium.com/@Treasure_DAO"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [
+        "https://github.com/TreasureProject"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/18623/thumb/magic.png?1696518095",
+    "small": "https://coin-images.coingecko.com/coins/images/18623/small/magic.png?1696518095",
+    "large": "https://coin-images.coingecko.com/coins/images/18623/large/magic.png?1696518095"
+  },
+  "country_origin": "",
+  "genesis_date": null,
+  "contract_address": "0x539bde0d7dbd336b79148aa742883198bbf60342",
+  "sentiment_votes_up_percentage": 100.0,
+  "sentiment_votes_down_percentage": 0.0,
+  "watchlist_portfolio_users": 38915,
+  "market_cap_rank": 885,
+  "status_updates": [],
+  "last_updated": "2026-01-05T01:29:15.308Z"
+}

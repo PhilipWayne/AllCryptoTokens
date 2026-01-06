@@ -1,0 +1,90 @@
+{
+  "id": "gunz",
+  "symbol": "gun",
+  "name": "Gunz",
+  "web_slug": "gunz",
+  "asset_platform_id": "avalanche",
+  "platforms": {
+    "avalanche": "0x26debd39d5ed069770406fca10a0e4f8d2c743eb",
+    "solana": "3jUf2RTyXp867piSB2dt8uUcNiLDW58asjGtXkRAkBbe"
+  },
+  "detail_platforms": {
+    "avalanche": {
+      "decimal_place": 18,
+      "contract_address": "0x26debd39d5ed069770406fca10a0e4f8d2c743eb",
+      "geckoterminal_url": "https://www.geckoterminal.com/avax/tokens/0x26debd39d5ed069770406fca10a0e4f8d2c743eb"
+    },
+    "solana": {
+      "decimal_place": 9,
+      "contract_address": "3jUf2RTyXp867piSB2dt8uUcNiLDW58asjGtXkRAkBbe",
+      "geckoterminal_url": "https://www.geckoterminal.com/solana/tokens/3jUf2RTyXp867piSB2dt8uUcNiLDW58asjGtXkRAkBbe"
+    }
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "categories": [
+    "Smart Contract Platform",
+    "Gaming (GameFi)",
+    "Binance Launchpool",
+    "Solana Ecosystem",
+    "Layer 1 (L1)",
+    "Avalanche Ecosystem",
+    "Play To Earn",
+    "Shooting Games",
+    "Coinbase Ventures Portfolio",
+    "Gaming Blockchains",
+    "Avalanche L1",
+    "YZi Labs (Prev. Binance Labs) Portfolio",
+    "Delphi Ventures Portfolio",
+    "Action Games",
+    "GUNZ Ecosystem"
+  ],
+  "preview_listing": false,
+  "public_notice": null,
+  "additional_notices": [],
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://gunbygunz.com/"
+    ],
+    "whitepaper": "https://www.gunbygunz.com/whitepaper/",
+    "blockchain_site": [
+      "https://gunzscan.io/",
+      "https://intel.arkm.com/explorer/token/gunz",
+      "https://avascan.info/blockchain/c/address/0x26debd39d5ed069770406fca10a0e4f8d2c743eb/token",
+      "https://solscan.io/token/3jUf2RTyXp867piSB2dt8uUcNiLDW58asjGtXkRAkBbe",
+      "https://snowtrace.io/token/0x26debd39d5ed069770406fca10a0e4f8d2c743eb?type=erc20&chainid=43114"
+    ],
+    "official_forum_url": [
+      "https://discord.com/invite/gunbygunz"
+    ],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "GUNbyGUNZ",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/55027/thumb/gunz.jpg?1743262298",
+    "small": "https://coin-images.coingecko.com/coins/images/55027/small/gunz.jpg?1743262298",
+    "large": "https://coin-images.coingecko.com/coins/images/55027/large/gunz.jpg?1743262298"
+  },
+  "country_origin": "",
+  "genesis_date": null,
+  "contract_address": "0x26debd39d5ed069770406fca10a0e4f8d2c743eb",
+  "sentiment_votes_up_percentage": 100.0,
+  "sentiment_votes_down_percentage": 0.0,
+  "watchlist_portfolio_users": 5708,
+  "market_cap_rank": 1141,
+  "status_updates": [],
+  "last_updated": "2026-01-05T01:06:10.283Z"
+}

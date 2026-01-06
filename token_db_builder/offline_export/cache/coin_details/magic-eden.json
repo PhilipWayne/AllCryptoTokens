@@ -1,0 +1,69 @@
+{
+  "id": "magic-eden",
+  "symbol": "me",
+  "name": "Magic Eden",
+  "web_slug": "magic-eden",
+  "asset_platform_id": "solana",
+  "platforms": {
+    "solana": "MEFNBXixkEbait3xn9bkm8WsJzXtVsaJEn4c8Sam21u"
+  },
+  "detail_platforms": {
+    "solana": {
+      "decimal_place": 6,
+      "contract_address": "MEFNBXixkEbait3xn9bkm8WsJzXtVsaJEn4c8Sam21u",
+      "geckoterminal_url": "https://www.geckoterminal.com/solana/tokens/MEFNBXixkEbait3xn9bkm8WsJzXtVsaJEn4c8Sam21u"
+    }
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "categories": [
+    "NFT",
+    "Solana Ecosystem",
+    "NFT Marketplace",
+    "Paradigm Portfolio",
+    "Sequoia Capital Portfolio"
+  ],
+  "preview_listing": false,
+  "public_notice": null,
+  "additional_notices": [],
+  "description": {
+    "en": "Magic Eden is the largest NFT marketplace and Runes platform. Buy, sell and discover Ordinals and NFTs across Solana, Bitcoin, Ethereum, Base, Apechain, Polygon, Arbitrum, Sei, Monad, and Berachain."
+  },
+  "links": {
+    "homepage": [
+      "https://magiceden.io/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://solscan.io/token/MEFNBXixkEbait3xn9bkm8WsJzXtVsaJEn4c8Sam21u",
+      "https://intel.arkm.com/explorer/token/magic-eden"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "MeFndn",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/39850/thumb/_ME_Profile_Dark_2x.png?1734013082",
+    "small": "https://coin-images.coingecko.com/coins/images/39850/small/_ME_Profile_Dark_2x.png?1734013082",
+    "large": "https://coin-images.coingecko.com/coins/images/39850/large/_ME_Profile_Dark_2x.png?1734013082"
+  },
+  "country_origin": "",
+  "genesis_date": null,
+  "contract_address": "MEFNBXixkEbait3xn9bkm8WsJzXtVsaJEn4c8Sam21u",
+  "sentiment_votes_up_percentage": 50.0,
+  "sentiment_votes_down_percentage": 50.0,
+  "watchlist_portfolio_users": 11042,
+  "market_cap_rank": 446,
+  "status_updates": [],
+  "last_updated": "2026-01-05T01:32:12.216Z"
+}

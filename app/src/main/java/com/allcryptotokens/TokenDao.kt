@@ -9,18 +9,30 @@ import kotlinx.coroutines.flow.Flow
 @Dao
 interface TokenDao {
 
+    @Query("SELECT * FROM tokens ORDER BY name COLLATE NOCASE ASC")
+    fun observeAllTokens(): Flow<List<TokenEntity>>
+
     @Query("SELECT * FROM tokens WHERE cgId = :cgId LIMIT 1")
     fun observeToken(cgId: String): Flow<TokenEntity?>
 
     @Query("SELECT * FROM tokens WHERE cgId = :cgId LIMIT 1")
     suspend fun getTokenOnce(cgId: String): TokenEntity?
 
+    @Query(
+        """
+        SELECT * FROM tokens
+        WHERE (name LIKE '%' || :q || '%' COLLATE NOCASE)
+           OR (symbol LIKE '%' || :q || '%' COLLATE NOCASE)
+           OR (cgId LIKE '%' || :q || '%' COLLATE NOCASE)
+        ORDER BY name COLLATE NOCASE ASC
+        """
+    )
+    fun searchTokens(q: String): Flow<List<TokenEntity>>
+
+    @Query("SELECT COUNT(*) FROM tokens")
+    suspend fun countTokens(): Int
+
+    // Not used in normal flow now, but harmless to keep
     @Insert(onConflict = OnConflictStrategy.REPLACE)
-    suspend fun upsert(token: TokenEntity)
-
-    @Query("UPDATE tokens SET description = :desc, imageUrl = :img, updatedAt = :ts WHERE cgId = :cgId")
-    suspend fun updateDetails(cgId: String, desc: String?, img: String?, ts: Long)
-
-    @Query("SELECT cgId FROM tokens")
-    suspend fun listAllIds(): List<String>
+    suspend fun insertAll(tokens: List<TokenEntity>)
 }

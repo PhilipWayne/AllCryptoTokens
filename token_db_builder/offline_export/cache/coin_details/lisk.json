@@ -1,0 +1,233 @@
+{
+  "id": "lisk",
+  "symbol": "lsk",
+  "name": "Lisk",
+  "web_slug": "lisk",
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x6033f7f88332b8db6ad452b7c6d5bb643990ae3f",
+    "base": "0xac485391eb2d7d88253a7f1ef18c37f4242d1a24",
+    "lisk": "0xac485391eb2d7d88253a7f1ef18c37f4242d1a24"
+  },
+  "detail_platforms": {
+    "ethereum": {
+      "decimal_place": 18,
+      "contract_address": "0x6033f7f88332b8db6ad452b7c6d5bb643990ae3f",
+      "geckoterminal_url": "https://www.geckoterminal.com/eth/tokens/0x6033f7f88332b8db6ad452b7c6d5bb643990ae3f"
+    },
+    "base": {
+      "decimal_place": 18,
+      "contract_address": "0xac485391eb2d7d88253a7f1ef18c37f4242d1a24",
+      "geckoterminal_url": "https://www.geckoterminal.com/base/tokens/0xac485391eb2d7d88253a7f1ef18c37f4242d1a24"
+    },
+    "lisk": {
+      "decimal_place": 18,
+      "contract_address": "0xac485391eb2d7d88253a7f1ef18c37f4242d1a24",
+      "geckoterminal_url": "https://www.geckoterminal.com/lisk/tokens/0xac485391eb2d7d88253a7f1ef18c37f4242d1a24"
+    }
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": "Delegated Proof-of-Stake",
+  "categories": [
+    "Smart Contract Platform",
+    "Ethereum Ecosystem",
+    "Layer 2 (L2)",
+    "Base Ecosystem",
+    "Optimism Superchain Ecosystem",
+    "Outlier Ventures Portfolio",
+    "Lisk Ecosystem"
+  ],
+  "preview_listing": false,
+  "public_notice": null,
+  "additional_notices": [],
+  "description": {
+    "en": "Lisk is a Layer 2 blockchain dedicated to bringing Web3 adoption in emerging markets back to Ethereum. Offering some of the lowest transaction fees in the industry, Lisk is the ecosystem of choice for users and developers in cost-sensitive regions. By leveraging efficient, scalable, and innovative Layer 2 technology, Lisk enables real-world applications in emerging markets to operate efficiently on Ethereum for the first time. Lisk’s founder-focused approach provides a comprehensive ecosystem of builder programs, tools, seed liquidity, and knowledge bases to support local Web3 projects from inception to success. As a long-standing Web3 infrastructure project, Lisk has been democratizing blockchain accessibility for developers and end-users globally since 2016. As a member of the Optimism Superchain, Lisk plays a pivotal role in building the industry’s first truly interoperable supernetwork alongside Base, Optimism, Mode, and Worldchain. "
+  },
+  "links": {
+    "homepage": [
+      "https://lisk.com"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x6033f7f88332b8db6ad452b7c6d5bb643990ae3f",
+      "https://intel.arkm.com/explorer/token/lisk",
+      "https://ethplorer.io/address/0x6033f7f88332b8db6ad452b7c6d5bb643990ae3f",
+      "https://blockscout.lisk.com/token/0xac485391eb2d7d88253a7f1ef18c37f4242d1a24",
+      "https://basescan.org/token/0xac485391eb2d7d88253a7f1ef18c37f4242d1a24"
+    ],
+    "official_forum_url": [
+      "https://forum.lisk.io/",
+      "https://discord.com/invite/lisk",
+      "https://www.linkedin.com/company/lisk/"
+    ],
+    "chat_url": [
+      "https://www.facebook.com/LiskHQ",
+      "https://www.youtube.com/channel/UCuqpGfg_bOQ8Ja4pj811PWg/featured",
+      "https://www.instagram.com/lisk_blockchain/"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "LiskHQ",
+    "facebook_username": "LiskHQ",
+    "bitcointalk_thread_identifier": 1346646,
+    "telegram_channel_identifier": "Lisk_HQ",
+    "subreddit_url": "https://www.reddit.com/r/Lisk",
+    "repos_url": {
+      "github": [
+        "https://github.com/LiskHQ/lisk-sdk",
+        "https://github.com/LiskHQ/lisk-core",
+        "https://github.com/LiskHQ/lisk-desktop",
+        "https://github.com/LiskHQ/lisk-mobile"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/385/thumb/Lisk_logo.png?1722338450",
+    "small": "https://coin-images.coingecko.com/coins/images/385/small/Lisk_logo.png?1722338450",
+    "large": "https://coin-images.coingecko.com/coins/images/385/large/Lisk_logo.png?1722338450"
+  },
+  "country_origin": "",
+  "genesis_date": null,
+  "contract_address": "0x6033f7f88332b8db6ad452b7c6d5bb643990ae3f",
+  "sentiment_votes_up_percentage": null,
+  "sentiment_votes_down_percentage": null,
+  "watchlist_portfolio_users": 29053,
+  "market_cap_rank": 699,
+  "status_updates": [
+    {
+      "description": "🔧 It’s been a busy couple of weeks for Lightcurve Dev teams. Among key achievements, we have the release of Lisk Core 1.3.0 to Mainnet, Elements 1.1.3, Mobile 0.6.0 and Explorer 2.1.8. Check out the #LiskDevUpdate to find out more. 👨‍🔧👩‍🔧\r\nhttps://bit.ly/2PYUcto\r\n",
+      "category": "general",
+      "created_at": "2018-11-29T17:17:19.691Z",
+      "user": "Thomas Schouten",
+      "user_title": "Head of Marketing",
+      "pin": false,
+      "project": {
+        "type": "Coin",
+        "id": "lisk",
+        "name": "Lisk",
+        "symbol": "lsk",
+        "image": {
+          "thumb": "https://coin-images.coingecko.com/coins/images/385/thumb/Lisk_logo.png?1722338450",
+          "small": "https://coin-images.coingecko.com/coins/images/385/small/Lisk_logo.png?1722338450",
+          "large": "https://coin-images.coingecko.com/coins/images/385/large/Lisk_logo.png?1722338450"
+        }
+      }
+    },
+    {
+      "description": "📣📱We’re pleased to announce the release of Lisk Mobile 0.6.0. New features include a dark theme option, discreet mode, and a passphrase QR code scanner. Download the app and explore now!\r\niOS ➡️ http://bit.do/ex5wZ\r\nAndroid ➡️ http://bit.do/ex5wQ",
+      "category": "software_release",
+      "created_at": "2018-11-29T16:02:41.483Z",
+      "user": "Thomas Schouten",
+      "user_title": "Head of Marketing",
+      "pin": false,
+      "project": {
+        "type": "Coin",
+        "id": "lisk",
+        "name": "Lisk",
+        "symbol": "lsk",
+        "image": {
+          "thumb": "https://coin-images.coingecko.com/coins/images/385/thumb/Lisk_logo.png?1722338450",
+          "small": "https://coin-images.coingecko.com/coins/images/385/small/Lisk_logo.png?1722338450",
+          "large": "https://coin-images.coingecko.com/coins/images/385/large/Lisk_logo.png?1722338450"
+        }
+      }
+    },
+    {
+      "description": "The new Lisk Development Roadmap is officially out. It has been constructed with the objective of providing the most desirable blockchain application platform and reflects an agile approach for achieving our end goal. More info: https://lisk.io/roadmap ⛓🌕👩‍🚀👨‍🚀",
+      "category": "general",
+      "created_at": "2018-11-22T16:49:06.455Z",
+      "user": "Thomas Schouten",
+      "user_title": "Head of Marketing",
+      "pin": false,
+      "project": {
+        "type": "Coin",
+        "id": "lisk",
+        "name": "Lisk",
+        "symbol": "lsk",
+        "image": {
+          "thumb": "https://coin-images.coingecko.com/coins/images/385/thumb/Lisk_logo.png?1722338450",
+          "small": "https://coin-images.coingecko.com/coins/images/385/small/Lisk_logo.png?1722338450",
+          "large": "https://coin-images.coingecko.com/coins/images/385/large/Lisk_logo.png?1722338450"
+        }
+      }
+    },
+    {
+      "description": "📣📺 With the introduction of #LIPs, we’re laying a strong foundation for our network's Development Roadmap. We look forward to working together with the community in an open-source and collaborative manner. 💪➡️ https://youtu.be/6lIdlSBA4F8",
+      "category": "milestone",
+      "created_at": "2018-11-22T13:32:41.842Z",
+      "user": "Thomas Schouten",
+      "user_title": "Head of Marketing",
+      "pin": false,
+      "project": {
+        "type": "Coin",
+        "id": "lisk",
+        "name": "Lisk",
+        "symbol": "lsk",
+        "image": {
+          "thumb": "https://coin-images.coingecko.com/coins/images/385/thumb/Lisk_logo.png?1722338450",
+          "small": "https://coin-images.coingecko.com/coins/images/385/small/Lisk_logo.png?1722338450",
+          "large": "https://coin-images.coingecko.com/coins/images/385/large/Lisk_logo.png?1722338450"
+        }
+      }
+    },
+    {
+      "description": "🗳 Along with the unveiling of our brand new Development Roadmap, we’re pleased to announce the beginning of the Lisk Improvement Proposal (LIP) process. Visit the blog below for more info.👩‍🔧👨‍🔧⛓ https://bit.ly/2S7Vpv0",
+      "category": "milestone",
+      "created_at": "2018-11-22T13:00:28.837Z",
+      "user": "Thomas Schouten",
+      "user_title": "Head of Marketing",
+      "pin": false,
+      "project": {
+        "type": "Coin",
+        "id": "lisk",
+        "name": "Lisk",
+        "symbol": "lsk",
+        "image": {
+          "thumb": "https://coin-images.coingecko.com/coins/images/385/thumb/Lisk_logo.png?1722338450",
+          "small": "https://coin-images.coingecko.com/coins/images/385/small/Lisk_logo.png?1722338450",
+          "large": "https://coin-images.coingecko.com/coins/images/385/large/Lisk_logo.png?1722338450"
+        }
+      }
+    },
+    {
+      "description": "📺🚀 The new Development Roadmap paves the way for #Lisk to become the most accessible and desirable #blockchain application platform. Here are Max and Oliver detailing our strategic plan for achieving the end goal. Watch now: https://youtu.be/7qYDqltBfc8",
+      "category": "milestone",
+      "created_at": "2018-11-22T12:32:42.746Z",
+      "user": "Thomas Schouten",
+      "user_title": "Head of Marketing",
+      "pin": false,
+      "project": {
+        "type": "Coin",
+        "id": "lisk",
+        "name": "Lisk",
+        "symbol": "lsk",
+        "image": {
+          "thumb": "https://coin-images.coingecko.com/coins/images/385/thumb/Lisk_logo.png?1722338450",
+          "small": "https://coin-images.coingecko.com/coins/images/385/small/Lisk_logo.png?1722338450",
+          "large": "https://coin-images.coingecko.com/coins/images/385/large/Lisk_logo.png?1722338450"
+        }
+      }
+    },
+    {
+      "description": "🚀 We’re extremely pleased to unveil the new #Lisk Development Roadmap - a solid trajectory of objectives and phases that will lead us to the end goal of a fully functioning #blockchain application platform. Here’s everything you need to know. 🌕👩‍🚀👨‍🚀\r\nhttps://bit.ly/2R3TJmd\r\n",
+      "category": "milestone",
+      "created_at": "2018-11-22T12:03:49.337Z",
+      "user": "Thomas Schouten",
+      "user_title": "Head of Marketing",
+      "pin": false,
+      "project": {
+        "type": "Coin",
+        "id": "lisk",
+        "name": "Lisk",
+        "symbol": "lsk",
+        "image": {
+          "thumb": "https://coin-images.coingecko.com/coins/images/385/thumb/Lisk_logo.png?1722338450",
+          "small": "https://coin-images.coingecko.com/coins/images/385/small/Lisk_logo.png?1722338450",
+          "large": "https://coin-images.coingecko.com/coins/images/385/large/Lisk_logo.png?1722338450"
+        }
+      }
+    }
+  ],
+  "last_updated": "2026-01-05T01:26:38.194Z"
+}

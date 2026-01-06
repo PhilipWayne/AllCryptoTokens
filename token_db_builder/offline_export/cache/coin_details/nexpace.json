@@ -1,0 +1,70 @@
+{
+  "id": "nexpace",
+  "symbol": "nxpc",
+  "name": "Nexpace",
+  "web_slug": "nexpace",
+  "asset_platform_id": "henesys",
+  "platforms": {
+    "henesys": "0xf2b51cc1850fed939658317a22d73d3482767591"
+  },
+  "detail_platforms": {
+    "henesys": {
+      "decimal_place": null,
+      "contract_address": "0xf2b51cc1850fed939658317a22d73d3482767591"
+    }
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "categories": [
+    "Smart Contract Platform",
+    "Gaming (GameFi)",
+    "NFT",
+    "Layer 1 (L1)",
+    "Avalanche L1",
+    "Binance HODLer Airdrops",
+    "Henesys Ecosystem"
+  ],
+  "preview_listing": false,
+  "public_notice": null,
+  "additional_notices": [],
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://msu.io/"
+    ],
+    "whitepaper": "https://docs.nexpace.io/",
+    "blockchain_site": [
+      "https://msu-explorer.xangle.io/",
+      "https://msu-explorer.xangle.io/tokens/0xf2b51cc1850fed939658317a22d73d3482767591"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "nexpace_hq",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/55703/thumb/wk63iOZz_400x400.png?1747126039",
+    "small": "https://coin-images.coingecko.com/coins/images/55703/small/wk63iOZz_400x400.png?1747126039",
+    "large": "https://coin-images.coingecko.com/coins/images/55703/large/wk63iOZz_400x400.png?1747126039"
+  },
+  "country_origin": "",
+  "genesis_date": null,
+  "contract_address": "0xf2b51cc1850fed939658317a22d73d3482767591",
+  "sentiment_votes_up_percentage": 100.0,
+  "sentiment_votes_down_percentage": 0.0,
+  "watchlist_portfolio_users": 2275,
+  "market_cap_rank": 469,
+  "status_updates": [],
+  "last_updated": "2026-01-05T01:44:58.908Z"
+}

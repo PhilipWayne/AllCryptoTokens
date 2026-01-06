@@ -1,0 +1,98 @@
+{
+  "id": "degen-base",
+  "symbol": "degen",
+  "name": "Degen",
+  "web_slug": "degen-base",
+  "asset_platform_id": "base",
+  "platforms": {
+    "base": "0x4ed4e862860bed51a9570b96d89af5e1b0efefed",
+    "ethereum": "0xfee293840d23b0b2de8c55e1cf7a9f01c157767c",
+    "solana": "A7n89LqW67HJKzJkdWZa2xojuK4N5GBKHz3dfjATCZPz",
+    "arbitrum-one": "0x9f07f8a82cb1af1466252e505b7b7ddee103bc91"
+  },
+  "detail_platforms": {
+    "base": {
+      "decimal_place": 18,
+      "contract_address": "0x4ed4e862860bed51a9570b96d89af5e1b0efefed",
+      "geckoterminal_url": "https://www.geckoterminal.com/base/tokens/0x4ed4e862860bed51a9570b96d89af5e1b0efefed"
+    },
+    "ethereum": {
+      "decimal_place": 18,
+      "contract_address": "0xfee293840d23b0b2de8c55e1cf7a9f01c157767c",
+      "geckoterminal_url": "https://www.geckoterminal.com/eth/tokens/0xfee293840d23b0b2de8c55e1cf7a9f01c157767c"
+    },
+    "solana": {
+      "decimal_place": 6,
+      "contract_address": "A7n89LqW67HJKzJkdWZa2xojuK4N5GBKHz3dfjATCZPz",
+      "geckoterminal_url": "https://www.geckoterminal.com/solana/tokens/A7n89LqW67HJKzJkdWZa2xojuK4N5GBKHz3dfjATCZPz"
+    },
+    "arbitrum-one": {
+      "decimal_place": 18,
+      "contract_address": "0x9f07f8a82cb1af1466252e505b7b7ddee103bc91",
+      "geckoterminal_url": "https://www.geckoterminal.com/arbitrum/tokens/0x9f07f8a82cb1af1466252e505b7b7ddee103bc91"
+    }
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "categories": [
+    "Smart Contract Platform",
+    "Meme",
+    "Base Ecosystem",
+    "Layer 3 (L3)",
+    "Base Meme",
+    "Farcaster Ecosystem",
+    "Binance Alpha Spotlight"
+  ],
+  "preview_listing": false,
+  "public_notice": null,
+  "additional_notices": [],
+  "description": {
+    "en": "DEGEN is a reward token for Farcaster users, born from meme culture. It features a unique tipping system that allows the community to reward high-quality content creators. DEGEN also powers the Degen Chain, one of the pioneering Layer 3s launched on Base. Known as the “Las Vegas of blockchains,” it provides a platform for building and using Degen apps, offering a space for fun, innovation, and community-driven experiences."
+  },
+  "links": {
+    "homepage": [
+      "https://www.degen.tips/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://basescan.org/address/0x4ed4e862860bed51a9570b96d89af5e1b0efefed",
+      "https://intel.arkm.com/explorer/token/degen-base",
+      "https://basescan.org/token/0x4ed4e862860bed51a9570b96d89af5e1b0efefed",
+      "https://etherscan.io/token/0xfee293840d23b0b2de8c55e1cf7a9f01c157767c",
+      "https://ethplorer.io/address/0xfee293840d23b0b2de8c55e1cf7a9f01c157767c",
+      "https://arbiscan.io/token/0x9f07f8a82cb1af1466252e505b7b7ddee103bc91",
+      "https://solscan.io/token/A7n89LqW67HJKzJkdWZa2xojuK4N5GBKHz3dfjATCZPz"
+    ],
+    "official_forum_url": [
+      "https://warpcast.com/~/channel/degen"
+    ],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "degentokenbase",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "degentokenbase",
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [
+        "https://github.com/jacek0x"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/34515/thumb/android-chrome-512x512.png?1706198225",
+    "small": "https://coin-images.coingecko.com/coins/images/34515/small/android-chrome-512x512.png?1706198225",
+    "large": "https://coin-images.coingecko.com/coins/images/34515/large/android-chrome-512x512.png?1706198225"
+  },
+  "country_origin": "",
+  "genesis_date": null,
+  "contract_address": "0x4ed4e862860bed51a9570b96d89af5e1b0efefed",
+  "sentiment_votes_up_percentage": 100.0,
+  "sentiment_votes_down_percentage": 0.0,
+  "watchlist_portfolio_users": 37897,
+  "market_cap_rank": 649,
+  "status_updates": [],
+  "last_updated": "2026-01-05T00:41:08.640Z"
+}

@@ -1,0 +1,89 @@
+{
+  "id": "plasma",
+  "symbol": "xpl",
+  "name": "Plasma",
+  "web_slug": "plasma",
+  "asset_platform_id": "binance-smart-chain",
+  "platforms": {
+    "binance-smart-chain": "0x405fbc9004d857903bfd6b3357792d71a50726b0",
+    "unichain": "0x139451953ef1865c096f89c5e522c081dc3b5f11",
+    "plasma": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+  },
+  "detail_platforms": {
+    "binance-smart-chain": {
+      "decimal_place": 18,
+      "contract_address": "0x405fbc9004d857903bfd6b3357792d71a50726b0",
+      "geckoterminal_url": "https://www.geckoterminal.com/bsc/tokens/0x405fbc9004d857903bfd6b3357792d71a50726b0"
+    },
+    "unichain": {
+      "decimal_place": 18,
+      "contract_address": "0x139451953ef1865c096f89c5e522c081dc3b5f11",
+      "geckoterminal_url": "https://www.geckoterminal.com/unichain/tokens/0x139451953ef1865c096f89c5e522c081dc3b5f11"
+    },
+    "plasma": {
+      "decimal_place": 18,
+      "contract_address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+      "geckoterminal_url": "https://www.geckoterminal.com/plasma/tokens/0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    }
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "categories": [
+    "Smart Contract Platform",
+    "BNB Chain Ecosystem",
+    "Layer 1 (L1)",
+    "Binance HODLer Airdrops",
+    "Unichain Ecosystem",
+    "Plasma Ecosystem",
+    "Neobank",
+    "Echo Launchpad"
+  ],
+  "preview_listing": false,
+  "public_notice": null,
+  "additional_notices": [],
+  "description": {
+    "en": "Plasma is the layer 1 blockchain building the stablecoin infrastructure for a new global financial system. \r\n\r\nIt is purpose-built for global stablecoin payments, offering zero-fee USD₮ transfers and custom gas tokens to help realise the stablecoin promise of permissionless access to financial services for everyone, everywhere. \r\n\r\nPlasma’s global payments coverage and inbound suite of products position it as the native chain for stablecoin payments."
+  },
+  "links": {
+    "homepage": [
+      "https://www.plasma.to/"
+    ],
+    "whitepaper": "https://docs.plasma.to/",
+    "blockchain_site": [
+      "https://plasmascan.to/",
+      "https://bscscan.com/token/0x405fbc9004d857903bfd6b3357792d71a50726b0",
+      "https://binplorer.com/address/0x405fbc9004d857903bfd6b3357792d71a50726b0",
+      "https://uniscan.xyz/token/0x139451953ef1865c096f89c5e522c081dc3b5f11",
+      "https://plasmascan.to/token/0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    ],
+    "official_forum_url": [
+      "https://discord.com/invite/plasmafdn"
+    ],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "Plasma",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/66489/thumb/Plasma-symbol-green-1.png?1755142558",
+    "small": "https://coin-images.coingecko.com/coins/images/66489/small/Plasma-symbol-green-1.png?1755142558",
+    "large": "https://coin-images.coingecko.com/coins/images/66489/large/Plasma-symbol-green-1.png?1755142558"
+  },
+  "country_origin": "",
+  "genesis_date": null,
+  "contract_address": "0x405fbc9004d857903bfd6b3357792d71a50726b0",
+  "sentiment_votes_up_percentage": 53.85,
+  "sentiment_votes_down_percentage": 46.15,
+  "watchlist_portfolio_users": 26476,
+  "market_cap_rank": 179,
+  "status_updates": [],
+  "last_updated": "2026-01-05T02:44:08.108Z"
+}

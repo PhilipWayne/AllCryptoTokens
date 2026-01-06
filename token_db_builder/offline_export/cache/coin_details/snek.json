@@ -1,0 +1,72 @@
+{
+  "id": "snek",
+  "symbol": "snek",
+  "name": "Snek",
+  "web_slug": "snek",
+  "asset_platform_id": "cardano",
+  "platforms": {
+    "cardano": "279c909f348e533da5808898f87f9a14bb2c3dfbbacccd631d927a3f534e454b"
+  },
+  "detail_platforms": {
+    "cardano": {
+      "decimal_place": 0,
+      "contract_address": "279c909f348e533da5808898f87f9a14bb2c3dfbbacccd631d927a3f534e454b",
+      "geckoterminal_url": "https://www.geckoterminal.com/cardano/tokens/279c909f348e533da5808898f87f9a14bb2c3dfbbacccd631d927a3f534e454b"
+    }
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "categories": [
+    "Meme",
+    "Cardano Ecosystem"
+  ],
+  "preview_listing": false,
+  "public_notice": null,
+  "additional_notices": [],
+  "description": {
+    "en": "Snek is a cultural movement and leading currency for meme creators worldwide."
+  },
+  "links": {
+    "homepage": [
+      "https://www.snek.com/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://cardanoscan.io/token/279c909f348e533da5808898f87f9a14bb2c3dfbbacccd631d927a3f534e454b"
+    ],
+    "official_forum_url": [
+      "https://www.tiktok.com/@snek",
+      "https://www.instagram.com/snek.hq/",
+      "https://giphy.com/snekcoin"
+    ],
+    "chat_url": [
+      "https://discord.gg/snekcoin",
+      "https://www.youtube.com/@snek"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "snek",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "snekcoinada",
+    "subreddit_url": "https://www.reddit.com/r/snekcoinada",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/30496/thumb/snek_icon_200_v2.png?1737994261",
+    "small": "https://coin-images.coingecko.com/coins/images/30496/small/snek_icon_200_v2.png?1737994261",
+    "large": "https://coin-images.coingecko.com/coins/images/30496/large/snek_icon_200_v2.png?1737994261"
+  },
+  "country_origin": "",
+  "genesis_date": null,
+  "contract_address": "279c909f348e533da5808898f87f9a14bb2c3dfbbacccd631d927a3f534e454b",
+  "sentiment_votes_up_percentage": 100.0,
+  "sentiment_votes_down_percentage": 0.0,
+  "watchlist_portfolio_users": 16502,
+  "market_cap_rank": 469,
+  "status_updates": [],
+  "last_updated": "2026-01-05T02:12:54.249Z"
+}

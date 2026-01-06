@@ -1,0 +1,79 @@
+{
+  "id": "raydium",
+  "symbol": "ray",
+  "name": "Raydium",
+  "web_slug": "raydium",
+  "asset_platform_id": "solana",
+  "platforms": {
+    "solana": "4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R"
+  },
+  "detail_platforms": {
+    "solana": {
+      "decimal_place": 6,
+      "contract_address": "4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R",
+      "geckoterminal_url": "https://www.geckoterminal.com/solana/tokens/4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R"
+    }
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "categories": [
+    "Decentralized Exchange (DEX)",
+    "Exchange-based Tokens",
+    "Decentralized Finance (DeFi)",
+    "Yield Farming",
+    "Automated Market Maker (AMM)",
+    "Perpetuals",
+    "Solana Ecosystem",
+    "Launchpad",
+    "GMCI DeFi Index",
+    "GMCI Index"
+  ],
+  "preview_listing": false,
+  "public_notice": null,
+  "additional_notices": [],
+  "description": {
+    "en": "Raydium is an automated market maker (AMM) and liquidity provider built on the Solana blockchain for the Serum decentralized exchange (DEX). Raydium has a first-mover advantage as an AMM within Serum and will be an integral part of bringing new and existing projects and protocols into the ecosystem. The protocol will act as a bridge for projects looking to expand to Solana and Serum, and in the process Raydium and the RAY token will become a foundation for enabling further development with partners, its own platform, and the ecosystem as a whole.\r\n\r\nUnlike any other AMMs, Raydium provides on-chain liquidity to a central limit orderbook, meaning that Raydium LPs get access to the entire orderflow and liquidity of Serum.\r\n\r\nLong term, Raydium aims to capture and maintain a leadership position among AMMs and liquidity providers on Serum, while leveraging the power of Solana to drive the evolution of decentralized finance (DeFi) and emerge as a leading protocol in the space alongside our partners and the community.\""
+  },
+  "links": {
+    "homepage": [
+      "https://raydium.io/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://solscan.io/token/4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R",
+      "https://intel.arkm.com/explorer/token/raydium",
+      "https://explorer.solana.com/address/4k3dyjzvzp8emzwuxbbcjevwskkk59s5icnly3qrkx6r"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.gg/raydium"
+    ],
+    "announcement_url": [
+      "https://raydium.medium.com/"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "raydiumprotocol",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "raydiumprotocol",
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/13928/thumb/PSigc4ie_400x400.jpg?1696513668",
+    "small": "https://coin-images.coingecko.com/coins/images/13928/small/PSigc4ie_400x400.jpg?1696513668",
+    "large": "https://coin-images.coingecko.com/coins/images/13928/large/PSigc4ie_400x400.jpg?1696513668"
+  },
+  "country_origin": "",
+  "genesis_date": null,
+  "contract_address": "4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R",
+  "sentiment_votes_up_percentage": 0.0,
+  "sentiment_votes_down_percentage": 100.0,
+  "watchlist_portfolio_users": 99135,
+  "market_cap_rank": 214,
+  "status_updates": [],
+  "last_updated": "2026-01-05T02:03:10.824Z"
+}

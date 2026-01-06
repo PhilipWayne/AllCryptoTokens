@@ -1,0 +1,68 @@
+{
+  "id": "vaulta",
+  "symbol": "a",
+  "name": "Vaulta",
+  "web_slug": "vaulta",
+  "asset_platform_id": null,
+  "platforms": {
+    "": ""
+  },
+  "detail_platforms": {
+    "": {
+      "decimal_place": null,
+      "contract_address": ""
+    }
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "categories": [
+    "Layer 1 (L1)",
+    "World Liberty Financial Portfolio"
+  ],
+  "preview_listing": false,
+  "public_notice": "EOS (EOS) has been rebranded to Vaulta (A). They migrated from their <a href=\"https://bloks.io/\"target=\"_blank\">old network</a> to a <a href=\"https://www.unicove.com/\"target=\"_blank\">new one</a>. For more information, please visit this <a href=\"https://www.vaulta.com/resources/vaulta-token-swap-a-begins-may-14\"target=\"_blank\">post</a> and visit the old token page <a href=\"https://www.coingecko.com/en/coins/eos\"target=\"_blank\">here</a>.<br>",
+  "additional_notices": [],
+  "description": {
+    "en": "Vaulta is a Web3 banking network designed to power the next generation of decentralized financial services. Built on one of the most reliable Layer 1 infrastructures in the industry, Vaulta combines real-time performance with institutional-grade features to deliver secure, scalable, and composable applications—from consumer payments to Bitcoin-native yield and tokenized assets.\r\nWith one-second finality, advanced on-chain memory via RAM, and integrated Bitcoin infrastructure through exSat, Vaulta serves as a financial operating system for users, developers, and institutions looking to bridge traditional finance and Web3.\r\n"
+  },
+  "links": {
+    "homepage": [
+      "https://www.vaulta.com"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://www.unicove.com"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://www.vaulta.com/resources",
+      "https://www.youtube.com/@vaulta_official"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "Vaulta_",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "vaulta",
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [
+        "https://github.com/VaultaFoundation/"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/55616/thumb/Vaulta_CEX_Icon_Circle_-_cmc.png?1746859132",
+    "small": "https://coin-images.coingecko.com/coins/images/55616/small/Vaulta_CEX_Icon_Circle_-_cmc.png?1746859132",
+    "large": "https://coin-images.coingecko.com/coins/images/55616/large/Vaulta_CEX_Icon_Circle_-_cmc.png?1746859132"
+  },
+  "country_origin": "",
+  "genesis_date": null,
+  "sentiment_votes_up_percentage": 50.0,
+  "sentiment_votes_down_percentage": 50.0,
+  "watchlist_portfolio_users": 2168,
+  "market_cap_rank": 226,
+  "status_updates": [],
+  "last_updated": "2026-01-04T23:45:56.645Z"
+}

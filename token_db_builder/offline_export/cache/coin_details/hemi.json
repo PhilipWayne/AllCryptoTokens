@@ -1,0 +1,97 @@
+{
+  "id": "hemi",
+  "symbol": "hemi",
+  "name": "Hemi",
+  "web_slug": "hemi",
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xeb964a1a6fab73b8c72a0d15c7337fa4804f484d",
+    "binance-smart-chain": "0x5ffd0eadc186af9512542d0d5e5eafc65d5afc5b",
+    "hemi": "0x99e3de3817f6081b2568208337ef83295b7f591d"
+  },
+  "detail_platforms": {
+    "ethereum": {
+      "decimal_place": 18,
+      "contract_address": "0xeb964a1a6fab73b8c72a0d15c7337fa4804f484d",
+      "geckoterminal_url": "https://www.geckoterminal.com/eth/tokens/0xeb964a1a6fab73b8c72a0d15c7337fa4804f484d"
+    },
+    "binance-smart-chain": {
+      "decimal_place": 18,
+      "contract_address": "0x5ffd0eadc186af9512542d0d5e5eafc65d5afc5b",
+      "geckoterminal_url": "https://www.geckoterminal.com/bsc/tokens/0x5ffd0eadc186af9512542d0d5e5eafc65d5afc5b"
+    },
+    "hemi": {
+      "decimal_place": 18,
+      "contract_address": "0x99e3de3817f6081b2568208337ef83295b7f591d",
+      "geckoterminal_url": "https://www.geckoterminal.com/hemi/tokens/0x99e3de3817f6081b2568208337ef83295b7f591d"
+    }
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "categories": [
+    "Smart Contract Platform",
+    "BNB Chain Ecosystem",
+    "Modular Blockchain",
+    "Binance HODLer Airdrops",
+    "BTCfi Protocol",
+    "Binance Wallet IDO",
+    "Hemi Ecosystem"
+  ],
+  "preview_listing": false,
+  "public_notice": null,
+  "additional_notices": [],
+  "description": {
+    "en": "The Hemi Network represents a different way of thinking about Layer-2 scaling, by approaching Bitcoin and Ethereum as components of a supernetwork.\r\n\r\nThis modular protocol aims to scale these networks and maximize their utility, creating a more connected and efficient blockchain ecosystem.\r\n\r\nThrough features such as the hVM, Hemi equips developers with robust tools for building next-generation dApps with Bitcoin and Ethereum interoperability."
+  },
+  "links": {
+    "homepage": [
+      "https://hemi.xyz/"
+    ],
+    "whitepaper": "https://docs.hemi.xyz/",
+    "blockchain_site": [
+      "https://explorer.hemi.xyz/",
+      "https://intel.arkm.com/explorer/token/hemi ",
+      "https://etherscan.io/token/0xEb964A1A6fAB73b8c72A0D15c7337fA4804F484d",
+      "https://ethplorer.io/address/0xEb964A1A6fAB73b8c72A0D15c7337fA4804F484d",
+      "https://bscscan.com/token/0x5fFD0EAdc186AF9512542d0d5e5eAFC65d5aFc5B",
+      "https://binplorer.com/address/0x5fFD0EAdc186AF9512542d0d5e5eAFC65d5aFc5B",
+      "https://explorer.hemi.xyz/token/0x99e3dE3817F6081B2568208337ef83295b7f591D",
+      "https://intel.arkm.com/explorer/token/hemi"
+    ],
+    "official_forum_url": [
+      "https://discord.com/invite/hemixyz",
+      "https://www.linkedin.com/company/hemi-labs",
+      "https://www.tiktok.com/@hemi_xyz"
+    ],
+    "chat_url": [
+      "https://www.youtube.com/@HemiLabs"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "hemi_xyz",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "hemi_news",
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [
+        "https://github.com/hemilabs"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/68469/thumb/hemi.png?1755838145",
+    "small": "https://coin-images.coingecko.com/coins/images/68469/small/hemi.png?1755838145",
+    "large": "https://coin-images.coingecko.com/coins/images/68469/large/hemi.png?1755838145"
+  },
+  "country_origin": "",
+  "genesis_date": null,
+  "contract_address": "0xeb964a1a6fab73b8c72a0d15c7337fa4804f484d",
+  "sentiment_votes_up_percentage": null,
+  "sentiment_votes_down_percentage": null,
+  "watchlist_portfolio_users": 4504,
+  "market_cap_rank": 1220,
+  "status_updates": [],
+  "last_updated": "2026-01-05T01:07:49.044Z"
+}

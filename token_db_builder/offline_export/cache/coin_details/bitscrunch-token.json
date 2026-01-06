@@ -1,0 +1,90 @@
+{
+  "id": "bitscrunch-token",
+  "symbol": "bcut",
+  "name": "bitsCrunch Token",
+  "web_slug": "bitscrunch-token",
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xbef26bd568e421d6708cca55ad6e35f8bfa0c406",
+    "polygon-pos": "0x3fb83a9a2c4408909c058b0bfe5b4823f54fafe2"
+  },
+  "detail_platforms": {
+    "ethereum": {
+      "decimal_place": 18,
+      "contract_address": "0xbef26bd568e421d6708cca55ad6e35f8bfa0c406",
+      "geckoterminal_url": "https://www.geckoterminal.com/eth/tokens/0xbef26bd568e421d6708cca55ad6e35f8bfa0c406"
+    },
+    "polygon-pos": {
+      "decimal_place": 18,
+      "contract_address": "0x3fb83a9a2c4408909c058b0bfe5b4823f54fafe2",
+      "geckoterminal_url": "https://www.geckoterminal.com/polygon_pos/tokens/0x3fb83a9a2c4408909c058b0bfe5b4823f54fafe2"
+    }
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "categories": [
+    "Artificial Intelligence (AI)",
+    "Infrastructure",
+    "Analytics",
+    "NFT",
+    "Polygon Ecosystem",
+    "Ethereum Ecosystem",
+    "Animoca Brands Portfolio",
+    "Coinbase Ventures Portfolio",
+    "CoinList Launchpad"
+  ],
+  "preview_listing": false,
+  "public_notice": null,
+  "additional_notices": [],
+  "description": {
+    "en": "The landscape of blockchain analytics and forensics is currently overshadowed by centralized systems, often limited by their financial priorities. This centralization not only restricts crucial insights for emerging decentralized Web3 projects but also creates barriers for innovative breakthroughs.\r\n\r\nEnter the bitsCrunch network, heralding a new era in blockchain analytics. This decentralized, AI-enhanced data network delivers unmatched analytics and forensic data for NFTs, wallets, and other digital assets on the public blockchain. Accessible through user-friendly APIs, this platform lays the groundwork for diverse application development. Distinguished by its commitment to a community-driven ecosystem, bitsCrunch empowers individuals to contribute code or content, thus continuously enhancing and broadening the network's capabilities.\r\n\r\nMulti-Chain Integration Made Simple: Utilize a single API to access insights across multiple blockchains. Ideal for developers building multi-chain applications.\r\nAdvanced Forensic Data: Access in-depth forensic analysis on NFTs, wallets, and digital assets on public blockchains through the bitsCrunch Network. This functionality aids Web3 applications in identifying risks and fraud, ensuring security and compliance.\r\nCommunity-Driven Ecosystem: The network actively supports and encourages contributions from individuals in coding or content creation, fostering ongoing enhancement and the broadening of data and services.\r\nEnhanced Scalability through Decentralization: The bitsCrunch network's decentralized model, supported by multiple query processor nodes (or lite nodes), ensures enhanced scalability and robust data management.\r\nPredictable Query Costs: Data consumers utilize stablecoins to cover queries on the network, facilitating precise cost estimation and streamlined budget management."
+  },
+  "links": {
+    "homepage": [
+      "https://bitscrunch.com/",
+      "https://unleashnfts.com/"
+    ],
+    "whitepaper": "https://bitscrunch.com/bitsCrunch_Whitepaper.pdf",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xbef26bd568e421d6708cca55ad6e35f8bfa0c406",
+      "https://intel.arkm.com/explorer/token/bitscrunch-token",
+      "https://polygonscan.com/token/0x3fb83a9a2c4408909c058b0bfe5b4823f54fafe2",
+      "https://ethplorer.io/address/0xbef26bd568e421d6708cca55ad6e35f8bfa0c406"
+    ],
+    "official_forum_url": [
+      "https://www.linkedin.com/company/bitscrunch/"
+    ],
+    "chat_url": [
+      "https://discord.gg/bitscrunch",
+      "https://blog.bitscrunch.com/",
+      "https://www.youtube.com/@bitsCrunch"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "bitscrunch",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "bitsCrunch",
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [
+        "https://github.com/bitscrunch"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/34832/thumb/logo-256_%281%29.png?1710244462",
+    "small": "https://coin-images.coingecko.com/coins/images/34832/small/logo-256_%281%29.png?1710244462",
+    "large": "https://coin-images.coingecko.com/coins/images/34832/large/logo-256_%281%29.png?1710244462"
+  },
+  "country_origin": "",
+  "genesis_date": null,
+  "contract_address": "0xbef26bd568e421d6708cca55ad6e35f8bfa0c406",
+  "sentiment_votes_up_percentage": null,
+  "sentiment_votes_down_percentage": null,
+  "watchlist_portfolio_users": 33242,
+  "market_cap_rank": 2707,
+  "status_updates": [],
+  "last_updated": "2026-01-05T00:18:33.065Z"
+}

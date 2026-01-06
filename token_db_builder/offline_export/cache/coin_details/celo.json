@@ -1,0 +1,87 @@
+{
+  "id": "celo",
+  "symbol": "celo",
+  "name": "Celo",
+  "web_slug": "celo",
+  "asset_platform_id": "celo",
+  "platforms": {
+    "celo": "0x471ece3750da237f93b8e339c536989b8978a438"
+  },
+  "detail_platforms": {
+    "celo": {
+      "decimal_place": 18,
+      "contract_address": "0x471ece3750da237f93b8e339c536989b8978a438",
+      "geckoterminal_url": "https://www.geckoterminal.com/celo/tokens/0x471ece3750da237f93b8e339c536989b8978a438"
+    }
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "categories": [
+    "Smart Contract Platform",
+    "Celo Ecosystem",
+    "Layer 2 (L2)",
+    "DWF Labs Portfolio",
+    "Coinbase Ventures Portfolio",
+    "Proof of Stake (PoS)",
+    "Andreessen Horowitz (a16z) Portfolio",
+    "Optimism Superchain Ecosystem",
+    "Outlier Ventures Portfolio",
+    "Made in USA",
+    "CoinList Launchpad"
+  ],
+  "preview_listing": false,
+  "public_notice": null,
+  "additional_notices": [],
+  "description": {
+    "en": "Celo is an emerging Ethereum Layer-2 designed to make blockchain technology accessible to all. With its focus on scalability, low fees, and ease of use, Celo is ideal for building blockchain products that reach millions of users around the globe."
+  },
+  "links": {
+    "homepage": [
+      "https://celo.org/",
+      "https://www.celocamp.com/"
+    ],
+    "whitepaper": "https://celo.org/papers",
+    "blockchain_site": [
+      "https://explorer.celo.org/tokens/0x471ece3750da237f93b8e339c536989b8978a438/token-transfers",
+      "https://celoscan.io/",
+      "https://explorer.celo.org/mainnet/token/0x471ece3750da237f93b8e339c536989b8978a438",
+      "https://explorer.celo.org/mainnet/"
+    ],
+    "official_forum_url": [
+      "https://forum.celo.org/"
+    ],
+    "chat_url": [
+      "https://discord.com/invite/celo"
+    ],
+    "announcement_url": [
+      "https://medium.com/celoOrg"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "celo",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "celoplatform",
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [
+        "https://github.com/celo-org/celo-blockchain",
+        "https://github.com/celo-org/celo-monorepo"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/11090/thumb/InjXBNx9_400x400.jpg?1696511031",
+    "small": "https://coin-images.coingecko.com/coins/images/11090/small/InjXBNx9_400x400.jpg?1696511031",
+    "large": "https://coin-images.coingecko.com/coins/images/11090/large/InjXBNx9_400x400.jpg?1696511031"
+  },
+  "country_origin": "",
+  "genesis_date": null,
+  "contract_address": "0x471ece3750da237f93b8e339c536989b8978a438",
+  "sentiment_votes_up_percentage": 100.0,
+  "sentiment_votes_down_percentage": 0.0,
+  "watchlist_portfolio_users": 69009,
+  "market_cap_rank": 525,
+  "status_updates": [],
+  "last_updated": "2026-01-05T00:27:50.598Z"
+}

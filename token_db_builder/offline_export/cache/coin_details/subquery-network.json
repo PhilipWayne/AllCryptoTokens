@@ -1,0 +1,84 @@
+{
+  "id": "subquery-network",
+  "symbol": "sqt",
+  "name": "SubQuery Network",
+  "web_slug": "subquery-network",
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x09395a2a58db45db0da254c7eaa5ac469d8bdc85",
+    "base": "0x858c50c3af1913b0e849afdb74617388a1a5340d"
+  },
+  "detail_platforms": {
+    "ethereum": {
+      "decimal_place": 18,
+      "contract_address": "0x09395a2a58db45db0da254c7eaa5ac469d8bdc85",
+      "geckoterminal_url": "https://www.geckoterminal.com/eth/tokens/0x09395a2a58db45db0da254c7eaa5ac469d8bdc85"
+    },
+    "base": {
+      "decimal_place": 18,
+      "contract_address": "0x858c50c3af1913b0e849afdb74617388a1a5340d",
+      "geckoterminal_url": "https://www.geckoterminal.com/base/tokens/0x858c50c3af1913b0e849afdb74617388a1a5340d"
+    }
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "categories": [
+    "Business Services",
+    "Infrastructure",
+    "Decentralized Finance (DeFi)",
+    "Analytics",
+    "Ethereum Ecosystem",
+    "DePIN",
+    "Base Ecosystem"
+  ],
+  "preview_listing": false,
+  "public_notice": null,
+  "additional_notices": [],
+  "description": {
+    "en": "SubQuery Network is innovating in web3 infrastructure with tools that empower builders to decentralise without compromise. SubQuery’s infrastructure network offers everything from data indexers, RPCs and AI agents - all fully decentralised and production ready.\r\n\r\nOur fast, flexible, and open data indexer supercharges thousands of dApps on nearly 300 networks. Our Sharded Data Node will provide breakthroughs in the RPC industry and our AI App framework makes building AI apps easier than ever before. "
+  },
+  "links": {
+    "homepage": [
+      "https://www.subquery.network/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://explorer.subquery.network/",
+      "https://intel.arkm.com/explorer/token/subquery-network",
+      "https://etherscan.io/token/0x09395a2a58db45db0da254c7eaa5ac469d8bdc85",
+      "https://ethplorer.io/address/0x09395a2a58db45db0da254c7eaa5ac469d8bdc85",
+      "https://basescan.org/token/0x858c50c3af1913b0e849afdb74617388a1a5340d"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [
+      "https://subquery.medium.com/"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "subquerynetwork",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "subquerynetwork",
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [
+        "https://github.com/subquery/subql"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/23359/thumb/LinkedIn_Avatar_Op1.png?1724379155",
+    "small": "https://coin-images.coingecko.com/coins/images/23359/small/LinkedIn_Avatar_Op1.png?1724379155",
+    "large": "https://coin-images.coingecko.com/coins/images/23359/large/LinkedIn_Avatar_Op1.png?1724379155"
+  },
+  "country_origin": "",
+  "genesis_date": null,
+  "contract_address": "0x09395a2a58db45db0da254c7eaa5ac469d8bdc85",
+  "sentiment_votes_up_percentage": null,
+  "sentiment_votes_down_percentage": null,
+  "watchlist_portfolio_users": 12987,
+  "market_cap_rank": 3694,
+  "status_updates": [],
+  "last_updated": "2026-01-05T02:17:16.243Z"
+}

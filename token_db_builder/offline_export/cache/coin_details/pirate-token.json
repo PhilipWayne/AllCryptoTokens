@@ -1,0 +1,77 @@
+{
+  "id": "pirate-token",
+  "symbol": "pirate",
+  "name": "Pirate Nation Token",
+  "web_slug": "pirate-token",
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x7613c48e0cd50e42dd9bf0f6c235063145f6f8dc"
+  },
+  "detail_platforms": {
+    "ethereum": {
+      "decimal_place": 18,
+      "contract_address": "0x7613c48e0cd50e42dd9bf0f6c235063145f6f8dc",
+      "geckoterminal_url": "https://www.geckoterminal.com/eth/tokens/0x7613c48e0cd50e42dd9bf0f6c235063145f6f8dc"
+    }
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "categories": [
+    "Gaming (GameFi)",
+    "NFT",
+    "Play To Earn",
+    "Ethereum Ecosystem",
+    "RPG",
+    "Andreessen Horowitz (a16z) Portfolio",
+    "Action Games"
+  ],
+  "preview_listing": false,
+  "public_notice": null,
+  "additional_notices": [],
+  "description": {
+    "en": "A fully onchain RPG, filled with high seas adventure, treasure, &amp; unexpected surprises "
+  },
+  "links": {
+    "homepage": [
+      "https://piratenation.game/"
+    ],
+    "whitepaper": "https://docs.piratenation.game/?q=",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x7613c48e0cd50e42dd9bf0f6c235063145f6f8dc",
+      "https://intel.arkm.com/explorer/token/pirate-token",
+      "https://ethplorer.io/address/0x7613c48e0cd50e42dd9bf0f6c235063145f6f8dc"
+    ],
+    "official_forum_url": [
+      "https://twitter.com/PirateNation"
+    ],
+    "chat_url": [
+      "https://discord.gg/piratenation",
+      "https://piratenation.medium.com/"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/38524/thumb/_Pirate_Transparent_200x200.png?1717947813",
+    "small": "https://coin-images.coingecko.com/coins/images/38524/small/_Pirate_Transparent_200x200.png?1717947813",
+    "large": "https://coin-images.coingecko.com/coins/images/38524/large/_Pirate_Transparent_200x200.png?1717947813"
+  },
+  "country_origin": "",
+  "genesis_date": null,
+  "contract_address": "0x7613c48e0cd50e42dd9bf0f6c235063145f6f8dc",
+  "sentiment_votes_up_percentage": null,
+  "sentiment_votes_down_percentage": null,
+  "watchlist_portfolio_users": 4098,
+  "market_cap_rank": 2555,
+  "status_updates": [],
+  "last_updated": "2026-01-05T01:52:54.661Z"
+}

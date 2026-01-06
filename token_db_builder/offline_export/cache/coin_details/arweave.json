@@ -1,0 +1,109 @@
+{
+  "id": "arweave",
+  "symbol": "ar",
+  "name": "Arweave",
+  "web_slug": "arweave",
+  "asset_platform_id": null,
+  "platforms": {
+    "": ""
+  },
+  "detail_platforms": {
+    "": {
+      "decimal_place": null,
+      "contract_address": ""
+    }
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "categories": [
+    "Artificial Intelligence (AI)",
+    "Smart Contract Platform",
+    "Storage",
+    "Layer 1 (L1)",
+    "DePIN",
+    "Coinbase Ventures Portfolio",
+    "Multicoin Capital Portfolio",
+    "Andreessen Horowitz (a16z) Portfolio",
+    "Blockchain Capital Portfolio"
+  ],
+  "preview_listing": false,
+  "public_notice": null,
+  "additional_notices": [],
+  "description": {
+    "en": "Welcome to the future of data storage\r\nA new data storage blockchain protocol based on a novel proof of access consensus mechanism that creates truly permanent data storage for the first time. Now data is finally permanent, low-cost, and truly censorship free.\r\n\r\nArweave has solved the millennia old problem of decentralised data availability.\r\nPay Once, Store Forever.\r\nArweave makes permanent data storage a reality for the very first time. As the $3 trillion data-storage industry is growing, the need for cheap, distributed, permanent data-storage on the blockchain has become an urgent necessity."
+  },
+  "links": {
+    "homepage": [
+      "https://arweave.org/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://viewblock.io/arweave"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discordapp.com/invite/DjAFMJc",
+      "https://www.facebook.com/ArweaveTeam/"
+    ],
+    "announcement_url": [
+      "https://medium.com/@arweave"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "arweaveeco",
+    "facebook_username": "ArweaveTeam",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [
+        "https://github.com/ArweaveTeam/arweave"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/4343/thumb/oRt6SiEN_400x400.jpg?1696504946",
+    "small": "https://coin-images.coingecko.com/coins/images/4343/small/oRt6SiEN_400x400.jpg?1696504946",
+    "large": "https://coin-images.coingecko.com/coins/images/4343/large/oRt6SiEN_400x400.jpg?1696504946"
+  },
+  "country_origin": "GB",
+  "genesis_date": null,
+  "sentiment_votes_up_percentage": 71.43,
+  "sentiment_votes_down_percentage": 28.57,
+  "ico_data": {
+    "ico_start_date": "2018-06-05T00:00:00.000Z",
+    "ico_end_date": "2018-06-07T00:00:00.000Z",
+    "short_desc": "The New Backbone of the Decentralised Internet, Arweave is a new data storage blockchain protocol based on a novel proof of access consensus mechanism.",
+    "description": "",
+    "links": {},
+    "softcap_currency": "",
+    "hardcap_currency": "USD",
+    "total_raised_currency": "USD",
+    "softcap_amount": null,
+    "hardcap_amount": "8700000.0",
+    "total_raised": "8700000.0",
+    "quote_pre_sale_currency": "",
+    "base_pre_sale_amount": null,
+    "quote_pre_sale_amount": null,
+    "quote_public_sale_currency": "USD",
+    "base_public_sale_amount": 1.0,
+    "quote_public_sale_amount": 0.74,
+    "accepting_currencies": "",
+    "country_origin": "GB",
+    "pre_sale_start_date": null,
+    "pre_sale_end_date": null,
+    "whitelist_url": "",
+    "whitelist_start_date": null,
+    "whitelist_end_date": null,
+    "bounty_detail_url": "",
+    "amount_for_sale": null,
+    "kyc_required": true,
+    "whitelist_available": null,
+    "pre_sale_available": null,
+    "pre_sale_ended": false
+  },
+  "watchlist_portfolio_users": 107011,
+  "market_cap_rank": 244,
+  "status_updates": [],
+  "last_updated": "2026-01-05T00:09:13.836Z"
+}

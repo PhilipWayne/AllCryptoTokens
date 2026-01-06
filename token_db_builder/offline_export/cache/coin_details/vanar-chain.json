@@ -1,0 +1,89 @@
+{
+  "id": "vanar-chain",
+  "symbol": "vanry",
+  "name": "Vanar Chain",
+  "web_slug": "vanar-chain",
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x8de5b80a0c1b02fe4976851d030b36122dbb8624",
+    "vanar-chain": "0x8de5b80a0c1b02fe4976851d030b36122dbb8624",
+    "polygon-pos": "0x8de5b80a0c1b02fe4976851d030b36122dbb8624"
+  },
+  "detail_platforms": {
+    "ethereum": {
+      "decimal_place": 18,
+      "contract_address": "0x8de5b80a0c1b02fe4976851d030b36122dbb8624",
+      "geckoterminal_url": "https://www.geckoterminal.com/eth/tokens/0x8de5b80a0c1b02fe4976851d030b36122dbb8624"
+    },
+    "vanar-chain": {
+      "decimal_place": 18,
+      "contract_address": "0x8de5b80a0c1b02fe4976851d030b36122dbb8624",
+      "geckoterminal_url": "https://www.geckoterminal.com/vanarchain/tokens/0x8de5b80a0c1b02fe4976851d030b36122dbb8624"
+    },
+    "polygon-pos": {
+      "decimal_place": 18,
+      "contract_address": "0x8de5b80a0c1b02fe4976851d030b36122dbb8624",
+      "geckoterminal_url": "https://www.geckoterminal.com/polygon_pos/tokens/0x8de5b80a0c1b02fe4976851d030b36122dbb8624"
+    }
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "categories": [
+    "Artificial Intelligence (AI)",
+    "Smart Contract Platform",
+    "Layer 1 (L1)",
+    "Polygon Ecosystem",
+    "Ethereum Ecosystem",
+    "Vanar Chain Ecosystem"
+  ],
+  "preview_listing": false,
+  "public_notice": null,
+  "additional_notices": [],
+  "description": {
+    "en": "Vanar, a L1 designed from the ground up, builds upon our technological expertise to foster practical real-world adoption. Drawing upon years of experience working with the gaming, entertainment, and brand sectors, our primary focus is on ushering billions of consumers into the world of web3."
+  },
+  "links": {
+    "homepage": [
+      "https://vanarchain.com"
+    ],
+    "whitepaper": "https://cdn.vanarchain.com/vanarchain/vanar_whitepaper.pdf",
+    "blockchain_site": [
+      "https://etherscan.io/address/0x8de5b80a0c1b02fe4976851d030b36122dbb8624",
+      "https://intel.arkm.com/explorer/token/vanar-chain",
+      "https://polygonscan.com/address/0x8de5b80a0c1b02fe4976851d030b36122dbb8624",
+      "https://etherscan.io/token/0x8de5b80a0c1b02fe4976851d030b36122dbb8624",
+      "https://ethplorer.io/address/0x8de5b80a0c1b02fe4976851d030b36122dbb8624",
+      "https://polygonscan.com/token/0x8de5b80a0c1b02fe4976851d030b36122dbb8624",
+      "https://explorer.vanarchain.com/token/0x8de5b80a0c1b02fe4976851d030b36122dbb8624"
+    ],
+    "official_forum_url": [
+      "https://vanarchain.com/blog"
+    ],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "Vanarchain",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "vanarofficial",
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/33466/thumb/apple-touch-icon.png?1701942541",
+    "small": "https://coin-images.coingecko.com/coins/images/33466/small/apple-touch-icon.png?1701942541",
+    "large": "https://coin-images.coingecko.com/coins/images/33466/large/apple-touch-icon.png?1701942541"
+  },
+  "country_origin": "",
+  "genesis_date": null,
+  "contract_address": "0x8de5b80a0c1b02fe4976851d030b36122dbb8624",
+  "sentiment_votes_up_percentage": 100.0,
+  "sentiment_votes_down_percentage": 0.0,
+  "watchlist_portfolio_users": 25730,
+  "market_cap_rank": 1278,
+  "status_updates": [],
+  "last_updated": "2026-01-05T02:33:10.084Z"
+}

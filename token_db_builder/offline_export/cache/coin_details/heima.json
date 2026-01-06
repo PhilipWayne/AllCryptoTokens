@@ -1,0 +1,73 @@
+{
+  "id": "heima",
+  "symbol": "hei",
+  "name": "Heima",
+  "web_slug": "heima",
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xf8f173e20e15f3b6cb686fb64724d370689de083"
+  },
+  "detail_platforms": {
+    "ethereum": {
+      "decimal_place": 18,
+      "contract_address": "0xf8f173e20e15f3b6cb686fb64724d370689de083",
+      "geckoterminal_url": "https://www.geckoterminal.com/eth/tokens/0xf8f173e20e15f3b6cb686fb64724d370689de083"
+    }
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "categories": [
+    "BNB Chain Ecosystem",
+    "Binance Launchpool",
+    "Ethereum Ecosystem",
+    "YZi Labs (Prev. Binance Labs) Portfolio"
+  ],
+  "preview_listing": false,
+  "public_notice": "Litentry (LIT) has been rebranded to Heima (HEI) and migrated from their <a href=\"https://etherscan.io/token/0xb59490ab09a0f526cc7305822ac65f2ab12f9723\"target=\"_blank\">old contract</a> on Ethereum and <a href=\"https://bscscan.com/token/0xb59490aB09A0f526Cc7305822aC65f2Ab12f9723\" target=\"_blank\">old contract</a> on BNB Smart Chain to a <a href=\"https://etherscan.io/token/0xf8f173e20e15f3b6cb686fb64724d370689de083\"target=\"_blank\">new contract</a> on Ethereum and <a href=\"https://bscscan.com/token/0xf8f173e20e15f3b6cb686fb64724d370689de083\"target=\"_blank\">new contract</a> on BNB Smart Chain. For more information, please visit this <a href=\"https://heima-network.medium.com/litentry-rebranding-introducing-hei-and-updated-smart-contracts-7ed98397b649\"target=\"_blank\">post</a> and visit the old token page <a href=\"https://www.coingecko.com/en/coins/litentry\"target=\"_blank\">here</a>.<br>",
+  "additional_notices": [],
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://www.heima.network/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xf8f173e20e15f3b6cb686fb64724d370689de083",
+      "https://intel.arkm.com/explorer/token/heima",
+      "https://ethplorer.io/address/0xf8f173e20e15f3b6cb686fb64724d370689de083"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.gg/heima-network"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "heimaNetwork",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "heima_network",
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [
+        "https://github.com/litentry"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/54379/thumb/heima.png?1739444240",
+    "small": "https://coin-images.coingecko.com/coins/images/54379/small/heima.png?1739444240",
+    "large": "https://coin-images.coingecko.com/coins/images/54379/large/heima.png?1739444240"
+  },
+  "country_origin": "DE",
+  "genesis_date": null,
+  "contract_address": "0xf8f173e20e15f3b6cb686fb64724d370689de083",
+  "sentiment_votes_up_percentage": null,
+  "sentiment_votes_down_percentage": null,
+  "watchlist_portfolio_users": 11168,
+  "market_cap_rank": 1617,
+  "status_updates": [],
+  "last_updated": "2026-01-05T01:07:25.262Z"
+}

@@ -1,0 +1,141 @@
+{
+  "id": "rocket-pool",
+  "symbol": "rpl",
+  "name": "Rocket Pool",
+  "web_slug": "rocket-pool",
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xd33526068d116ce69f19a9ee46f0bd304f21a51f",
+    "polygon-pos": "0x7205705771547cf79201111b4bd8aaf29467b9ec",
+    "arbitrum-one": "0xb766039cc6db368759c1e56b79affe831d0cc507"
+  },
+  "detail_platforms": {
+    "ethereum": {
+      "decimal_place": 18,
+      "contract_address": "0xd33526068d116ce69f19a9ee46f0bd304f21a51f",
+      "geckoterminal_url": "https://www.geckoterminal.com/eth/tokens/0xd33526068d116ce69f19a9ee46f0bd304f21a51f"
+    },
+    "polygon-pos": {
+      "decimal_place": 18,
+      "contract_address": "0x7205705771547cf79201111b4bd8aaf29467b9ec",
+      "geckoterminal_url": "https://www.geckoterminal.com/polygon_pos/tokens/0x7205705771547cf79201111b4bd8aaf29467b9ec"
+    },
+    "arbitrum-one": {
+      "decimal_place": 18,
+      "contract_address": "0xb766039cc6db368759c1e56b79affe831d0cc507",
+      "geckoterminal_url": "https://www.geckoterminal.com/arbitrum/tokens/0xb766039cc6db368759c1e56b79affe831d0cc507"
+    }
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "categories": [
+    "Business Services",
+    "Infrastructure",
+    "Smart Contract Platform",
+    "Decentralized Finance (DeFi)",
+    "Polygon Ecosystem",
+    "Arbitrum Ecosystem",
+    "Ethereum Ecosystem",
+    "Liquid Staking Governance Tokens",
+    "Coinbase Ventures Portfolio",
+    "Proof of Stake (PoS)",
+    "Index Coop Defi Index",
+    "Consensys Portfolio",
+    "Liquid Staking",
+    "Governance"
+  ],
+  "preview_listing": false,
+  "public_notice": null,
+  "additional_notices": [],
+  "description": {
+    "en": "Rocket Pool is Ethereum’s most decentralised liquid staking protocol.\r\nLiquid stakers can participate by depositing as little as 0.01 ETH to receive the rETH liquid staking token.\r\nRocket Pool is a fully non-custodial solution, and its node operators are economically-aligned to perform well for stakers. Joining as a node operator is fully permissionless and requires just 16 ETH (instead of the usual 32). A boosted ROI is provided from both operator commission plus RPL rewards. The Rocket Pool team have been in the staking space since its inception in 2016, which gives them a pedigree and track record without peer."
+  },
+  "links": {
+    "homepage": [
+      "https://www.rocketpool.net"
+    ],
+    "whitepaper": "https://www.rocketpool.net/files/RocketPoolWhitePaper.pdf",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xd33526068d116ce69f19a9ee46f0bd304f21a51f",
+      "https://intel.arkm.com/explorer/token/rocket-pool",
+      "https://ethplorer.io/address/0xd33526068d116ce69f19a9ee46f0bd304f21a51f",
+      "https://arbiscan.io/token/0xb766039cc6db368759c1e56b79affe831d0cc507",
+      "https://polygonscan.com/token/0x7205705771547cf79201111b4bd8aaf29467b9ec",
+      "https://intel.arkm.com/explorer/token/<api_symbol>"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discordapp.com/invite/tCRG54c"
+    ],
+    "announcement_url": [
+      "https://medium.com/rocket-pool"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "Rocket_Pool",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com/r/rocketpool",
+    "repos_url": {
+      "github": [
+        "https://github.com/rocket-pool/rocketpool",
+        "https://github.com/rocket-pool/smartnode"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/2090/thumb/rocket_pool_%28RPL%29.png?1696503058",
+    "small": "https://coin-images.coingecko.com/coins/images/2090/small/rocket_pool_%28RPL%29.png?1696503058",
+    "large": "https://coin-images.coingecko.com/coins/images/2090/large/rocket_pool_%28RPL%29.png?1696503058"
+  },
+  "country_origin": "",
+  "genesis_date": null,
+  "contract_address": "0xd33526068d116ce69f19a9ee46f0bd304f21a51f",
+  "sentiment_votes_up_percentage": 100.0,
+  "sentiment_votes_down_percentage": 0.0,
+  "ico_data": {
+    "ico_start_date": "2017-11-25T00:00:00.000Z",
+    "ico_end_date": "2018-01-07T00:00:00.000Z",
+    "short_desc": "A decentralised Ethereum Proof of Stake Pool designed to be compatible with Casper.",
+    "description": "Rocket Pool is a next generation pool designed to work with Casper, the new consensus protocol that Ethereum will transition to in 2018. It was the first working implementation of a Proof of Stake pool and features several first to market features; such as load balancing across multiple cloud hosting providers using smart contracts, minipools, widow addresses and deposit tokens. Rocket Pool isn’t just a whitepaper, it’s actual code.",
+    "links": {
+      "web": "https://www.rocketpool.net",
+      "slack": "http://slack.rocketpool.net",
+      "github": "https://github.com/darcius/rocketpool",
+      "medium": "https://medium.com/rocket-pool",
+      "twitter": "https://twitter.com/Rocket_Pool",
+      "linkedin": "https://www.linkedin.com/in/david-rugendyke-260a2a60/",
+      "whitepaper": "https://www.rocketpool.net/files/RocketPoolWhitePaper.pdf"
+    },
+    "softcap_currency": "",
+    "hardcap_currency": "",
+    "total_raised_currency": "",
+    "softcap_amount": null,
+    "hardcap_amount": null,
+    "total_raised": null,
+    "quote_pre_sale_currency": "",
+    "base_pre_sale_amount": null,
+    "quote_pre_sale_amount": null,
+    "quote_public_sale_currency": "",
+    "base_public_sale_amount": 0.0,
+    "quote_public_sale_amount": 0.0,
+    "accepting_currencies": "",
+    "country_origin": "",
+    "pre_sale_start_date": null,
+    "pre_sale_end_date": null,
+    "whitelist_url": "",
+    "whitelist_start_date": null,
+    "whitelist_end_date": null,
+    "bounty_detail_url": "",
+    "amount_for_sale": null,
+    "kyc_required": true,
+    "whitelist_available": null,
+    "pre_sale_available": null,
+    "pre_sale_ended": false
+  },
+  "watchlist_portfolio_users": 25645,
+  "market_cap_rank": 698,
+  "status_updates": [],
+  "last_updated": "2026-01-05T02:05:24.712Z"
+}

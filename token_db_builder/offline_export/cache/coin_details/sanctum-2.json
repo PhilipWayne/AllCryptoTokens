@@ -1,0 +1,74 @@
+{
+  "id": "sanctum-2",
+  "symbol": "cloud",
+  "name": "Cloud",
+  "web_slug": "cloud",
+  "asset_platform_id": "solana",
+  "platforms": {
+    "solana": "CLoUDKc4Ane7HeQcPpE3YHnznRxhMimJ4MyaUqyHFzAu"
+  },
+  "detail_platforms": {
+    "solana": {
+      "decimal_place": 9,
+      "contract_address": "CLoUDKc4Ane7HeQcPpE3YHnznRxhMimJ4MyaUqyHFzAu",
+      "geckoterminal_url": "https://www.geckoterminal.com/solana/tokens/CLoUDKc4Ane7HeQcPpE3YHnznRxhMimJ4MyaUqyHFzAu"
+    }
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "categories": [
+    "Decentralized Finance (DeFi)",
+    "Solana Ecosystem",
+    "Liquid Staking Governance Tokens",
+    "LSDFi",
+    "Liquid Staking",
+    "Governance"
+  ],
+  "preview_listing": false,
+  "public_notice": null,
+  "additional_notices": [],
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://www.sanctum.so/"
+    ],
+    "whitepaper": "http://learn.sanctum.so/docs",
+    "blockchain_site": [
+      "https://solscan.io/token/CLoUDKc4Ane7HeQcPpE3YHnznRxhMimJ4MyaUqyHFzAu",
+      "https://intel.arkm.com/explorer/token/sanctum-2"
+    ],
+    "official_forum_url": [
+      "https://discord.com/invite/sanctumso"
+    ],
+    "chat_url": [
+      "https://www.twitch.tv/sanctumso"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "sanctumso",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "+YbdmERNxJxNiMjU0",
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/38485/thumb/CLOUD_128x128.png?1721331750",
+    "small": "https://coin-images.coingecko.com/coins/images/38485/small/CLOUD_128x128.png?1721331750",
+    "large": "https://coin-images.coingecko.com/coins/images/38485/large/CLOUD_128x128.png?1721331750"
+  },
+  "country_origin": "",
+  "genesis_date": null,
+  "contract_address": "CLoUDKc4Ane7HeQcPpE3YHnznRxhMimJ4MyaUqyHFzAu",
+  "sentiment_votes_up_percentage": null,
+  "sentiment_votes_down_percentage": null,
+  "watchlist_portfolio_users": 5514,
+  "market_cap_rank": 769,
+  "status_updates": [],
+  "last_updated": "2026-01-05T00:31:49.608Z"
+}

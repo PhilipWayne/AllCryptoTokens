@@ -1,0 +1,111 @@
+{
+  "id": "stader",
+  "symbol": "sd",
+  "name": "Stader",
+  "web_slug": "stader",
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x30d20208d987713f46dfd34ef128bb16c404d10f",
+    "solana": "4qnVjPG8DxoYYJifS83iExe3GWnM4JK4b6mBZRaR4gs9",
+    "binance-smart-chain": "0x3bc5ac0dfdc871b365d159f728dd1b9a0b5481e8",
+    "polygon-pos": "0x1d734a02ef1e1f5886e66b0673b71af5b53ffa94",
+    "fantom": "0x412a13c109ac30f0db80ad3bd1defd5d0a6c0ac6"
+  },
+  "detail_platforms": {
+    "ethereum": {
+      "decimal_place": 18,
+      "contract_address": "0x30d20208d987713f46dfd34ef128bb16c404d10f",
+      "geckoterminal_url": "https://www.geckoterminal.com/eth/tokens/0x30d20208d987713f46dfd34ef128bb16c404d10f"
+    },
+    "solana": {
+      "decimal_place": 8,
+      "contract_address": "4qnVjPG8DxoYYJifS83iExe3GWnM4JK4b6mBZRaR4gs9",
+      "geckoterminal_url": "https://www.geckoterminal.com/solana/tokens/4qnVjPG8DxoYYJifS83iExe3GWnM4JK4b6mBZRaR4gs9"
+    },
+    "binance-smart-chain": {
+      "decimal_place": 18,
+      "contract_address": "0x3bc5ac0dfdc871b365d159f728dd1b9a0b5481e8",
+      "geckoterminal_url": "https://www.geckoterminal.com/bsc/tokens/0x3bc5ac0dfdc871b365d159f728dd1b9a0b5481e8"
+    },
+    "polygon-pos": {
+      "decimal_place": 18,
+      "contract_address": "0x1d734a02ef1e1f5886e66b0673b71af5b53ffa94",
+      "geckoterminal_url": "https://www.geckoterminal.com/polygon_pos/tokens/0x1d734a02ef1e1f5886e66b0673b71af5b53ffa94"
+    },
+    "fantom": {
+      "decimal_place": 18,
+      "contract_address": "0x412a13c109ac30f0db80ad3bd1defd5d0a6c0ac6",
+      "geckoterminal_url": "https://www.geckoterminal.com/ftm/tokens/0x412a13c109ac30f0db80ad3bd1defd5d0a6c0ac6"
+    }
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "categories": [
+    "BNB Chain Ecosystem",
+    "Solana Ecosystem",
+    "Polygon Ecosystem",
+    "Fantom Ecosystem",
+    "Ethereum Ecosystem",
+    "Liquid Staking Governance Tokens",
+    "Animoca Brands Portfolio",
+    "Coinbase Ventures Portfolio",
+    "Pantera Capital Portfolio",
+    "Liquid Staking",
+    "Binance Alpha Spotlight",
+    "CoinList Launchpad"
+  ],
+  "preview_listing": false,
+  "public_notice": null,
+  "additional_notices": [],
+  "description": {
+    "en": "What is Stader?\r\n\r\nStader is a non-custodial, multi-chain liquid staking platform that enables seamless access to the best staking and most rewarding defi opportunities across Proof-of-Stake (PoS) networks like Etherum, Polygon, BNB and Hedera conveniently. It is trusted by 85k+ stakers ranging from retail users to exchanges, custodians and institutions looking to earn rewards by staking their crypto assets.\r\n\r\n\r\nWhat is SD token?\r\n\r\nSD is Stader's governance token. It's an ERC-20 token with a max supply of 120 million tokens across 23k+ holders. The token holds multiple utilities:\r\n\r\nSD Utility Pool: First-of-its-kind utility that rewards SD holders for contributing to ETH decentralization by delegating to the Pool Liquidity Mining: Provide SD liquidity across DEXs to get SD incentives (if elected by governance) Node Operator bond: Every permissionless node operator working with ETHx needs to bond min 0.4 ETH worth of SD per validator.\r\nGovernance and voting: SD can be used to vote on Stader protocol upgrades, rewards policies, validator selection criteria, protocol expansion and more."
+  },
+  "links": {
+    "homepage": [
+      "https://staderlabs.com/",
+      "https://linktr.ee/staderlabs"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x30d20208d987713f46dfd34ef128bb16c404d10f",
+      "https://intel.arkm.com/explorer/token/stader ",
+      "https://ethplorer.io/address/0x30d20208d987713f46dfd34ef128bb16c404d10f",
+      "https://polygonscan.com/token/0x1d734a02ef1e1f5886e66b0673b71af5b53ffa94",
+      "https://bscscan.com/token/0x3bc5ac0dfdc871b365d159f728dd1b9a0b5481e8",
+      "https://binplorer.com/address/0x3bc5ac0dfdc871b365d159f728dd1b9a0b5481e8",
+      "https://solscan.io/token/4qnVjPG8DxoYYJifS83iExe3GWnM4JK4b6mBZRaR4gs9",
+      "https://intel.arkm.com/explorer/token/stader"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [
+      "https://blog.staderlabs.com/"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "staderlabs",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "staderlabs",
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [
+        "https://github.com/stader-labs"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/20658/thumb/SD_Token_Logo.png?1696520060",
+    "small": "https://coin-images.coingecko.com/coins/images/20658/small/SD_Token_Logo.png?1696520060",
+    "large": "https://coin-images.coingecko.com/coins/images/20658/large/SD_Token_Logo.png?1696520060"
+  },
+  "country_origin": "",
+  "genesis_date": null,
+  "contract_address": "0x30d20208d987713f46dfd34ef128bb16c404d10f",
+  "sentiment_votes_up_percentage": null,
+  "sentiment_votes_down_percentage": null,
+  "watchlist_portfolio_users": 12848,
+  "market_cap_rank": 1260,
+  "status_updates": [],
+  "last_updated": "2026-01-05T02:08:55.552Z"
+}

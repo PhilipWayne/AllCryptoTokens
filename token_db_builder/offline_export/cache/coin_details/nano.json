@@ -1,0 +1,207 @@
+{
+  "id": "nano",
+  "symbol": "xno",
+  "name": "Nano",
+  "web_slug": "nano",
+  "asset_platform_id": null,
+  "platforms": {
+    "": ""
+  },
+  "detail_platforms": {
+    "": {
+      "decimal_place": null,
+      "contract_address": ""
+    }
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": "Directed Acyclic Graph (DAG)",
+  "categories": [
+    "Layer 1 (L1)",
+    "Payment Solutions",
+    "Made in USA",
+    "Directed Acyclic Graph (DAG)"
+  ],
+  "preview_listing": false,
+  "public_notice": null,
+  "additional_notices": [],
+  "description": {
+    "en": "Nano, a low-latency cryptocurrency built on an innovative block-lattice data structure offering unlimited scalability and no transaction fees. Nano by design is a simple protocol with the sole purpose of being a high-performance cryptocurrency. The Nano protocol can run on low-power hardware, allowing it to be a practical, decentralized cryptocurrency for everyday use. It uses an ORV (Open Representative Voting) consensus algorithm, which is similar to PoS (Proof of Stake) but without inflationary rewards not locking of the native coin XNO.\r\n\r\nThe original Nano (RailBlocks) paper and first beta implementation were published in December, 2014, making it one of the first Directed Acyclic Graph (DAG) based cryptocurrencies [6]. Soon after, other DAG cryptocurrencies began to develop, most notably DagCoin/Byteball and IOTA. These DAG-based cryptocurrencies broke the blockchain mold, improving system performance and security. Byteball achieves consensus by relying on a “main-chain” comprised of honest, reputable and user-trusted “witnesses”, while IOTA achieves consensus via the cumulative PoW of stacked transactions. Nano achieves consensus via a balance-weighted vote on conflicting transactions. This consensus system provides quicker, more deterministic transactions while still maintaining a strong, decentralized system. Nano continues this development and has positioned itself as one of the highest performing cryptocurrencies.\r\n\r\nNano is a trustless, feeless, low-latency cryptocurrency that utilizes a novel blocklattice structure and delegated Proof of Stake voting. The network requires minimal resources, no high-power mining hardware, and can process high transaction throughput. All of this is achieved by having individual blockchains for each account, eliminating access issues and inefficiencies of a global data-structure. We identified possible attack vectors on the system and presented arguments on how Nano is resistant to these forms of attacks.\r\n\r\nCheck out CoinBureau for the complete review of Nano."
+  },
+  "links": {
+    "homepage": [
+      "https://nano.org"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://blocklattice.io/"
+    ],
+    "official_forum_url": [
+      "https://medium.com/nanocurrency"
+    ],
+    "chat_url": [
+      "https://chat.nano.org/"
+    ],
+    "announcement_url": [
+      "https://nault.cc/"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "nano",
+    "facebook_username": "nanofoundation",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "nanocurrency",
+    "subreddit_url": "https://www.reddit.com/r/nanocurrency",
+    "repos_url": {
+      "github": [
+        "https://github.com/nanocurrency/raiblocks"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/756/thumb/nano.png?1696501910",
+    "small": "https://coin-images.coingecko.com/coins/images/756/small/nano.png?1696501910",
+    "large": "https://coin-images.coingecko.com/coins/images/756/large/nano.png?1696501910"
+  },
+  "country_origin": "",
+  "genesis_date": null,
+  "sentiment_votes_up_percentage": 75.0,
+  "sentiment_votes_down_percentage": 25.0,
+  "watchlist_portfolio_users": 51138,
+  "market_cap_rank": 436,
+  "status_updates": [
+    {
+      "description": "In the lead up to Follis V23, get up to speed with the software improvements that will allow for faster and more stable development.\r\n\r\nFeatures include:\r\n🔹 Node initialisation parameter redesign\r\n🔹 Ledger constraints\r\n🔹 New naming conventions\r\n🔹 Updated integration docs\r\n\r\nhttps://blog.nano.org/v23-0-follis-development-update-55ef8c41cbb",
+      "category": "general",
+      "created_at": "2021-10-04T20:45:57.611Z",
+      "user": "Naome Jones",
+      "user_title": "Communications Manager",
+      "pin": false,
+      "project": {
+        "type": "Coin",
+        "id": "nano",
+        "name": "Nano",
+        "symbol": "xno",
+        "image": {
+          "thumb": "https://coin-images.coingecko.com/coins/images/756/thumb/nano.png?1696501910",
+          "small": "https://coin-images.coingecko.com/coins/images/756/small/nano.png?1696501910",
+          "large": "https://coin-images.coingecko.com/coins/images/756/large/nano.png?1696501910"
+        }
+      }
+    },
+    {
+      "description": "The latest Nano Digest has hit the timeline.\r\nJoin us for a round-up of everything new in the NANO ecosystem.\r\n\r\nhttps://blog.nano.org/nano-digest-cyberfirst-cryptouk-coincloud-dcm-nowpayments-pos-nano-community-program-and-a86bacb45133 ",
+      "category": "general",
+      "created_at": "2021-10-02T18:26:04.434Z",
+      "user": "Naome Jones",
+      "user_title": "Communications Manager",
+      "pin": false,
+      "project": {
+        "type": "Coin",
+        "id": "nano",
+        "name": "Nano",
+        "symbol": "xno",
+        "image": {
+          "thumb": "https://coin-images.coingecko.com/coins/images/756/thumb/nano.png?1696501910",
+          "small": "https://coin-images.coingecko.com/coins/images/756/small/nano.png?1696501910",
+          "large": "https://coin-images.coingecko.com/coins/images/756/large/nano.png?1696501910"
+        }
+      }
+    },
+    {
+      "description": "It is with great pride that we announce our support for Cyber First, an educational programme created by the National Cyber Security Centre to develop the UK's next generation of cyber professionals by helping young people aged 11-17 in the UK explore their passion for tech.\r\n\r\nFind out more about Cyber First here: https://www.ncsc.gov.uk/cyberfirst/overview\r\n",
+      "category": "general",
+      "created_at": "2021-10-01T10:27:55.398Z",
+      "user": "Naome Jones",
+      "user_title": "Communications Manager",
+      "pin": false,
+      "project": {
+        "type": "Coin",
+        "id": "nano",
+        "name": "Nano",
+        "symbol": "xno",
+        "image": {
+          "thumb": "https://coin-images.coingecko.com/coins/images/756/thumb/nano.png?1696501910",
+          "small": "https://coin-images.coingecko.com/coins/images/756/small/nano.png?1696501910",
+          "large": "https://coin-images.coingecko.com/coins/images/756/large/nano.png?1696501910"
+        }
+      }
+    },
+    {
+      "description": "1 HOUR TO GO until the Fintech &amp; FS Group: Communicating crypto in 2021 event!\r\n\r\nCheck out the impressive lineup of speakers including George Coxon of Nano Foundation, Roopa Ramaiya of Luno, Elliott Suthers of Coinbase, Christian Williams of Crypto Briefing, Samantha Yap of YAP Global Ltd.\r\n\r\nHosted by the PRCA.\r\n\r\nREGISTER HERE: https://www.prca.org.uk/event/4944/communicating-crypto-in-2021%3A-how-to-talk-crypto-without-alienating-traditional-financial-audiences",
+      "category": "general",
+      "created_at": "2021-09-09T13:39:22.682Z",
+      "user": "Naome Jones",
+      "user_title": "Communications Manager",
+      "pin": false,
+      "project": {
+        "type": "Coin",
+        "id": "nano",
+        "name": "Nano",
+        "symbol": "xno",
+        "image": {
+          "thumb": "https://coin-images.coingecko.com/coins/images/756/thumb/nano.png?1696501910",
+          "small": "https://coin-images.coingecko.com/coins/images/756/small/nano.png?1696501910",
+          "large": "https://coin-images.coingecko.com/coins/images/756/large/nano.png?1696501910"
+        }
+      }
+    },
+    {
+      "description": "You can now buy and sell NANO with INR &amp; USDT on Indian exchange Koinbazar\r\n\r\nhttps://www.koinbazar.com/blog/buy-sell-trade-nano-on-koinbazar",
+      "category": "general",
+      "created_at": "2021-08-16T15:50:16.901Z",
+      "user": "Naome Jones",
+      "user_title": "Communications Manager",
+      "pin": false,
+      "project": {
+        "type": "Coin",
+        "id": "nano",
+        "name": "Nano",
+        "symbol": "xno",
+        "image": {
+          "thumb": "https://coin-images.coingecko.com/coins/images/756/thumb/nano.png?1696501910",
+          "small": "https://coin-images.coingecko.com/coins/images/756/small/nano.png?1696501910",
+          "large": "https://coin-images.coingecko.com/coins/images/756/large/nano.png?1696501910"
+        }
+      }
+    },
+    {
+      "description": "That's right, your Friday just got a whole lot better! \r\nThe latest Nano Digest just dropped. Join us as we catch up on everything new in the Nano ecosystem.\r\n\r\nhttps://medium.com/nanocurrency/nano-digest-nano-on-airtm-p2p-new-partnerships-team-updates-media-moments-charitable-252b42ea44a7\r\n",
+      "category": "general",
+      "created_at": "2021-07-16T16:26:50.772Z",
+      "user": "Naome Jones",
+      "user_title": "Communications Manager",
+      "pin": false,
+      "project": {
+        "type": "Coin",
+        "id": "nano",
+        "name": "Nano",
+        "symbol": "xno",
+        "image": {
+          "thumb": "https://coin-images.coingecko.com/coins/images/756/thumb/nano.png?1696501910",
+          "small": "https://coin-images.coingecko.com/coins/images/756/small/nano.png?1696501910",
+          "large": "https://coin-images.coingecko.com/coins/images/756/large/nano.png?1696501910"
+        }
+      }
+    },
+    {
+      "description": "Great news Argentina &amp; Venezuela! NANO is now available on the Airtm P2P Marketplace!\r\n\r\nhttps://medium.com/nanocurrency/nano-is-now-available-on-airtm-p2p-marketplace-28ad9acfc856",
+      "category": "general",
+      "created_at": "2021-07-08T16:41:33.669Z",
+      "user": "Naome Jones",
+      "user_title": "Communications Manager",
+      "pin": false,
+      "project": {
+        "type": "Coin",
+        "id": "nano",
+        "name": "Nano",
+        "symbol": "xno",
+        "image": {
+          "thumb": "https://coin-images.coingecko.com/coins/images/756/thumb/nano.png?1696501910",
+          "small": "https://coin-images.coingecko.com/coins/images/756/small/nano.png?1696501910",
+          "large": "https://coin-images.coingecko.com/coins/images/756/large/nano.png?1696501910"
+        }
+      }
+    }
+  ],
+  "last_updated": "2026-01-05T02:43:37.668Z"
+}

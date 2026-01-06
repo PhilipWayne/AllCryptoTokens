@@ -1,0 +1,81 @@
+{
+  "id": "blur",
+  "symbol": "blur",
+  "name": "Blur",
+  "web_slug": "blur",
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x5283d291dbcf85356a21ba090e6db59121208b44"
+  },
+  "detail_platforms": {
+    "ethereum": {
+      "decimal_place": 18,
+      "contract_address": "0x5283d291dbcf85356a21ba090e6db59121208b44",
+      "geckoterminal_url": "https://www.geckoterminal.com/eth/tokens/0x5283d291dbcf85356a21ba090e6db59121208b44"
+    }
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "categories": [
+    "NFT",
+    "Ethereum Ecosystem",
+    "NFT Marketplace",
+    "FTX Holdings",
+    "NFTFi",
+    "eGirl Capital Portfolio",
+    "Paradigm Portfolio",
+    "GMCI DeFi Index",
+    "GMCI Index",
+    "Made in USA",
+    "Coinbase 50 Index"
+  ],
+  "preview_listing": false,
+  "public_notice": null,
+  "additional_notices": [],
+  "description": {
+    "en": "Blur is an NFT marketplace that  lets nft buyers and sellers to utilise a suite features to facilitate more open and liquid NFT marketplace."
+  },
+  "links": {
+    "homepage": [
+      "https://blur.io/",
+      "https://linktr.ee/blur"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x5283d291dbcf85356a21ba090e6db59121208b44",
+      "https://intel.arkm.com/explorer/token/blur",
+      "https://ethplorer.io/address/0x5283d291dbcf85356a21ba090e6db59121208b44"
+    ],
+    "official_forum_url": [
+      "https://mirror.xyz/blurdao.eth"
+    ],
+    "chat_url": [
+      "https://discord.gg/blurdao"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "blur_io",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/28453/thumb/blur.png?1696527448",
+    "small": "https://coin-images.coingecko.com/coins/images/28453/small/blur.png?1696527448",
+    "large": "https://coin-images.coingecko.com/coins/images/28453/large/blur.png?1696527448"
+  },
+  "country_origin": "",
+  "genesis_date": null,
+  "contract_address": "0x5283d291dbcf85356a21ba090e6db59121208b44",
+  "sentiment_votes_up_percentage": null,
+  "sentiment_votes_down_percentage": null,
+  "watchlist_portfolio_users": 34976,
+  "market_cap_rank": 496,
+  "status_updates": [],
+  "last_updated": "2026-01-05T00:22:14.262Z"
+}

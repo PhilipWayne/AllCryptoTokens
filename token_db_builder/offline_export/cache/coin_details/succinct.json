@@ -1,0 +1,82 @@
+{
+  "id": "succinct",
+  "symbol": "prove",
+  "name": "Succinct",
+  "web_slug": "succinct",
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x6bef15d938d4e72056ac92ea4bdd0d76b1c4ad29",
+    "binance-smart-chain": "0x7ddf164cecfddd0f992299d033b5a11279a15929"
+  },
+  "detail_platforms": {
+    "ethereum": {
+      "decimal_place": 18,
+      "contract_address": "0x6bef15d938d4e72056ac92ea4bdd0d76b1c4ad29",
+      "geckoterminal_url": "https://www.geckoterminal.com/eth/tokens/0x6bef15d938d4e72056ac92ea4bdd0d76b1c4ad29"
+    },
+    "binance-smart-chain": {
+      "decimal_place": 18,
+      "contract_address": "0x7ddf164cecfddd0f992299d033b5a11279a15929",
+      "geckoterminal_url": "https://www.geckoterminal.com/bsc/tokens/0x7ddf164cecfddd0f992299d033b5a11279a15929"
+    }
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "categories": [
+    "Infrastructure",
+    "BNB Chain Ecosystem",
+    "Ethereum Ecosystem",
+    "Zero Knowledge (ZK)",
+    "Binance Alpha Spotlight"
+  ],
+  "preview_listing": false,
+  "public_notice": null,
+  "additional_notices": [],
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://www.succinct.xyz/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x6BEF15D938d4E72056AC92Ea4bDD0D76B1C4ad29",
+      "https://intel.arkm.com/explorer/token/succinct",
+      "https://ethplorer.io/address/0x6BEF15D938d4E72056AC92Ea4bDD0D76B1C4ad29",
+      "https://bscscan.com/token/0x7DDf164CEcfddd0f992299D033B5a11279A15929",
+      "https://binplorer.com/address/0x7DDf164CEcfddd0f992299D033B5a11279A15929"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/succinctlabs"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "succinctlabs",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [
+        "https://github.com/succinctlabs"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/67905/thumb/succinct-logo.png?1754228574",
+    "small": "https://coin-images.coingecko.com/coins/images/67905/small/succinct-logo.png?1754228574",
+    "large": "https://coin-images.coingecko.com/coins/images/67905/large/succinct-logo.png?1754228574"
+  },
+  "country_origin": "",
+  "genesis_date": null,
+  "contract_address": "0x6bef15d938d4e72056ac92ea4bdd0d76b1c4ad29",
+  "sentiment_votes_up_percentage": null,
+  "sentiment_votes_down_percentage": null,
+  "watchlist_portfolio_users": 3286,
+  "market_cap_rank": 481,
+  "status_updates": [],
+  "last_updated": "2026-01-05T01:58:14.210Z"
+}

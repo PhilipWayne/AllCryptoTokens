@@ -1,0 +1,79 @@
+{
+  "id": "convex-finance",
+  "symbol": "cvx",
+  "name": "Convex Finance",
+  "web_slug": "convex-finance",
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x4e3fbd56cd56c3e72c1403e103b45db9da5b9d2b"
+  },
+  "detail_platforms": {
+    "ethereum": {
+      "decimal_place": 18,
+      "contract_address": "0x4e3fbd56cd56c3e72c1403e103b45db9da5b9d2b",
+      "geckoterminal_url": "https://www.geckoterminal.com/eth/tokens/0x4e3fbd56cd56c3e72c1403e103b45db9da5b9d2b"
+    }
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "categories": [
+    "Decentralized Finance (DeFi)",
+    "Yield Farming",
+    "Yield Aggregator",
+    "Ethereum Ecosystem",
+    "Metagovernance",
+    "Curve Ecosystem",
+    "Yield Optimizer",
+    "Governance"
+  ],
+  "preview_listing": false,
+  "public_notice": null,
+  "additional_notices": [],
+  "description": {
+    "en": "Convex is a protocol that simplifies Curve boosting experience in order to maximize yields. Convex allows Curve liquidity providers to earn trading fees and claim boosted CRV without locking CRV themselves. Liquidity providers can receive boosted CRV and liquidity mining rewards with minimal effort.\r\nIf you would like to stake CRV, Convex lets users receive trading fees as well as a share of boosted CRV received by liquidity providers. This allows for a better balance between liquidity providers and CRV stakers as well as better capital efficiency.\r\n\r\nCurve liquidity providers can deposit their LP tokens into Convex to maximize their CRV earnings with a more efficient boost.\r\n\r\nCurve DAO token stakers will be able to earn additional boosted CRV and CVX tokens through the protocol.\r\n\r\n"
+  },
+  "links": {
+    "homepage": [
+      "https://www.convexfinance.com/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x4e3fbd56cd56c3e72c1403e103b45db9da5b9d2b",
+      "https://intel.arkm.com/explorer/token/convex-finance",
+      "https://ethplorer.io/address/0x4e3fbd56cd56c3e72c1403e103b45db9da5b9d2b"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/WHwgFwRG6h"
+    ],
+    "announcement_url": [
+      "https://convexfinance.medium.com/"
+    ],
+    "snapshot_url": "https://snapshot.org/#/cvx.eth",
+    "twitter_screen_name": "convexfinance",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "convexEthChat",
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [
+        "https://github.com/convex-eth/platform"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/15585/thumb/convex.png?1696515221",
+    "small": "https://coin-images.coingecko.com/coins/images/15585/small/convex.png?1696515221",
+    "large": "https://coin-images.coingecko.com/coins/images/15585/large/convex.png?1696515221"
+  },
+  "country_origin": "",
+  "genesis_date": null,
+  "contract_address": "0x4e3fbd56cd56c3e72c1403e103b45db9da5b9d2b",
+  "sentiment_votes_up_percentage": 70.0,
+  "sentiment_votes_down_percentage": 30.0,
+  "watchlist_portfolio_users": 32477,
+  "market_cap_rank": 298,
+  "status_updates": [],
+  "last_updated": "2026-01-05T00:37:35.910Z"
+}

@@ -1,0 +1,94 @@
+{
+  "id": "kernel-2",
+  "symbol": "kernel",
+  "name": "KernelDAO",
+  "web_slug": "kernel-2",
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x3f80b1c54ae920be41a77f8b902259d48cf24ccf",
+    "binance-smart-chain": "0x9ecaf80c1303cca8791afbc0ad405c8a35e8d9f1",
+    "arbitrum-one": "0x6e401189c8a68d05562c9bab7f674f910821eacf"
+  },
+  "detail_platforms": {
+    "ethereum": {
+      "decimal_place": 18,
+      "contract_address": "0x3f80b1c54ae920be41a77f8b902259d48cf24ccf",
+      "geckoterminal_url": "https://www.geckoterminal.com/eth/tokens/0x3f80b1c54ae920be41a77f8b902259d48cf24ccf"
+    },
+    "binance-smart-chain": {
+      "decimal_place": 18,
+      "contract_address": "0x9ecaf80c1303cca8791afbc0ad405c8a35e8d9f1",
+      "geckoterminal_url": "https://www.geckoterminal.com/bsc/tokens/0x9ecaf80c1303cca8791afbc0ad405c8a35e8d9f1"
+    },
+    "arbitrum-one": {
+      "decimal_place": 18,
+      "contract_address": "0x6e401189c8a68d05562c9bab7f674f910821eacf",
+      "geckoterminal_url": "https://www.geckoterminal.com/arbitrum/tokens/0x6e401189c8a68d05562c9bab7f674f910821eacf"
+    }
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "categories": [
+    "Decentralized Finance (DeFi)",
+    "BNB Chain Ecosystem",
+    "Arbitrum Ecosystem",
+    "Ethereum Ecosystem",
+    "Restaking",
+    "Liquid Restaking Governance Tokens"
+  ],
+  "preview_listing": false,
+  "public_notice": null,
+  "additional_notices": [],
+  "description": {
+    "en": "Kernel is a suite of restaking products - Kelp LRT, Kernel Infrastructure, and Gain\r\n\r\nKelp is a liquid restaking protocol with $2B+ in TVL, 500K ETH restaked, live on 10+ L2s and integrated across Aave, Pendle, Fluid, and many more key platforms. \r\n\r\nGain is a vault product designed for users to maximize their earning potential - via different vaults like Airdrop Gain Vault, and High Growth Vault among others\r\n\r\nKernel aims to redefine the restaking and decentralized finance landscape by building an interconnected ecosystem that seamlessly bridges security, liquidity, and rewards. By empowering stakers, developers, and protocols, Kernel strives to be the backbone of decentralized economic security on the BNB Chain and beyond"
+  },
+  "links": {
+    "homepage": [
+      "https://kerneldao.com/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/address/0x3f80b1c54ae920be41a77f8b902259d48cf24ccf",
+      "https://intel.arkm.com/explorer/token/kernel-2 ",
+      "https://bscscan.com/address/0x9eCaf80c1303CCA8791aFBc0AD405c8a35e8d9f1",
+      "https://arbiscan.io/address/0x6E401189c8A68D05562c9Bab7f674f910821EAcF",
+      "https://etherscan.io/token/0x3f80b1c54ae920be41a77f8b902259d48cf24ccf",
+      "https://ethplorer.io/address/0x3f80b1c54ae920be41a77f8b902259d48cf24ccf",
+      "https://bscscan.com/token/0x9ecaf80c1303cca8791afbc0ad405c8a35e8d9f1",
+      "https://binplorer.com/address/0x9ecaf80c1303cca8791afbc0ad405c8a35e8d9f1",
+      "https://arbiscan.io/token/0x6e401189c8a68d05562c9bab7f674f910821eacf",
+      "https://intel.arkm.com/explorer/token/kernel-2"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.gg/khSpqCFvGq"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "kernel_dao",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "KelpDAOxyz",
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [
+        "https://github.com/Kelp-DAO/kernel-smart-contracts-public"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/54326/thumb/Kernel_token_logo_2x.png?1739827205",
+    "small": "https://coin-images.coingecko.com/coins/images/54326/small/Kernel_token_logo_2x.png?1739827205",
+    "large": "https://coin-images.coingecko.com/coins/images/54326/large/Kernel_token_logo_2x.png?1739827205"
+  },
+  "country_origin": "",
+  "genesis_date": null,
+  "contract_address": "0x3f80b1c54ae920be41a77f8b902259d48cf24ccf",
+  "sentiment_votes_up_percentage": null,
+  "sentiment_votes_down_percentage": null,
+  "watchlist_portfolio_users": 58211,
+  "market_cap_rank": 1145,
+  "status_updates": [],
+  "last_updated": "2026-01-05T01:18:52.772Z"
+}

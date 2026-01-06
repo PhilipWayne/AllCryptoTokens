@@ -1,0 +1,322 @@
+{
+  "id": "havven",
+  "symbol": "snx",
+  "name": "Synthetix",
+  "web_slug": "synthetix-network-token",
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f",
+    "harmony-shard-0": "0x7b9c523d59aefd362247bd5601a89722e3774dd2",
+    "huobi-token": "0x777850281719d5a96c29812ab72f822e0e09f3da",
+    "fantom": "0x56ee926bd8c72b2d5fa1af4d9e4cbb515a1e3adc",
+    "base": "0x22e6966b799c4d5b13be962e1d117b56327fda66",
+    "near-protocol": "c011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f.factory.bridge.near",
+    "energi": "0xa255461ff545d6ece153283f421d67d2de5d0e29",
+    "avalanche": "0xbec243c995409e6520d7c41e404da5deba4b209b",
+    "polygon-pos": "0x50b728d8d964fd00c2d0aad81718b71311fef68a",
+    "optimistic-ethereum": "0x8700daec35af8ff88c16bdf0418774cb3d7599b4"
+  },
+  "detail_platforms": {
+    "ethereum": {
+      "decimal_place": 18,
+      "contract_address": "0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f",
+      "geckoterminal_url": "https://www.geckoterminal.com/eth/tokens/0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f"
+    },
+    "harmony-shard-0": {
+      "decimal_place": 18,
+      "contract_address": "0x7b9c523d59aefd362247bd5601a89722e3774dd2",
+      "geckoterminal_url": "https://www.geckoterminal.com/one/tokens/0x7b9c523d59aefd362247bd5601a89722e3774dd2"
+    },
+    "huobi-token": {
+      "decimal_place": 18,
+      "contract_address": "0x777850281719d5a96c29812ab72f822e0e09f3da",
+      "geckoterminal_url": "https://www.geckoterminal.com/heco/tokens/0x777850281719d5a96c29812ab72f822e0e09f3da"
+    },
+    "fantom": {
+      "decimal_place": 18,
+      "contract_address": "0x56ee926bd8c72b2d5fa1af4d9e4cbb515a1e3adc",
+      "geckoterminal_url": "https://www.geckoterminal.com/ftm/tokens/0x56ee926bd8c72b2d5fa1af4d9e4cbb515a1e3adc"
+    },
+    "base": {
+      "decimal_place": 18,
+      "contract_address": "0x22e6966b799c4d5b13be962e1d117b56327fda66",
+      "geckoterminal_url": "https://www.geckoterminal.com/base/tokens/0x22e6966b799c4d5b13be962e1d117b56327fda66"
+    },
+    "near-protocol": {
+      "decimal_place": 18,
+      "contract_address": "c011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f.factory.bridge.near",
+      "geckoterminal_url": "https://www.geckoterminal.com/near/tokens/c011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f.factory.bridge.near"
+    },
+    "energi": {
+      "decimal_place": 18,
+      "contract_address": "0xa255461ff545d6ece153283f421d67d2de5d0e29",
+      "geckoterminal_url": "https://www.geckoterminal.com/nrg/tokens/0xa255461ff545d6ece153283f421d67d2de5d0e29"
+    },
+    "avalanche": {
+      "decimal_place": 18,
+      "contract_address": "0xbec243c995409e6520d7c41e404da5deba4b209b",
+      "geckoterminal_url": "https://www.geckoterminal.com/avax/tokens/0xbec243c995409e6520d7c41e404da5deba4b209b"
+    },
+    "polygon-pos": {
+      "decimal_place": 18,
+      "contract_address": "0x50b728d8d964fd00c2d0aad81718b71311fef68a",
+      "geckoterminal_url": "https://www.geckoterminal.com/polygon_pos/tokens/0x50b728d8d964fd00c2d0aad81718b71311fef68a"
+    },
+    "optimistic-ethereum": {
+      "decimal_place": 18,
+      "contract_address": "0x8700daec35af8ff88c16bdf0418774cb3d7599b4",
+      "geckoterminal_url": "https://www.geckoterminal.com/optimism/tokens/0x8700daec35af8ff88c16bdf0418774cb3d7599b4"
+    }
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "categories": [
+    "Decentralized Exchange (DEX)",
+    "Exchange-based Tokens",
+    "Decentralized Finance (DeFi)",
+    "Yield Farming",
+    "Derivatives",
+    "Synthetic Issuer",
+    "Avalanche Ecosystem",
+    "Polygon Ecosystem",
+    "Near Protocol Ecosystem",
+    "Fantom Ecosystem",
+    "Harmony Ecosystem",
+    "Ethereum Ecosystem",
+    "Optimism Ecosystem",
+    "Base Ecosystem",
+    "DWF Labs Portfolio",
+    "Paradigm Portfolio",
+    "Coinbase Ventures Portfolio",
+    "Index Coop Defi Index",
+    "Energi Ecosystem",
+    "Huobi ECO Chain Ecosystem",
+    "GMCI DeFi Index",
+    "Synthetic",
+    "GMCI Index",
+    "Coinbase 50 Index",
+    "Governance"
+  ],
+  "preview_listing": false,
+  "public_notice": null,
+  "additional_notices": [],
+  "description": {
+    "en": "Synthetix is a decentralized perpetual futures protocol built on Ethereum Mainnet. Synthetix uses a hybrid design — off-chain order matching on a high-performance CLOB with on-chain settlement — to deliver low latency, deep liquidity, and MEV-resistant execution while keeping custody and finality on Ethereum. Traders get CEX-like performance with on-chain security and composability. The protocol’s liquidity is provided by the Synthetix Liquidity Provider (SLP) vault and backstopped by staked SNX collateral, which underwrites the issuance of the sUSD stablecoin and the solvency of the SLP vault.\r\n"
+  },
+  "links": {
+    "homepage": [
+      "https://www.synthetix.io/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f",
+      "https://ethplorer.io/address/0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f",
+      "https://polygonscan.com/token/0x50b728d8d964fd00c2d0aad81718b71311fef68a",
+      "https://snowtrace.io/token/0xbec243c995409e6520d7c41e404da5deba4b209b",
+      "https://ftmscan.com/token/0x56ee926bd8c72b2d5fa1af4d9e4cbb515a1e3adc",
+      "https://scan.meter.io/address/0x56ee926bd8c72b2d5fa1af4d9e4cbb515a1e3adc",
+      "https://nearblocks.io/token/c011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f.factory.bridge.near",
+      "https://avascan.info/blockchain/c/address/0xbec243c995409e6520d7c41e404da5deba4b209b/token"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/synthetix"
+    ],
+    "announcement_url": [
+      "https://blog.synthetix.io/"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "synthetix",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com/r/synthetix_io/",
+    "repos_url": {
+      "github": [
+        "https://github.com/Synthetixio/synthetix",
+        "https://github.com/Synthetixio/synthetix-js"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/3406/thumb/SNX.png?1696504103",
+    "small": "https://coin-images.coingecko.com/coins/images/3406/small/SNX.png?1696504103",
+    "large": "https://coin-images.coingecko.com/coins/images/3406/large/SNX.png?1696504103"
+  },
+  "country_origin": "AU",
+  "genesis_date": "2018-03-11",
+  "contract_address": "0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f",
+  "sentiment_votes_up_percentage": 75.0,
+  "sentiment_votes_down_percentage": 25.0,
+  "ico_data": {
+    "ico_start_date": "2018-02-28T00:00:00.000Z",
+    "ico_end_date": "2018-03-07T00:00:00.000Z",
+    "short_desc": "Havven is a decentralised payment network and stablecoin. It allows anyone to transact using a stable cryptocurrency.",
+    "description": "",
+    "links": {},
+    "softcap_currency": "USD",
+    "hardcap_currency": "USD",
+    "total_raised_currency": "USD",
+    "softcap_amount": "2000000.0",
+    "hardcap_amount": "30000000.0",
+    "total_raised": "30000000.0",
+    "quote_pre_sale_currency": "",
+    "base_pre_sale_amount": null,
+    "quote_pre_sale_amount": null,
+    "quote_public_sale_currency": "USD",
+    "base_public_sale_amount": 1.0,
+    "quote_public_sale_amount": 0.5,
+    "accepting_currencies": "",
+    "country_origin": "AU",
+    "pre_sale_start_date": null,
+    "pre_sale_end_date": null,
+    "whitelist_url": "",
+    "whitelist_start_date": null,
+    "whitelist_end_date": null,
+    "bounty_detail_url": "",
+    "amount_for_sale": "60000000.0",
+    "kyc_required": true,
+    "whitelist_available": null,
+    "pre_sale_available": null,
+    "pre_sale_ended": false
+  },
+  "watchlist_portfolio_users": 122751,
+  "market_cap_rank": 328,
+  "status_updates": [
+    {
+      "description": "Just a reminder that in the next few hours we'll be freezing the system to deploy our scheduled Sirius Release. If anyone still has liquidity in the old sETH pool on Uniswap you'll need to migrate before we begin or your sETH will be frozen! https://blog.synthetix.io/release-scheduled-thursday-september-26/",
+      "category": "general",
+      "created_at": "2019-09-26T01:03:09.811Z",
+      "user": "Garth",
+      "user_title": "Communications Manager",
+      "pin": false,
+      "project": {
+        "type": "Coin",
+        "id": "havven",
+        "name": "Synthetix",
+        "symbol": "snx",
+        "image": {
+          "thumb": "https://coin-images.coingecko.com/coins/images/3406/thumb/SNX.png?1696504103",
+          "small": "https://coin-images.coingecko.com/coins/images/3406/small/SNX.png?1696504103",
+          "large": "https://coin-images.coingecko.com/coins/images/3406/large/SNX.png?1696504103"
+        }
+      }
+    },
+    {
+      "description": "Here's everything you need to know about our upcoming release on Thursday (AEST). https://blog.synthetix.io/release-scheduled-thursday-september-26/",
+      "category": "general",
+      "created_at": "2019-09-23T06:07:50.616Z",
+      "user": "Garth",
+      "user_title": "Communications Manager",
+      "pin": false,
+      "project": {
+        "type": "Coin",
+        "id": "havven",
+        "name": "Synthetix",
+        "symbol": "snx",
+        "image": {
+          "thumb": "https://coin-images.coingecko.com/coins/images/3406/thumb/SNX.png?1696504103",
+          "small": "https://coin-images.coingecko.com/coins/images/3406/small/SNX.png?1696504103",
+          "large": "https://coin-images.coingecko.com/coins/images/3406/large/SNX.png?1696504103"
+        }
+      }
+    },
+    {
+      "description": "Here's why you should vote for $sUSD in this week's @compoundfinance community vote! https://blog.synthetix.io/why-susd-should-be-available-for-lending-on-compound/",
+      "category": "general",
+      "created_at": "2019-08-27T07:10:27.925Z",
+      "user": "Garth",
+      "user_title": "Communications Manager",
+      "pin": false,
+      "project": {
+        "type": "Coin",
+        "id": "havven",
+        "name": "Synthetix",
+        "symbol": "snx",
+        "image": {
+          "thumb": "https://coin-images.coingecko.com/coins/images/3406/thumb/SNX.png?1696504103",
+          "small": "https://coin-images.coingecko.com/coins/images/3406/small/SNX.png?1696504103",
+          "large": "https://coin-images.coingecko.com/coins/images/3406/large/SNX.png?1696504103"
+        }
+      }
+    },
+    {
+      "description": "We just launched two new Index Synths, sCEX and iCEX. These tokens provide long/short exposure to a basket of exchange tokens, $BNB, $LEO, $HT, $OKB, $KCS. https://blog.synthetix.io/introducing-our-first-index-tokens-scex-and-icex/",
+      "category": "general",
+      "created_at": "2019-08-20T15:00:52.066Z",
+      "user": "Garth",
+      "user_title": "Communications Manager",
+      "pin": false,
+      "project": {
+        "type": "Coin",
+        "id": "havven",
+        "name": "Synthetix",
+        "symbol": "snx",
+        "image": {
+          "thumb": "https://coin-images.coingecko.com/coins/images/3406/thumb/SNX.png?1696504103",
+          "small": "https://coin-images.coingecko.com/coins/images/3406/small/SNX.png?1696504103",
+          "large": "https://coin-images.coingecko.com/coins/images/3406/large/SNX.png?1696504103"
+        }
+      }
+    },
+    {
+      "description": "SNX liquidity has now been added to KyberSwap! https://blog.synthetix.io/snx-liquidity-has-been-added-to-kyberswap/",
+      "category": "general",
+      "created_at": "2019-08-19T06:27:10.039Z",
+      "user": "Garth",
+      "user_title": "Communications Manager",
+      "pin": false,
+      "project": {
+        "type": "Coin",
+        "id": "havven",
+        "name": "Synthetix",
+        "symbol": "snx",
+        "image": {
+          "thumb": "https://coin-images.coingecko.com/coins/images/3406/thumb/SNX.png?1696504103",
+          "small": "https://coin-images.coingecko.com/coins/images/3406/small/SNX.png?1696504103",
+          "large": "https://coin-images.coingecko.com/coins/images/3406/large/SNX.png?1696504103"
+        }
+      }
+    },
+    {
+      "description": "The system is back up and the first wave of community-governance-led changes are live! More details here: https://blog.synthetix.io/new-synths-750-c-ratio-and-reward-claim-updates/",
+      "category": "general",
+      "created_at": "2019-07-03T05:46:23.386Z",
+      "user": "Garth",
+      "user_title": "Communications Manager",
+      "pin": false,
+      "project": {
+        "type": "Coin",
+        "id": "havven",
+        "name": "Synthetix",
+        "symbol": "snx",
+        "image": {
+          "thumb": "https://coin-images.coingecko.com/coins/images/3406/thumb/SNX.png?1696504103",
+          "small": "https://coin-images.coingecko.com/coins/images/3406/small/SNX.png?1696504103",
+          "large": "https://coin-images.coingecko.com/coins/images/3406/large/SNX.png?1696504103"
+        }
+      }
+    },
+    {
+      "description": "Here's our brand new litepaper giving you a detailed overview of all the key aspects of the Synthetix system! https://www.synthetix.io/uploads/litepaper.pdf",
+      "category": "general",
+      "created_at": "2019-07-02T04:05:47.203Z",
+      "user": "Garth",
+      "user_title": "Communications Manager",
+      "pin": false,
+      "project": {
+        "type": "Coin",
+        "id": "havven",
+        "name": "Synthetix",
+        "symbol": "snx",
+        "image": {
+          "thumb": "https://coin-images.coingecko.com/coins/images/3406/thumb/SNX.png?1696504103",
+          "small": "https://coin-images.coingecko.com/coins/images/3406/small/SNX.png?1696504103",
+          "large": "https://coin-images.coingecko.com/coins/images/3406/large/SNX.png?1696504103"
+        }
+      }
+    }
+  ],
+  "last_updated": "2026-01-05T02:13:17.848Z"
+}

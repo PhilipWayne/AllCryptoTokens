@@ -1,0 +1,99 @@
+{
+  "id": "step-app-fitfi",
+  "symbol": "fitfi",
+  "name": "Step App",
+  "web_slug": "step-app",
+  "asset_platform_id": "avalanche",
+  "platforms": {
+    "avalanche": "0x714f020c54cc9d104b6f4f6998c63ce2a31d1888",
+    "step-network": "0xb58a9d5920af6ac1a9522b0b10f55df16686d1b6",
+    "binance-smart-chain": "0x7588df009c3d82378be6ab81f2108fa963c10fc8"
+  },
+  "detail_platforms": {
+    "avalanche": {
+      "decimal_place": 18,
+      "contract_address": "0x714f020c54cc9d104b6f4f6998c63ce2a31d1888",
+      "geckoterminal_url": "https://www.geckoterminal.com/avax/tokens/0x714f020c54cc9d104b6f4f6998c63ce2a31d1888"
+    },
+    "step-network": {
+      "decimal_place": 18,
+      "contract_address": "0xb58a9d5920af6ac1a9522b0b10f55df16686d1b6",
+      "geckoterminal_url": "https://www.geckoterminal.com/step-network/tokens/0xb58a9d5920af6ac1a9522b0b10f55df16686d1b6"
+    },
+    "binance-smart-chain": {
+      "decimal_place": 18,
+      "contract_address": "0x7588df009c3d82378be6ab81f2108fa963c10fc8",
+      "geckoterminal_url": "https://www.geckoterminal.com/bsc/tokens/0x7588df009c3d82378be6ab81f2108fa963c10fc8"
+    }
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "categories": [
+    "Sports",
+    "Gaming (GameFi)",
+    "Yield Farming",
+    "NFT",
+    "BNB Chain Ecosystem",
+    "Avalanche Ecosystem",
+    "DaoMaker Launchpad",
+    "Play To Earn",
+    "Move To Earn",
+    "Step Network Ecosystem",
+    "Gaming Governance Token",
+    "Sports Games",
+    "Avalanche L1"
+  ],
+  "preview_listing": false,
+  "public_notice": null,
+  "additional_notices": [],
+  "description": {
+    "en": "Step App (FITFI) is the governance token for the Step Labs Ecosystem, which is all about pushing the boundaries of fitness and gaming. \r\nHere’s the lowdown:\r\n\r\nStep App: A Web3 move-to-earn app. The app's augmented reality technology bridges the gamified metaverse with the real world, turning fitness into a social experience where mechanics allow people to compete and win. By downloading Step App, users can earn by walking, running, competing with friends/app users, chatting, exploring the metaverse or the real world. The Step App functionality is designed to attract and connect users, inspiring them to engage in daily physical activity and regular exercise.\r\n\r\nStep Hero: Think of it as the ultimate platform for gamers and Web3 fans in Telegram. Step Hero is building something that’s here for the long haul—a spot where the rewards just keep rolling in. We’re merging gaming with Web3 in a way that makes play-to-earn a real deal, not just a buzzword. With Step Hero, you’ll find opportunities to earn while having a great time. If you’ve been waiting for endless airdrops, you’ve hit the jackpot—we’ve got your back. We’re not just about tokens; we aim to be the main hub for fresh games and platforms that want to draw in new fans. This approach not only fuels development but also hooks users up with generous rewards for getting involved.\r\n\r\nStep Health: A User-Friendly Fitness App for Your Wellness Journey. StepHealth is a comprehensive fitness app designed for those seeking a user-friendly and accessible approach to health and wellness. With features like AI-powered coaching, personalized workout programs, social fitness to invite and track friends' progress, and seamless integration with Apple Health and Google Health, achieving your fitness goals has never been easier.\r\n\r\nStep Wallet: Step Wallet is the official Step wallet app designed to better interact with the Step ecosystem. It is available for both Android and iOS users.\r\n\r\nStepEx: StepEx is the first DEX for mainstream usage and is plugged into apps that target tens of millions of mass consumers. This is Defi delivered to the masses, through built-in integrations to mass usage apps.\r\n\r\nStep Protocol: Step Protocol is a network for life, a network for the pursuit of lifestyle, fitness, and consumption.\r\nStep blockchain is an EVM-compatible blockchain. It's built on the base of Avalanche code with added elements. This brings the proven network security of an established codebase to faster throughput. This is a foundation for internet-scale apps for life.\r\n\r\nStep Launch: Your entry into the Step Labs Ecosystem. Catch the projects before they become public. \r\n\r\nStep Bridge: Trusty tool to move your Avalanche C-Chain FITFI to Step Network. \r\n\r\nStep Staking: Stake your FITFI to get passive income."
+  },
+  "links": {
+    "homepage": [
+      "https://step.app/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://snowtrace.io/token/0x714f020c54cc9d104b6f4f6998c63ce2a31d1888",
+      "https://intel.arkm.com/explorer/token/step-app-fitfi ",
+      "https://avascan.info/blockchain/c/address/0x714f020c54cc9d104b6f4f6998c63ce2a31d1888/token",
+      "https://stepscan.io/token/0xb58a9d5920af6ac1a9522b0b10f55df16686d1b6",
+      "https://bscscan.com/token/0x7588df009c3d82378be6ab81f2108fa963c10fc8",
+      "https://binplorer.com/address/0x7588df009c3d82378be6ab81f2108fa963c10fc8",
+      "https://snowtrace.io/token/0x714f020c54cc9d104b6f4f6998c63ce2a31d1888?type=erc20&chainid=43114",
+      "https://intel.arkm.com/explorer/token/step-app-fitfi"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/stepappdc"
+    ],
+    "announcement_url": [
+      "https://daomaker.com/company/step-app"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "stepapp_",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "stepappchat",
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/25015/thumb/200x200.png?1701432003",
+    "small": "https://coin-images.coingecko.com/coins/images/25015/small/200x200.png?1701432003",
+    "large": "https://coin-images.coingecko.com/coins/images/25015/large/200x200.png?1701432003"
+  },
+  "country_origin": "",
+  "genesis_date": null,
+  "contract_address": "0x714f020c54cc9d104b6f4f6998c63ce2a31d1888",
+  "sentiment_votes_up_percentage": 100.0,
+  "sentiment_votes_down_percentage": 0.0,
+  "watchlist_portfolio_users": 22699,
+  "market_cap_rank": 2743,
+  "status_updates": [],
+  "last_updated": "2026-01-05T00:52:13.257Z"
+}

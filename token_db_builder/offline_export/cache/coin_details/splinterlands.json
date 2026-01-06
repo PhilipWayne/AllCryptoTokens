@@ -1,0 +1,82 @@
+{
+  "id": "splinterlands",
+  "symbol": "sps",
+  "name": "Splintershards",
+  "web_slug": "splintershards",
+  "asset_platform_id": "binance-smart-chain",
+  "platforms": {
+    "binance-smart-chain": "0x1633b7157e7638c4d6593436111bf125ee74703f"
+  },
+  "detail_platforms": {
+    "binance-smart-chain": {
+      "decimal_place": 18,
+      "contract_address": "0x1633b7157e7638c4d6593436111bf125ee74703f",
+      "geckoterminal_url": "https://www.geckoterminal.com/bsc/tokens/0x1633b7157e7638c4d6593436111bf125ee74703f"
+    }
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "categories": [
+    "Gaming (GameFi)",
+    "NFT",
+    "BNB Chain Ecosystem",
+    "Play To Earn",
+    "Animoca Brands Portfolio",
+    "Card Games",
+    "Gaming Governance Token",
+    "Gaming Utility Token",
+    "Strategy Games",
+    "Governance"
+  ],
+  "preview_listing": false,
+  "public_notice": null,
+  "additional_notices": [],
+  "description": {
+    "en": "Since the days of the Splintering, the face of the world has been shaped by blood and power. As factions battle for control, primal energies are harnessed and unleashed.\r\n\r\nTired of card games that require a huge investment in time to play a single session? The rapid battles in Splinterlands are fast and furious, each game only taking a few minutes.\r\n\r\nPlay, Trade, and Earn anywhere at anytime. Splinterlands is available on both desktop and mobile devices."
+  },
+  "links": {
+    "homepage": [
+      "https://splinterlands.com/"
+    ],
+    "whitepaper": "https://sps.splinterlands.com/",
+    "blockchain_site": [
+      "https://bscscan.com/token/0x1633b7157e7638c4d6593436111bf125ee74703f",
+      "https://binplorer.com/address/0x1633b7157e7638c4d6593436111bf125ee74703f"
+    ],
+    "official_forum_url": [
+      "https://www.splintertalk.io/"
+    ],
+    "chat_url": [
+      "https://discord.com/invite/CAFJRjY",
+      "https://www.facebook.com/officialsplinterlands/"
+    ],
+    "announcement_url": [
+      "https://peakd.com/@splinterlands",
+      "https://www.publish0x.com/splinterlands"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "splinterlands",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "splinterlandsHQ",
+    "subreddit_url": "https://www.reddit.com/r/Splinterlands/",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/17332/thumb/splinter.PNG?1696516884",
+    "small": "https://coin-images.coingecko.com/coins/images/17332/small/splinter.PNG?1696516884",
+    "large": "https://coin-images.coingecko.com/coins/images/17332/large/splinter.PNG?1696516884"
+  },
+  "country_origin": "",
+  "genesis_date": null,
+  "contract_address": "0x1633b7157e7638c4d6593436111bf125ee74703f",
+  "sentiment_votes_up_percentage": 50.0,
+  "sentiment_votes_down_percentage": 50.0,
+  "watchlist_portfolio_users": 27995,
+  "market_cap_rank": 2476,
+  "status_updates": [],
+  "last_updated": "2026-01-05T02:16:29.754Z"
+}

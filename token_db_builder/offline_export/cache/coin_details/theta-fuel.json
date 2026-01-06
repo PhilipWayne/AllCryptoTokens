@@ -1,0 +1,72 @@
+{
+  "id": "theta-fuel",
+  "symbol": "tfuel",
+  "name": "Theta Fuel",
+  "web_slug": "theta-fuel",
+  "asset_platform_id": null,
+  "platforms": {
+    "": ""
+  },
+  "detail_platforms": {
+    "": {
+      "decimal_place": null,
+      "contract_address": ""
+    }
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "categories": [
+    "Artificial Intelligence (AI)",
+    "Smart Contract Platform",
+    "DePIN",
+    "Proof of Stake (PoS)",
+    "Made in USA"
+  ],
+  "preview_listing": false,
+  "public_notice": null,
+  "additional_notices": [],
+  "description": {
+    "en": "The operational token of the Theta protocol. TFUEL powers on-chain operations like payments to relayers for sharing a video stream, or for deploying or interacting with smart contracts. Relayers earn TFUEL for every video stream they relay to other users on the network. You can think of Theta Fuel as the \"gas\" of the protocol. At Mainnet launch on March 15th, TFUEL will be created as a native token on the Theta blockchain."
+  },
+  "links": {
+    "homepage": [
+      "https://www.thetatoken.org/"
+    ],
+    "whitepaper": "https://s3.us-east-2.amazonaws.com/assets.thetatoken.org/Theta-white-paper-latest.pdf?v=1553657855.509",
+    "blockchain_site": [
+      "https://explorer.thetatoken.org/"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://www.facebook.com/ThetaNetwork/"
+    ],
+    "announcement_url": [
+      "https://medium.com/theta-network"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "Theta_Network",
+    "facebook_username": "ThetaNetwork",
+    "bitcointalk_thread_identifier": 2451089,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com/r/theta_network/",
+    "repos_url": {
+      "github": [
+        "https://github.com/thetatoken/theta-protocol-ledger"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/8029/thumb/1_0YusgngOrriVg4ZYx4wOFQ.png?1696508251",
+    "small": "https://coin-images.coingecko.com/coins/images/8029/small/1_0YusgngOrriVg4ZYx4wOFQ.png?1696508251",
+    "large": "https://coin-images.coingecko.com/coins/images/8029/large/1_0YusgngOrriVg4ZYx4wOFQ.png?1696508251"
+  },
+  "country_origin": "",
+  "genesis_date": null,
+  "sentiment_votes_up_percentage": 100.0,
+  "sentiment_votes_down_percentage": 0.0,
+  "watchlist_portfolio_users": 47291,
+  "market_cap_rank": 374,
+  "status_updates": [],
+  "last_updated": "2026-01-05T02:23:33.407Z"
+}

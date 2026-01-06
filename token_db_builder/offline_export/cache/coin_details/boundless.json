@@ -1,0 +1,82 @@
+{
+  "id": "boundless",
+  "symbol": "zkc",
+  "name": "Boundless",
+  "web_slug": "boundless",
+  "asset_platform_id": "binance-smart-chain",
+  "platforms": {
+    "binance-smart-chain": "0x15247e6e23d3923a853ccf15940a20ccdf16e94a",
+    "ethereum": "0x000006c2a22ff4a44ff1f5d0f2ed65f781f55555"
+  },
+  "detail_platforms": {
+    "binance-smart-chain": {
+      "decimal_place": 18,
+      "contract_address": "0x15247e6e23d3923a853ccf15940a20ccdf16e94a",
+      "geckoterminal_url": "https://www.geckoterminal.com/bsc/tokens/0x15247e6e23d3923a853ccf15940a20ccdf16e94a"
+    },
+    "ethereum": {
+      "decimal_place": 18,
+      "contract_address": "0x000006c2a22ff4a44ff1f5d0f2ed65f781f55555",
+      "geckoterminal_url": "https://www.geckoterminal.com/eth/tokens/0x000006c2a22ff4a44ff1f5d0f2ed65f781f55555"
+    }
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "categories": [
+    "BNB Chain Ecosystem",
+    "Ethereum Ecosystem",
+    "Zero Knowledge (ZK)",
+    "Binance HODLer Airdrops",
+    "Capital Launchpad",
+    "Governance"
+  ],
+  "preview_listing": false,
+  "public_notice": null,
+  "additional_notices": [],
+  "description": {
+    "en": "Boundless is a universal protocol that brings ZK to every chain.\r\nUsing Boundless, developers can create expressive, high-throughput applications that bypass traditional block size/gas limits.\r\n\r\nDevelopers submit proof requests and provers compete to fulfill them, earning direct rewards and protocol-level incentives through proof of verifiable work.\r\n\r\nBy abstracting away the complexity of proof generation, aggregation, and onchain settlement, Boundless allows developers to build without worrying about underlying infrastructure, while provers provide strong liveness guarantees, censorship-resistance, and continuously improve the cost curve driven by open market dynamics.\r\n\r\nThis architecture decouples execution from consensus and introduces a new paradigm for verifiable computing. As the number of Boundless prover nodes grows, the total capacity of the protocol increases, scaling compute across every chain.\r\n\r\n"
+  },
+  "links": {
+    "homepage": [
+      "https://beboundless.xyz/"
+    ],
+    "whitepaper": "https://docs.beboundless.xyz/developers/what",
+    "blockchain_site": [
+      "https://bscscan.com/token/0x15247e6E23D3923a853cCf15940A20CCdf16e94a",
+      "https://intel.arkm.com/explorer/token/boundless",
+      "https://binplorer.com/address/0x15247e6E23D3923a853cCf15940A20CCdf16e94a",
+      "https://etherscan.io/token/0x000006c2a22ff4a44ff1f5d0f2ed65f781f55555",
+      "https://ethplorer.io/address/0x000006c2A22ff4A44ff1f5d0F2ed65F781F55555"
+    ],
+    "official_forum_url": [
+      "https://discord.com/invite/boundlessxyz",
+      "https://beboundless.xyz/blog"
+    ],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "boundless_xyz",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "boundlessannouncements",
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/68462/thumb/boundless.png?1755826792",
+    "small": "https://coin-images.coingecko.com/coins/images/68462/small/boundless.png?1755826792",
+    "large": "https://coin-images.coingecko.com/coins/images/68462/large/boundless.png?1755826792"
+  },
+  "country_origin": "",
+  "genesis_date": null,
+  "contract_address": "0x15247e6e23d3923a853ccf15940a20ccdf16e94a",
+  "sentiment_votes_up_percentage": null,
+  "sentiment_votes_down_percentage": null,
+  "watchlist_portfolio_users": 1894,
+  "market_cap_rank": 978,
+  "status_updates": [],
+  "last_updated": "2026-01-05T02:48:35.867Z"
+}

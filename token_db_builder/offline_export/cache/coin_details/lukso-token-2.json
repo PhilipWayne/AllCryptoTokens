@@ -1,0 +1,88 @@
+{
+  "id": "lukso-token-2",
+  "symbol": "lyx",
+  "name": "LUKSO",
+  "web_slug": "lukso-token",
+  "asset_platform_id": null,
+  "platforms": {
+    "": "",
+    "ethereum": "0xc210b2cb65ed3484892167f5e05f7ab496ab0598"
+  },
+  "detail_platforms": {
+    "": {
+      "decimal_place": null,
+      "contract_address": ""
+    },
+    "ethereum": {
+      "decimal_place": 18,
+      "contract_address": "0xc210b2cb65ed3484892167f5e05f7ab496ab0598",
+      "geckoterminal_url": "https://www.geckoterminal.com/eth/tokens/0xc210b2cb65ed3484892167f5e05f7ab496ab0598"
+    }
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": "Proof of Stake",
+  "categories": [
+    "Smart Contract Platform",
+    "SocialFi",
+    "Layer 1 (L1)",
+    "Ethereum Ecosystem",
+    "Decentralized Identifier (DID)",
+    "Proof of Stake (PoS)",
+    "Lukso Ecosystem"
+  ],
+  "preview_listing": false,
+  "public_notice": "LUKSO (LYXE) has recently migrated from their <a href=\"https://etherscan.io/token/0xA8b919680258d369114910511cc87595aec0be6D\">old contract</a> to their own <a href=\"https://explorer.execution.mainnet.lukso.network/\">mainnet</a>. For more information, please visit this Medium<a href=\"https://medium.com/lukso/the-lyxe-migration-process-374053e5ddf5\"> article</a>. Kindly visit their old token page on this <a href=\"https://www.coingecko.com/en/coins/lukso-token-old\"> link</a>.",
+  "additional_notices": [],
+  "description": {
+    "en": "LUKSO is a layer-1 EVM blockchain built for social, culture and creators. It is the foundation to unify your digital life through a smart profile and is an open, permissionless playground for decentralized applications to flourish. LUKSO offers an innovative approach to form the basis for managing your online presence while enabling unexplored ways to connect and co-create the next era of the internet."
+  },
+  "links": {
+    "homepage": [
+      "https://www.lukso.network/",
+      "https://docs.lukso.tech/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://explorer.execution.mainnet.lukso.network/",
+      "https://etherscan.io/token/0xC210B2cB65ed3484892167F5e05F7ab496Ab0598",
+      "https://ethplorer.io/address/0xC210B2cB65ed3484892167F5e05F7ab496Ab0598"
+    ],
+    "official_forum_url": [
+      "https://app.cg/c/LUKSO/",
+      "https://linkedin.com/company/lukso"
+    ],
+    "chat_url": [
+      "https://discord.gg/lukso",
+      "https://medium.com/lukso",
+      "https://www.youtube.com/@LUKSOBlockchain"
+    ],
+    "announcement_url": [
+      "https://medium.com/lukso"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "lukso_io",
+    "facebook_username": "lukso.io",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "LUKSO",
+    "subreddit_url": "https://www.reddit.com/r/lukso/",
+    "repos_url": {
+      "github": [
+        "https://github.com/lukso-network"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/31010/thumb/LYX.png?1696529847",
+    "small": "https://coin-images.coingecko.com/coins/images/31010/small/LYX.png?1696529847",
+    "large": "https://coin-images.coingecko.com/coins/images/31010/large/LYX.png?1696529847"
+  },
+  "country_origin": "DE",
+  "genesis_date": null,
+  "sentiment_votes_up_percentage": 100.0,
+  "sentiment_votes_down_percentage": 0.0,
+  "watchlist_portfolio_users": 11259,
+  "market_cap_rank": 1191,
+  "status_updates": [],
+  "last_updated": "2026-01-05T01:28:47.751Z"
+}

@@ -1,0 +1,73 @@
+{
+  "id": "superrare",
+  "symbol": "rare",
+  "name": "SuperRare",
+  "web_slug": "superrare",
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xba5bde662c17e2adff1075610382b9b691296350"
+  },
+  "detail_platforms": {
+    "ethereum": {
+      "decimal_place": 18,
+      "contract_address": "0xba5bde662c17e2adff1075610382b9b691296350",
+      "geckoterminal_url": "https://www.geckoterminal.com/eth/tokens/0xba5bde662c17e2adff1075610382b9b691296350"
+    }
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "categories": [
+    "NFT",
+    "Ethereum Ecosystem"
+  ],
+  "preview_listing": false,
+  "public_notice": null,
+  "additional_notices": [],
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://superrare.com/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xba5bde662c17e2adff1075610382b9b691296350",
+      "https://intel.arkm.com/explorer/token/superrare",
+      "https://ethplorer.io/address/0xba5bde662c17e2adff1075610382b9b691296350"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://www.instagram.com/superrare.co/",
+      "https://discord.com/invite/5DwpdyJR6t"
+    ],
+    "announcement_url": [
+      "https://medium.com/superrare",
+      "https://superrare.mirror.xyz/"
+    ],
+    "snapshot_url": "https://snapshot.org/#/superraredao.eth",
+    "twitter_screen_name": "SuperRare",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "SuperRare",
+    "subreddit_url": "https://www.reddit.com/r/SuperRare/",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/17753/thumb/RARE.png?1709598473",
+    "small": "https://coin-images.coingecko.com/coins/images/17753/small/RARE.png?1709598473",
+    "large": "https://coin-images.coingecko.com/coins/images/17753/large/RARE.png?1709598473"
+  },
+  "country_origin": "",
+  "genesis_date": null,
+  "contract_address": "0xba5bde662c17e2adff1075610382b9b691296350",
+  "sentiment_votes_up_percentage": 100.0,
+  "sentiment_votes_down_percentage": 0.0,
+  "watchlist_portfolio_users": 16953,
+  "market_cap_rank": 1219,
+  "status_updates": [],
+  "last_updated": "2026-01-05T02:02:18.854Z"
+}

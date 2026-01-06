@@ -1,0 +1,80 @@
+{
+  "id": "api3",
+  "symbol": "api3",
+  "name": "Api3",
+  "web_slug": "api3",
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x0b38210ea11411557c13457d4da7dc6ea731b88a"
+  },
+  "detail_platforms": {
+    "ethereum": {
+      "decimal_place": 18,
+      "contract_address": "0x0b38210ea11411557c13457d4da7dc6ea731b88a",
+      "geckoterminal_url": "https://www.geckoterminal.com/eth/tokens/0x0b38210ea11411557c13457d4da7dc6ea731b88a"
+    }
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "categories": [
+    "Decentralized Finance (DeFi)",
+    "Oracle",
+    "Ethereum Ecosystem",
+    "DWF Labs Portfolio",
+    "Pantera Capital Portfolio",
+    "Governance"
+  ],
+  "preview_listing": false,
+  "public_notice": null,
+  "additional_notices": [],
+  "description": {
+    "en": "Api3 delivers first-party oracles that pay you — connecting real-world data directly to smart contracts while reclaiming lost value through Oracle Extractable Value (OEV). Explore the Api3 Market and start earning."
+  },
+  "links": {
+    "homepage": [
+      "https://api3.org/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x0b38210ea11411557c13457d4da7dc6ea731b88a",
+      "https://intel.arkm.com/explorer/token/api3",
+      "https://ethplorer.io/address/0x0b38210ea11411557c13457d4da7dc6ea731b88a",
+      "https://gnosis.dex.guru/token/0x44b6bba599f100006143e82a60462d71ac1331da"
+    ],
+    "official_forum_url": [
+      "https://forum.api3.org"
+    ],
+    "chat_url": [
+      "https://discord.com/invite/qnRrcfnm5W",
+      "https://medium.com/api3"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "API3DAO",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "API3DAO",
+    "subreddit_url": "https://www.reddit.com/r/API3/",
+    "repos_url": {
+      "github": [
+        "https://github.com/api3dao/airnode",
+        "https://github.com/api3dao/api3-dao"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/13256/thumb/Api3-Token.png?1742439807",
+    "small": "https://coin-images.coingecko.com/coins/images/13256/small/Api3-Token.png?1742439807",
+    "large": "https://coin-images.coingecko.com/coins/images/13256/large/Api3-Token.png?1742439807"
+  },
+  "country_origin": "",
+  "genesis_date": null,
+  "contract_address": "0x0b38210ea11411557c13457d4da7dc6ea731b88a",
+  "sentiment_votes_up_percentage": 100.0,
+  "sentiment_votes_down_percentage": 0.0,
+  "watchlist_portfolio_users": 45609,
+  "market_cap_rank": 573,
+  "status_updates": [],
+  "last_updated": "2026-01-05T00:08:37.579Z"
+}

@@ -1,0 +1,76 @@
+{
+  "id": "io",
+  "symbol": "io",
+  "name": "io.net",
+  "web_slug": "io-net",
+  "asset_platform_id": "solana",
+  "platforms": {
+    "solana": "BZLbGTNCSFfoth2GYDtwr7e4imWzpR5jqcUuGEwr646K"
+  },
+  "detail_platforms": {
+    "solana": {
+      "decimal_place": 8,
+      "contract_address": "BZLbGTNCSFfoth2GYDtwr7e4imWzpR5jqcUuGEwr646K",
+      "geckoterminal_url": "https://www.geckoterminal.com/solana/tokens/BZLbGTNCSFfoth2GYDtwr7e4imWzpR5jqcUuGEwr646K"
+    }
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "categories": [
+    "Artificial Intelligence (AI)",
+    "Internet of Things (IOT)",
+    "Binance Launchpool",
+    "Solana Ecosystem",
+    "DePIN",
+    "Animoca Brands Portfolio",
+    "Multicoin Capital Portfolio",
+    "Delphi Ventures Portfolio",
+    "OKX Ventures Portfolio",
+    "Made in USA"
+  ],
+  "preview_listing": false,
+  "public_notice": null,
+  "additional_notices": [],
+  "description": {
+    "en": "io.net the world’s largest decentralized computing network that allows machine learning engineers to access scalable distributed clusters at a small fraction of the cost of comparable centralized services.\r\n"
+  },
+  "links": {
+    "homepage": [
+      "https://io.net"
+    ],
+    "whitepaper": "https://docs.io.net",
+    "blockchain_site": [
+      "https://solscan.io/token/BZLbGTNCSFfoth2GYDtwr7e4imWzpR5jqcUuGEwr646K",
+      "https://intel.arkm.com/explorer/token/io"
+    ],
+    "official_forum_url": [
+      "https://www.linkedin.com/company/ionet-official/"
+    ],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "ionet",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/37754/thumb/io_blackbg.png?1715446363",
+    "small": "https://coin-images.coingecko.com/coins/images/37754/small/io_blackbg.png?1715446363",
+    "large": "https://coin-images.coingecko.com/coins/images/37754/large/io_blackbg.png?1715446363"
+  },
+  "country_origin": "",
+  "genesis_date": null,
+  "contract_address": "BZLbGTNCSFfoth2GYDtwr7e4imWzpR5jqcUuGEwr646K",
+  "sentiment_votes_up_percentage": 80.0,
+  "sentiment_votes_down_percentage": 20.0,
+  "watchlist_portfolio_users": 31879,
+  "market_cap_rank": 709,
+  "status_updates": [],
+  "last_updated": "2026-01-05T01:13:43.867Z"
+}

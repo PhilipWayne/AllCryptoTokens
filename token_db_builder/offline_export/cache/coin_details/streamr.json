@@ -1,0 +1,107 @@
+{
+  "id": "streamr",
+  "symbol": "data",
+  "name": "Streamr",
+  "web_slug": "streamr",
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x8f693ca8d21b157107184d29d398a8d082b38b76",
+    "xdai": "0x256eb8a51f382650b2a1e946b8811953640ee47d",
+    "polygon-pos": "0x3a9a81d576d83ff21f26f325066054540720fc34",
+    "binance-smart-chain": "0x0864c156b3c5f69824564dec60c629ae6401bf2a"
+  },
+  "detail_platforms": {
+    "ethereum": {
+      "decimal_place": 18,
+      "contract_address": "0x8f693ca8d21b157107184d29d398a8d082b38b76",
+      "geckoterminal_url": "https://www.geckoterminal.com/eth/tokens/0x8f693ca8d21b157107184d29d398a8d082b38b76"
+    },
+    "xdai": {
+      "decimal_place": 18,
+      "contract_address": "0x256eb8a51f382650b2a1e946b8811953640ee47d",
+      "geckoterminal_url": "https://www.geckoterminal.com/xdai/tokens/0x256eb8a51f382650b2a1e946b8811953640ee47d"
+    },
+    "polygon-pos": {
+      "decimal_place": 18,
+      "contract_address": "0x3a9a81d576d83ff21f26f325066054540720fc34",
+      "geckoterminal_url": "https://www.geckoterminal.com/polygon_pos/tokens/0x3a9a81d576d83ff21f26f325066054540720fc34"
+    },
+    "binance-smart-chain": {
+      "decimal_place": 18,
+      "contract_address": "0x0864c156b3c5f69824564dec60c629ae6401bf2a",
+      "geckoterminal_url": "https://www.geckoterminal.com/bsc/tokens/0x0864c156b3c5f69824564dec60c629ae6401bf2a"
+    }
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "categories": [
+    "Big Data",
+    "Infrastructure",
+    "Smart Contract Platform",
+    "BNB Chain Ecosystem",
+    "Polygon Ecosystem",
+    "Gnosis Chain Ecosystem",
+    "Ethereum Ecosystem",
+    "DePIN",
+    "Layer 0 (L0)"
+  ],
+  "preview_listing": false,
+  "public_notice": null,
+  "additional_notices": [],
+  "description": {
+    "en": "Streamr is building decentralized infrastructure for real-time data. Our goal is to enable data to be transported, shared, and monetised securely and scalably without intermediaries. By facilitating new types of data pipelines and ecosystems, we support and accelerate the birth of the Web 3.0, in which decentralized applications can securely exchange data and value."
+  },
+  "links": {
+    "homepage": [
+      "https://streamr.network/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x8f693ca8d21b157107184d29d398a8d082b38b76",
+      "https://intel.arkm.com/explorer/token/streamr",
+      "https://ethplorer.io/address/0x8f693ca8d21b157107184d29d398a8d082b38b76",
+      "https://polygonscan.com/token/0x3a9a81d576d83ff21f26f325066054540720fc34",
+      "https://bscscan.com/token/0x0864c156b3c5f69824564dec60c629ae6401bf2a",
+      "https://gnosisscan.io/token/0x256eb8a51f382650b2a1e946b8811953640ee47d",
+      "https://binplorer.com/address/0x0864c156b3c5f69824564dec60c629ae6401bf2a",
+      "https://gnosis.dex.guru/token/0x256eb8a51f382650b2a1e946b8811953640ee47d",
+      "https://intel.arkm.com/explorer/token/streamr ",
+      "https://intel.arkm.com/explorer/token/<api_symbol>"
+    ],
+    "official_forum_url": [
+      "https://www.youtube.com/c/Streamr"
+    ],
+    "chat_url": [
+      "https://discord.gg/gZAm8P7hK8"
+    ],
+    "announcement_url": [
+      "https://medium.com/streamrblog"
+    ],
+    "snapshot_url": "https://snapshot.org/#/streamr.eth",
+    "twitter_screen_name": "streamr",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "streamrdata ",
+    "subreddit_url": "https://www.reddit.com/r/streamr/",
+    "repos_url": {
+      "github": [
+        "https://github.com/streamr-dev/network-monorepo"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/17869/thumb/DATA_new_symbol_3x.png?1696517392",
+    "small": "https://coin-images.coingecko.com/coins/images/17869/small/DATA_new_symbol_3x.png?1696517392",
+    "large": "https://coin-images.coingecko.com/coins/images/17869/large/DATA_new_symbol_3x.png?1696517392"
+  },
+  "country_origin": "",
+  "genesis_date": null,
+  "contract_address": "0x8f693ca8d21b157107184d29d398a8d082b38b76",
+  "sentiment_votes_up_percentage": 100.0,
+  "sentiment_votes_down_percentage": 0.0,
+  "watchlist_portfolio_users": 8996,
+  "market_cap_rank": 2361,
+  "status_updates": [],
+  "last_updated": "2026-01-05T00:39:37.218Z"
+}

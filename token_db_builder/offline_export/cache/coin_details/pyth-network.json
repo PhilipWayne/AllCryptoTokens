@@ -1,0 +1,98 @@
+{
+  "id": "pyth-network",
+  "symbol": "pyth",
+  "name": "Pyth Network",
+  "web_slug": "pyth-network",
+  "asset_platform_id": "solana",
+  "platforms": {
+    "solana": "HZ1JovNiVvGrGNiiYvEozEVgZ58xaU3RKwX8eACQBCt3",
+    "neon-evm": "0x0575dd4afd93b7522fee4e0179f243eca3856137",
+    "manta-pacific": "0x90e95735378a31bfad2dcd87128fbb80ffeb6917"
+  },
+  "detail_platforms": {
+    "solana": {
+      "decimal_place": 6,
+      "contract_address": "HZ1JovNiVvGrGNiiYvEozEVgZ58xaU3RKwX8eACQBCt3",
+      "geckoterminal_url": "https://www.geckoterminal.com/solana/tokens/HZ1JovNiVvGrGNiiYvEozEVgZ58xaU3RKwX8eACQBCt3"
+    },
+    "neon-evm": {
+      "decimal_place": 6,
+      "contract_address": "0x0575dd4afd93b7522fee4e0179f243eca3856137",
+      "geckoterminal_url": "https://www.geckoterminal.com/neon-evm/tokens/0x0575dd4afd93b7522fee4e0179f243eca3856137"
+    },
+    "manta-pacific": {
+      "decimal_place": 6,
+      "contract_address": "0x90e95735378a31bfad2dcd87128fbb80ffeb6917",
+      "geckoterminal_url": "https://www.geckoterminal.com/manta-pacific/tokens/0x90e95735378a31bfad2dcd87128fbb80ffeb6917"
+    }
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "categories": [
+    "Business Services",
+    "Infrastructure",
+    "Decentralized Finance (DeFi)",
+    "Oracle",
+    "Solana Ecosystem",
+    "Neon Ecosystem",
+    "Manta Network Ecosystem",
+    "Multicoin Capital Portfolio",
+    "GMCI DeFi Index",
+    "Delphi Ventures Portfolio",
+    "GMCI Index"
+  ],
+  "preview_listing": false,
+  "public_notice": null,
+  "additional_notices": [],
+  "description": {
+    "en": "Pyth Network is a decentralised oracle network designed to provide real-time financial market data to decentralised applications (dApps) across multiple blockchains.\r\nIt allows developer to secure smart contracts with reliable, low-latency market data from institutional sources, and build apps with high-fidelity oracle feeds designed for mission-critical systems."
+  },
+  "links": {
+    "homepage": [
+      "https://pyth.network/"
+    ],
+    "whitepaper": "https://pyth.network/whitepaper_v2.pdf",
+    "blockchain_site": [
+      "https://explorer.solana.com/address/hz1jovnivvgrgniiyveozevgz58xau3rkwx8eacqbct3",
+      "https://intel.arkm.com/explorer/token/pyth-network",
+      "https://solscan.io/token/hz1jovnivvgrgniiyveozevgz58xau3rkwx8eacqbct3",
+      "https://neonscan.org/token/0x0575dd4afd93b7522fee4e0179f243eca3856137",
+      "https://pacific-explorer.manta.network/address/0x90e95735378a31bfad2dcd87128fbb80ffeb6917"
+    ],
+    "official_forum_url": [
+      "https://www.linkedin.com/company/pyth-network"
+    ],
+    "chat_url": [
+      "https://discord.com/invite/PythNetwork",
+      "https://pyth.network/blog",
+      "https://www.youtube.com/@pythnetwork"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "PythNetwork",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "Pyth_Network",
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [
+        "https://github.com/pyth-network/"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/31924/thumb/pyth.png?1701245725",
+    "small": "https://coin-images.coingecko.com/coins/images/31924/small/pyth.png?1701245725",
+    "large": "https://coin-images.coingecko.com/coins/images/31924/large/pyth.png?1701245725"
+  },
+  "country_origin": "",
+  "genesis_date": null,
+  "contract_address": "HZ1JovNiVvGrGNiiYvEozEVgZ58xaU3RKwX8eACQBCt3",
+  "sentiment_votes_up_percentage": 100.0,
+  "sentiment_votes_down_percentage": 0.0,
+  "watchlist_portfolio_users": 104887,
+  "market_cap_rank": 186,
+  "status_updates": [],
+  "last_updated": "2026-01-05T01:59:26.880Z"
+}

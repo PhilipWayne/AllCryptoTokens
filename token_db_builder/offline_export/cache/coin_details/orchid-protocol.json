@@ -1,0 +1,110 @@
+{
+  "id": "orchid-protocol",
+  "symbol": "oxt",
+  "name": "Orchid Protocol",
+  "web_slug": "orchid-protocol",
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x4575f41308ec1483f3d399aa9a2826d74da13deb"
+  },
+  "detail_platforms": {
+    "ethereum": {
+      "decimal_place": 18,
+      "contract_address": "0x4575f41308ec1483f3d399aa9a2826d74da13deb",
+      "geckoterminal_url": "https://www.geckoterminal.com/eth/tokens/0x4575f41308ec1483f3d399aa9a2826d74da13deb"
+    }
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "categories": [
+    "Smart Contract Platform",
+    "Ethereum Ecosystem",
+    "DePIN",
+    "Proof of Stake (PoS)",
+    "Andreessen Horowitz (a16z) Portfolio",
+    "Sequoia Capital Portfolio",
+    "Blockchain Capital Portfolio",
+    "Made in USA"
+  ],
+  "preview_listing": false,
+  "public_notice": null,
+  "additional_notices": [],
+  "description": {
+    "en": "The Orchid Protocol organizes bandwidth sellers into a structured peer-to-peer (P2P) network termed the Orchid Market. Customers connect to the Orchid Market and pay bandwidth sellers in order to form a proxy chain to a specific resource on the Internet.\r\n\r\nUnlike more common methods for sending and receiving data from the global Internet, proxy chains in the Orchid Market naturally separate information about the source of data from information about its destination; no single relay or proxy holds both pieces of information, or knows the identity of someone who does. The structure of the Orchid Market further supports this separation of information by providing strong resistance against collusion attacks – the ability of a group of bandwidth sellers to overcome this separation of knowledge.\r\n\r\nThe Internet was originally an open platform where people could freely learn and communicate. Unfortunately, as the Internet grew it became a place where people could be monitored, controlled, and censored. We're building a new civil contract around a distributed marketplace for computation, storage, and bandwidth to provide the framework for a new form of digital citizenship.\r\n"
+  },
+  "links": {
+    "homepage": [
+      "https://www.orchid.com/"
+    ],
+    "whitepaper": "https://orchid.com/whitepaper.pdf",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x4575f41308ec1483f3d399aa9a2826d74da13deb",
+      "https://intel.arkm.com/explorer/token/orchid-protocol",
+      "https://ethplorer.io/address/0x4575f41308ec1483f3d399aa9a2826d74da13deb"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [
+      "https://orchid.com/blog",
+      "https://www.orchid.com/assets/whitepaper/whitepaper.pdf"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "orchidprotocol",
+    "facebook_username": "OrchidProtocol",
+    "bitcointalk_thread_identifier": 2704270,
+    "telegram_channel_identifier": "OrchidOfficial",
+    "subreddit_url": "https://www.reddit.com/r/orchid/",
+    "repos_url": {
+      "github": [
+        "https://github.com/OrchidTechnologies/orchid"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/3916/thumb/download_%285%29.png?1696504574",
+    "small": "https://coin-images.coingecko.com/coins/images/3916/small/download_%285%29.png?1696504574",
+    "large": "https://coin-images.coingecko.com/coins/images/3916/large/download_%285%29.png?1696504574"
+  },
+  "country_origin": "",
+  "genesis_date": null,
+  "contract_address": "0x4575f41308ec1483f3d399aa9a2826d74da13deb",
+  "sentiment_votes_up_percentage": 0.0,
+  "sentiment_votes_down_percentage": 100.0,
+  "ico_data": {
+    "ico_start_date": null,
+    "ico_end_date": null,
+    "short_desc": "Enabling Decentralized Network Formation and Probabilistic Micro-Payments",
+    "description": "",
+    "links": {},
+    "softcap_currency": "",
+    "hardcap_currency": "",
+    "total_raised_currency": "",
+    "softcap_amount": null,
+    "hardcap_amount": null,
+    "total_raised": null,
+    "quote_pre_sale_currency": "",
+    "base_pre_sale_amount": null,
+    "quote_pre_sale_amount": null,
+    "quote_public_sale_currency": "",
+    "base_public_sale_amount": 0.0,
+    "quote_public_sale_amount": 0.0,
+    "accepting_currencies": "",
+    "country_origin": "",
+    "pre_sale_start_date": null,
+    "pre_sale_end_date": null,
+    "whitelist_url": "",
+    "whitelist_start_date": null,
+    "whitelist_end_date": null,
+    "bounty_detail_url": "",
+    "amount_for_sale": null,
+    "kyc_required": true,
+    "whitelist_available": null,
+    "pre_sale_available": null,
+    "pre_sale_ended": false
+  },
+  "watchlist_portfolio_users": 26934,
+  "market_cap_rank": 1338,
+  "status_updates": [],
+  "last_updated": "2026-01-05T01:50:08.189Z"
+}

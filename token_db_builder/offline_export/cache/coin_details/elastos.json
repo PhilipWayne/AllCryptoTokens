@@ -1,0 +1,120 @@
+{
+  "id": "elastos",
+  "symbol": "ela",
+  "name": "Elastos",
+  "web_slug": "elastos",
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xe6fd75ff38adca4b97fbcd938c86b98772431867",
+    "huobi-token": "0xa1ecfc2bec06e4b43ddd423b94fef84d0dbc8f5c"
+  },
+  "detail_platforms": {
+    "ethereum": {
+      "decimal_place": 18,
+      "contract_address": "0xe6fd75ff38adca4b97fbcd938c86b98772431867",
+      "geckoterminal_url": "https://www.geckoterminal.com/eth/tokens/0xe6fd75ff38adca4b97fbcd938c86b98772431867"
+    },
+    "huobi-token": {
+      "decimal_place": 18,
+      "contract_address": "0xa1ecfc2bec06e4b43ddd423b94fef84d0dbc8f5c",
+      "geckoterminal_url": "https://www.geckoterminal.com/heco/tokens/0xa1ecfc2bec06e4b43ddd423b94fef84d0dbc8f5c"
+    }
+  },
+  "block_time_in_minutes": 2,
+  "hashing_algorithm": "SHA-256",
+  "categories": [
+    "Smart Contract Platform",
+    "Layer 1 (L1)",
+    "Ethereum Ecosystem",
+    "Bitcoin Sidechains",
+    "SideChain",
+    "Huobi ECO Chain Ecosystem"
+  ],
+  "preview_listing": false,
+  "public_notice": null,
+  "additional_notices": [],
+  "description": {
+    "en": "\"Founded by OS expert Rong Chen, Elastos is building the blockchain industry’s most comprehensive and interoperable open source platform. Using a hybrid consensus that combines the secure hashpower of Bitcoin and the democratic ideals of Delegated-Proof-of-Stake, the SmartWeb of Elastos is a suite of software for an entirely decentralized internet. Elastos employs not only blockchain technology, but a peer-to-peer network for communication, decentralized data storage services, and a decentralized ID (DID) system for all digital assets. With sidechains like Ethereum, Elastos is not merely the foundation for securing truly decentralized applications that can scale, it is the foundation for true data ownership. \r\n\r\nelastOS, the flagship product of the Elastos Smartweb, brings the entire decentralized ecosystem into a single App, currently available for Android and in development for both iOS and desktop.\r\n\r\nElastos is also actively searching for both new and existing dApp projects through its Cyber Republic initiative. Cyber Republic possesses a community-governed grant fund designed to help startups and existing businesses explore blockchain. You can read more about Cyber Republic at https://www.cyberrepublic.org."
+  },
+  "links": {
+    "homepage": [
+      "https://elastos.net/",
+      "https://blog.elastos.net/"
+    ],
+    "whitepaper": "https://www.elastos.org/downloads/elastos_whitepaper_en.pdf",
+    "blockchain_site": [
+      "https://blockchain.elastos.io",
+      "https://intel.arkm.com/explorer/token/elastos",
+      "https://etherscan.io/token/0xe6fd75ff38adca4b97fbcd938c86b98772431867",
+      "https://ethplorer.io/address/0xe6fd75ff38adca4b97fbcd938c86b98772431867"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.gg/elastos",
+      "https://www.youtube.com/@elastosinfo"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "ElastosInfo",
+    "facebook_username": "elastosorg",
+    "bitcointalk_thread_identifier": 2654716,
+    "telegram_channel_identifier": "elastosgroup",
+    "subreddit_url": "https://www.reddit.com/r/Elastos/",
+    "repos_url": {
+      "github": [
+        "https://github.com/elastos/Elastos.OS",
+        "https://github.com/elastos/Elastos.ELA.SideChain",
+        "https://github.com/elastos/Elastos.ELA",
+        "https://github.com/elastos/Elastos.ELA.SPV.Cpp",
+        "https://github.com/elastos/Elastos.NET.Carrier.Native.SDK"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/2780/thumb/Elastos_Icon_-_4.png?1746421513",
+    "small": "https://coin-images.coingecko.com/coins/images/2780/small/Elastos_Icon_-_4.png?1746421513",
+    "large": "https://coin-images.coingecko.com/coins/images/2780/large/Elastos_Icon_-_4.png?1746421513"
+  },
+  "country_origin": "CN",
+  "genesis_date": "2017-12-22",
+  "contract_address": "0xe6fd75ff38adca4b97fbcd938c86b98772431867",
+  "sentiment_votes_up_percentage": 50.0,
+  "sentiment_votes_down_percentage": 50.0,
+  "ico_data": {
+    "ico_start_date": "2018-01-02T00:00:00.000Z",
+    "ico_end_date": "2018-01-23T00:00:00.000Z",
+    "short_desc": "New blockchain whith totally decentralized P2P economic infrastructure",
+    "description": "",
+    "links": {},
+    "softcap_currency": "",
+    "hardcap_currency": "",
+    "total_raised_currency": "USD",
+    "softcap_amount": null,
+    "hardcap_amount": null,
+    "total_raised": "94100000.0",
+    "quote_pre_sale_currency": "",
+    "base_pre_sale_amount": null,
+    "quote_pre_sale_amount": null,
+    "quote_public_sale_currency": "BTC",
+    "base_public_sale_amount": 1.0,
+    "quote_public_sale_amount": 0.00125,
+    "accepting_currencies": "",
+    "country_origin": "CN",
+    "pre_sale_start_date": null,
+    "pre_sale_end_date": null,
+    "whitelist_url": "",
+    "whitelist_start_date": null,
+    "whitelist_end_date": null,
+    "bounty_detail_url": "",
+    "amount_for_sale": null,
+    "kyc_required": true,
+    "whitelist_available": null,
+    "pre_sale_available": null,
+    "pre_sale_ended": false
+  },
+  "watchlist_portfolio_users": 13442,
+  "market_cap_rank": 1021,
+  "status_updates": [],
+  "last_updated": "2026-01-05T00:46:13.062Z"
+}

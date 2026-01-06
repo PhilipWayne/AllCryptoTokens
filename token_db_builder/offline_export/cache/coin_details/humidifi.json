@@ -1,0 +1,70 @@
+{
+  "id": "humidifi",
+  "symbol": "wet",
+  "name": "HumidiFi",
+  "web_slug": "humidifi",
+  "asset_platform_id": "solana",
+  "platforms": {
+    "solana": "WETZjtprkDMCcUxPi9PfWnowMRZkiGGHDb9rABuRZ2U"
+  },
+  "detail_platforms": {
+    "solana": {
+      "decimal_place": 6,
+      "contract_address": "WETZjtprkDMCcUxPi9PfWnowMRZkiGGHDb9rABuRZ2U",
+      "geckoterminal_url": "https://www.geckoterminal.com/solana/tokens/WETZjtprkDMCcUxPi9PfWnowMRZkiGGHDb9rABuRZ2U"
+    }
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "categories": [
+    "Decentralized Exchange (DEX)",
+    "Decentralized Finance (DeFi)",
+    "Automated Market Maker (AMM)",
+    "Solana Ecosystem",
+    "MEV Protection",
+    "Jupiter DTF Launchpad"
+  ],
+  "preview_listing": false,
+  "public_notice": null,
+  "additional_notices": [],
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://humidifi.xyz/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://solscan.io/token/WETZjtprkDMCcUxPi9PfWnowMRZkiGGHDb9rABuRZ2U",
+      "https://intel.arkm.com/explorer/token/humidifi"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "humidifi",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/70397/thumb/720oatTU_400x400.jpg?1765007223",
+    "small": "https://coin-images.coingecko.com/coins/images/70397/small/720oatTU_400x400.jpg?1765007223",
+    "large": "https://coin-images.coingecko.com/coins/images/70397/large/720oatTU_400x400.jpg?1765007223"
+  },
+  "country_origin": "",
+  "genesis_date": null,
+  "contract_address": "WETZjtprkDMCcUxPi9PfWnowMRZkiGGHDb9rABuRZ2U",
+  "sentiment_votes_up_percentage": 50.0,
+  "sentiment_votes_down_percentage": 50.0,
+  "watchlist_portfolio_users": 1688,
+  "market_cap_rank": 742,
+  "status_updates": [],
+  "last_updated": "2026-01-05T02:39:50.228Z"
+}

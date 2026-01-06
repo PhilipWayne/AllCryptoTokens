@@ -1,0 +1,146 @@
+{
+  "id": "pendle",
+  "symbol": "pendle",
+  "name": "Pendle",
+  "web_slug": "pendle",
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x808507121b80c02388fad14726482e061b8da827",
+    "berachain": "0xff9c599d51c407a45d631c6e89cb047efb88aef6",
+    "hyperevm": "0xd6eb81136884713e843936843e286fd2a85a205a",
+    "sonic": "0xf1ef7d2d4c0c881cd634481e0586ed5d2871a74b",
+    "base": "0xa99f6e6785da0f5d6fb42495fe424bce029eeb3e",
+    "binance-smart-chain": "0xb3ed0a426155b79b898849803e3b36552f7ed507",
+    "arbitrum-one": "0x0c880f6761f1af8d9aa9c466984b80dab9a8c9e8",
+    "optimistic-ethereum": "0xbc7b1ff1c6989f006a1185318ed4e7b5796e66e1"
+  },
+  "detail_platforms": {
+    "ethereum": {
+      "decimal_place": 18,
+      "contract_address": "0x808507121b80c02388fad14726482e061b8da827",
+      "geckoterminal_url": "https://www.geckoterminal.com/eth/tokens/0x808507121b80c02388fad14726482e061b8da827"
+    },
+    "berachain": {
+      "decimal_place": 18,
+      "contract_address": "0xff9c599d51c407a45d631c6e89cb047efb88aef6",
+      "geckoterminal_url": "https://www.geckoterminal.com/berachain/tokens/0xff9c599d51c407a45d631c6e89cb047efb88aef6"
+    },
+    "hyperevm": {
+      "decimal_place": 18,
+      "contract_address": "0xd6eb81136884713e843936843e286fd2a85a205a",
+      "geckoterminal_url": "https://www.geckoterminal.com/hyperevm/tokens/0xd6eb81136884713e843936843e286fd2a85a205a"
+    },
+    "sonic": {
+      "decimal_place": 18,
+      "contract_address": "0xf1ef7d2d4c0c881cd634481e0586ed5d2871a74b",
+      "geckoterminal_url": "https://www.geckoterminal.com/sonic/tokens/0xf1ef7d2d4c0c881cd634481e0586ed5d2871a74b"
+    },
+    "base": {
+      "decimal_place": 18,
+      "contract_address": "0xa99f6e6785da0f5d6fb42495fe424bce029eeb3e",
+      "geckoterminal_url": "https://www.geckoterminal.com/base/tokens/0xa99f6e6785da0f5d6fb42495fe424bce029eeb3e"
+    },
+    "binance-smart-chain": {
+      "decimal_place": 18,
+      "contract_address": "0xb3ed0a426155b79b898849803e3b36552f7ed507",
+      "geckoterminal_url": "https://www.geckoterminal.com/bsc/tokens/0xb3ed0a426155b79b898849803e3b36552f7ed507"
+    },
+    "arbitrum-one": {
+      "decimal_place": 18,
+      "contract_address": "0x0c880f6761f1af8d9aa9c466984b80dab9a8c9e8",
+      "geckoterminal_url": "https://www.geckoterminal.com/arbitrum/tokens/0x0c880f6761f1af8d9aa9c466984b80dab9a8c9e8"
+    },
+    "optimistic-ethereum": {
+      "decimal_place": 18,
+      "contract_address": "0xbc7b1ff1c6989f006a1185318ed4e7b5796e66e1",
+      "geckoterminal_url": "https://www.geckoterminal.com/optimism/tokens/0xbc7b1ff1c6989f006a1185318ed4e7b5796e66e1"
+    }
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "categories": [
+    "Decentralized Exchange (DEX)",
+    "Exchange-based Tokens",
+    "Decentralized Finance (DeFi)",
+    "Yield Farming",
+    "Automated Market Maker (AMM)",
+    "BNB Chain Ecosystem",
+    "Derivatives",
+    "Arbitrum Ecosystem",
+    "Ethereum Ecosystem",
+    "Optimism Ecosystem",
+    "Fixed Interest",
+    "LSDFi",
+    "Base Ecosystem",
+    "Restaking",
+    "LRTfi",
+    "Liquid Restaking Governance Tokens",
+    "Berachain Ecosystem",
+    "Yield Tokenization Protocol",
+    "YZi Labs (Prev. Binance Labs) Portfolio",
+    "GMCI DeFi Index",
+    "Sonic Ecosystem",
+    "Liquid Staking",
+    "GMCI Index",
+    "BTCfi Protocol",
+    "HyperEVM Ecosystem"
+  ],
+  "preview_listing": false,
+  "public_notice": null,
+  "additional_notices": [],
+  "description": {
+    "en": "Pendle is a protocol that enables the tokenization and trading of future yield. With the creation of a novel AMM that supports assets with time decay, Pendle gives users more control over future yield by providing optionality and opportunities for its utilization. "
+  },
+  "links": {
+    "homepage": [
+      "https://pendle.finance/"
+    ],
+    "whitepaper": "https://github.com/pendle-finance/pendle-v2-resources/tree/main/whitepapers",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x808507121b80c02388fad14726482e061b8da827",
+      "https://ethplorer.io/address/0x808507121b80c02388fad14726482e061b8da827",
+      "https://optimistic.etherscan.io/token/0xbc7b1ff1c6989f006a1185318ed4e7b5796e66e1",
+      "https://arbiscan.io/token/0x0c880f6761f1af8d9aa9c466984b80dab9a8c9e8",
+      "https://bscscan.com/token/0xb3ed0a426155b79b898849803e3b36552f7ed507",
+      "https://binplorer.com/address/0xb3ed0a426155b79b898849803e3b36552f7ed507",
+      "https://basescan.org/token/0xa99f6e6785da0f5d6fb42495fe424bce029eeb3e",
+      "https://sonicscan.org/token/0xf1ef7d2d4c0c881cd634481e0586ed5d2871a74b",
+      "https://berascan.com/token/0xff9c599d51c407a45d631c6e89cb047efb88aef6",
+      "https://hyperliquid.cloud.blockscout.com/token/0xd6eb81136884713e843936843e286fd2a85a205a"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/EAujvncY2R"
+    ],
+    "announcement_url": [
+      "https://medium.com/pendle"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "pendle_fi",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "pendlefinance",
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [
+        "https://github.com/pendle-finance/pendle-core-v2-public",
+        "https://github.com/pendle-finance"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/15069/thumb/Pendle_Logo_Normal-03.png?1696514728",
+    "small": "https://coin-images.coingecko.com/coins/images/15069/small/Pendle_Logo_Normal-03.png?1696514728",
+    "large": "https://coin-images.coingecko.com/coins/images/15069/large/Pendle_Logo_Normal-03.png?1696514728"
+  },
+  "country_origin": "",
+  "genesis_date": null,
+  "contract_address": "0x808507121b80c02388fad14726482e061b8da827",
+  "sentiment_votes_up_percentage": 100.0,
+  "sentiment_votes_down_percentage": 0.0,
+  "watchlist_portfolio_users": 79716,
+  "market_cap_rank": 192,
+  "status_updates": [],
+  "last_updated": "2026-01-05T01:50:50.184Z"
+}

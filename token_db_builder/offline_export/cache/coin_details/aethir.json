@@ -1,0 +1,93 @@
+{
+  "id": "aethir",
+  "symbol": "ath",
+  "name": "Aethir",
+  "web_slug": "aethir",
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xbe0ed4138121ecfc5c0e56b40517da27e6c5226b",
+    "solana": "Dm5BxyMetG3Aq5PaG1BrG7rBYqEMtnkjvPNMExfacVk7",
+    "arbitrum-one": "0xc87b37a581ec3257b734886d9d3a581f5a9d056c"
+  },
+  "detail_platforms": {
+    "ethereum": {
+      "decimal_place": 18,
+      "contract_address": "0xbe0ed4138121ecfc5c0e56b40517da27e6c5226b",
+      "geckoterminal_url": "https://www.geckoterminal.com/eth/tokens/0xbe0ed4138121ecfc5c0e56b40517da27e6c5226b"
+    },
+    "solana": {
+      "decimal_place": 9,
+      "contract_address": "Dm5BxyMetG3Aq5PaG1BrG7rBYqEMtnkjvPNMExfacVk7",
+      "geckoterminal_url": "https://www.geckoterminal.com/solana/tokens/Dm5BxyMetG3Aq5PaG1BrG7rBYqEMtnkjvPNMExfacVk7"
+    },
+    "arbitrum-one": {
+      "decimal_place": 18,
+      "contract_address": "0xc87b37a581ec3257b734886d9d3a581f5a9d056c",
+      "geckoterminal_url": "https://www.geckoterminal.com/arbitrum/tokens/0xc87b37a581ec3257b734886d9d3a581f5a9d056c"
+    }
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "categories": [
+    "Artificial Intelligence (AI)",
+    "Infrastructure",
+    "Solana Ecosystem",
+    "Arbitrum Ecosystem",
+    "Impossible Finance Launchpad",
+    "Ethereum Ecosystem",
+    "DePIN",
+    "Animoca Brands Portfolio",
+    "Binance Alpha Spotlight"
+  ],
+  "preview_listing": false,
+  "public_notice": null,
+  "additional_notices": [],
+  "description": {
+    "en": "Aethir is the only Enterprise-grade AI-focused GPU-as-a-service provider in the market. It’s a decentralized cloud computing infrastructure allows GPU providers (containers) to meet Enterprise clients who need powerful H100’s chips for professional AI/ML tasks. \r\n\r\nAethir also support cloud gaming clients with their virtual computing phones and GPU's with contracts with the world’s largest telecommunication company. Everything within Aethir ecosystem will be decentralized and community-owned."
+  },
+  "links": {
+    "homepage": [
+      "https://www.aethir.com/"
+    ],
+    "whitepaper": "https://aethir.gitbook.io/aethir/ljvx8d8ee4ElPliP31K1/",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xbe0ed4138121ecfc5c0e56b40517da27e6c5226b",
+      "https://intel.arkm.com/explorer/token/aethir",
+      "https://ethplorer.io/address/0xbe0ed4138121ecfc5c0e56b40517da27e6c5226b",
+      "https://arbiscan.io/token/0xc87b37a581ec3257b734886d9d3a581f5a9d056c",
+      "https://solscan.io/token/Dm5BxyMetG3Aq5PaG1BrG7rBYqEMtnkjvPNMExfacVk7"
+    ],
+    "official_forum_url": [
+      "https://www.linkedin.com/company/aethir-limited/",
+      "https://www.youtube.com/@AethirCloud"
+    ],
+    "chat_url": [
+      "https://discord.com/invite/aethircloud"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "AethirCloud",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "aethir_cloud",
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/36179/thumb/logogram_circle_dark_green_vb_green_%281%29.png?1718232706",
+    "small": "https://coin-images.coingecko.com/coins/images/36179/small/logogram_circle_dark_green_vb_green_%281%29.png?1718232706",
+    "large": "https://coin-images.coingecko.com/coins/images/36179/large/logogram_circle_dark_green_vb_green_%281%29.png?1718232706"
+  },
+  "country_origin": "",
+  "genesis_date": null,
+  "contract_address": "0xbe0ed4138121ecfc5c0e56b40517da27e6c5226b",
+  "sentiment_votes_up_percentage": 62.5,
+  "sentiment_votes_down_percentage": 37.5,
+  "watchlist_portfolio_users": 41105,
+  "market_cap_rank": 324,
+  "status_updates": [],
+  "last_updated": "2026-01-05T00:13:47.643Z"
+}

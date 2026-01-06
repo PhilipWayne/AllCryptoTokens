@@ -1,0 +1,89 @@
+{
+  "id": "mog-coin",
+  "symbol": "mog",
+  "name": "Mog Coin",
+  "web_slug": "mog-coin",
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xaaee1a9723aadb7afa2810263653a34ba2c21c7a",
+    "avalanche": "0xeb2729257280580694a06c499cb8c622e74215c8",
+    "base": "0x2da56acb9ea78330f947bd57c54119debda7af71"
+  },
+  "detail_platforms": {
+    "ethereum": {
+      "decimal_place": 18,
+      "contract_address": "0xaaee1a9723aadb7afa2810263653a34ba2c21c7a",
+      "geckoterminal_url": "https://www.geckoterminal.com/eth/tokens/0xaaee1a9723aadb7afa2810263653a34ba2c21c7a"
+    },
+    "avalanche": {
+      "decimal_place": 18,
+      "contract_address": "0xeb2729257280580694a06c499cb8c622e74215c8",
+      "geckoterminal_url": "https://www.geckoterminal.com/avax/tokens/0xeb2729257280580694a06c499cb8c622e74215c8"
+    },
+    "base": {
+      "decimal_place": 18,
+      "contract_address": "0x2da56acb9ea78330f947bd57c54119debda7af71",
+      "geckoterminal_url": "https://www.geckoterminal.com/base/tokens/0x2da56acb9ea78330f947bd57c54119debda7af71"
+    }
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "categories": [
+    "Avalanche Ecosystem",
+    "Meme",
+    "Ethereum Ecosystem",
+    "Base Ecosystem",
+    "Cat-Themed",
+    "Murad Picks",
+    "Binance Alpha Spotlight",
+    "4chan-Themed"
+  ],
+  "preview_listing": false,
+  "public_notice": null,
+  "additional_notices": [],
+  "description": {
+    "en": "What makes MOG an absolute game-changer is our relentless dedication to memes and viral brilliance! We don't settle for mediocrity; we plunge into the realm of sheer awesomeness! Our community is a powerhouse of meme warriors, unleashing an unstoppable onslaught of viral memes that'll leave you in awe and stitches!\r\n\r\nWe're not here to play games; we're here to dominate! MOG is all about pushing the boundaries, smashing through barriers, and leaving our competitors eating our dust! Our passion for humor burns like an inferno, and we won't rest until the entire internet bows down to our meme supremacy!\r\n\r\nAnd our community? It's a brotherhood, an unyielding powerhouse of support and camaraderie! When you're part of MOG, you're part of an unstoppable force, a family forged by the fire of meme revolution!\r\n\r\nSo, if you're ready to be part of the most intense, mind-bending memecoin movement ever conceived, then buckle up, strap in, and brace yourself! MOG is here to claim the throne, and we're taking no prisoners! Get ready to witness meme history in the making!\r\n"
+  },
+  "links": {
+    "homepage": [
+      "https://www.mogcoin.xyz"
+    ],
+    "whitepaper": "https://www.mogcoin.xyz",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xaaee1a9723aadb7afa2810263653a34ba2c21c7a",
+      "https://intel.arkm.com/explorer/token/mog-coin",
+      "https://ethplorer.io/address/0xaaee1a9723aadb7afa2810263653a34ba2c21c7a",
+      "https://ethereum.dex.guru/token/0xaaee1a9723aadb7afa2810263653a34ba2c21c7a",
+      "https://basescan.org/token/0x2da56acb9ea78330f947bd57c54119debda7af71",
+      "https://avascan.info/blockchain/c/address/0xeb2729257280580694a06c499cb8c622e74215c8/token",
+      "https://snowtrace.io/token/0xeb2729257280580694a06c499cb8c622e74215c8?type=erc20&chainid=43114"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "MogCoin",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "mogcoinYUP",
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/31059/thumb/MOG_LOGO_200x200.png?1696529893",
+    "small": "https://coin-images.coingecko.com/coins/images/31059/small/MOG_LOGO_200x200.png?1696529893",
+    "large": "https://coin-images.coingecko.com/coins/images/31059/large/MOG_LOGO_200x200.png?1696529893"
+  },
+  "country_origin": "",
+  "genesis_date": null,
+  "contract_address": "0xaaee1a9723aadb7afa2810263653a34ba2c21c7a",
+  "sentiment_votes_up_percentage": 92.31,
+  "sentiment_votes_down_percentage": 7.69,
+  "watchlist_portfolio_users": 52397,
+  "market_cap_rank": 381,
+  "status_updates": [],
+  "last_updated": "2026-01-05T01:36:21.903Z"
+}

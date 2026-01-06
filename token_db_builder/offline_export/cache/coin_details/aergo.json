@@ -1,0 +1,114 @@
+{
+  "id": "aergo",
+  "symbol": "aergo",
+  "name": "Aergo",
+  "web_slug": "aergo",
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x91af0fbb28aba7e31403cb457106ce79397fd4e6"
+  },
+  "detail_platforms": {
+    "ethereum": {
+      "decimal_place": 18,
+      "contract_address": "0x91af0fbb28aba7e31403cb457106ce79397fd4e6",
+      "geckoterminal_url": "https://www.geckoterminal.com/eth/tokens/0x91af0fbb28aba7e31403cb457106ce79397fd4e6"
+    }
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "categories": [
+    "Smart Contract Platform",
+    "Ethereum Ecosystem",
+    "Sequoia Capital Portfolio"
+  ],
+  "preview_listing": false,
+  "public_notice": "Contract address has migrated from 0xae31b85bfe62747d0836b82608b4830361a3d37a to 0x91af0fbb28aba7e31403cb457106ce79397fd4e6",
+  "additional_notices": [],
+  "description": {
+    "en": "AERGO is an open platform that allows businesses to build innovative applications and services by sharing data on a trustless and distributed IT ecosystem. With the ability to deploy on either public or private blockchain networks, AERGO gives businesses the flexibility in developing and deploying blockchain applications with unparalleled speed, scalability and performance. AERGO is designed as a flexible, plugin-based smart contract infrastructure. Client-actors can execute smart contracts written for the Ethereum Virtual Machine or AergoSQL. The AERGO network will be backboned by github-like public and permissioned repositories of Distributed Directories (DD). Implementing Smart Oracles, AERGO will also allow smart contracts to consume data with external services or internal databases and trigger events."
+  },
+  "links": {
+    "homepage": [
+      "https://aergo.io"
+    ],
+    "whitepaper": "https://www.aergo.io/paper/",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x91af0fbb28aba7e31403cb457106ce79397fd4e6",
+      "https://intel.arkm.com/explorer/token/aergo",
+      "https://ethplorer.io/address/0x91af0fbb28aba7e31403cb457106ce79397fd4e6",
+      "https://mainnet.aergoscan.io/developers"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=Mzg4NjAxMzg4NQ==&scene=124#wechat_redirect",
+      "https://m.weibo.cn/p/1005056679895958/home?profile_ftype=1&is_all=1&jumpfrom=weibocom&from=singlemessage&isappinstalled=0#_0",
+      "https://open.kakao.com/o/gGarZeO"
+    ],
+    "announcement_url": [
+      "https://t.me/aergoannouncements",
+      "https://medium.com/aergo"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "AERGO_IO",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "aergoofficial",
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [
+        "https://github.com/aergoio/aergo",
+        "https://github.com/aergoio/ship",
+        "https://github.com/aergoio/SMT",
+        "https://github.com/aergoio/litetree",
+        "https://github.com/aergoio/heraj"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/4490/thumb/aergo.png?1696505079",
+    "small": "https://coin-images.coingecko.com/coins/images/4490/small/aergo.png?1696505079",
+    "large": "https://coin-images.coingecko.com/coins/images/4490/large/aergo.png?1696505079"
+  },
+  "country_origin": "KR",
+  "genesis_date": "2018-11-22",
+  "contract_address": "0x91af0fbb28aba7e31403cb457106ce79397fd4e6",
+  "sentiment_votes_up_percentage": null,
+  "sentiment_votes_down_percentage": null,
+  "ico_data": {
+    "ico_start_date": null,
+    "ico_end_date": "2018-11-17T00:00:00.000Z",
+    "short_desc": "Blockchain fuel for autonomous business",
+    "description": "",
+    "links": {},
+    "softcap_currency": "",
+    "hardcap_currency": "USD",
+    "total_raised_currency": "USD",
+    "softcap_amount": null,
+    "hardcap_amount": "30000000.0",
+    "total_raised": "30000000.0",
+    "quote_pre_sale_currency": "",
+    "base_pre_sale_amount": null,
+    "quote_pre_sale_amount": null,
+    "quote_public_sale_currency": "USD",
+    "base_public_sale_amount": 1.0,
+    "quote_public_sale_amount": 0.2,
+    "accepting_currencies": "",
+    "country_origin": "KR",
+    "pre_sale_start_date": null,
+    "pre_sale_end_date": null,
+    "whitelist_url": "",
+    "whitelist_start_date": null,
+    "whitelist_end_date": null,
+    "bounty_detail_url": "",
+    "amount_for_sale": "150000000.0",
+    "kyc_required": true,
+    "whitelist_available": null,
+    "pre_sale_available": null,
+    "pre_sale_ended": true
+  },
+  "watchlist_portfolio_users": 9584,
+  "market_cap_rank": 896,
+  "status_updates": [],
+  "last_updated": "2026-01-05T00:02:13.883Z"
+}

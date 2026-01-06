@@ -1,0 +1,73 @@
+{
+  "id": "story-2",
+  "symbol": "ip",
+  "name": "Story",
+  "web_slug": "story",
+  "asset_platform_id": null,
+  "platforms": {
+    "": ""
+  },
+  "detail_platforms": {
+    "": {
+      "decimal_place": null,
+      "contract_address": ""
+    }
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "categories": [
+    "Artificial Intelligence (AI)",
+    "Smart Contract Platform",
+    "Layer 1 (L1)",
+    "Made in USA",
+    "Story Ecosystem",
+    "IP"
+  ],
+  "preview_listing": false,
+  "public_notice": null,
+  "additional_notices": [],
+  "description": {
+    "en": "Story is a purpose-built layer 1 blockchain designed specifically to onramp intellectual property (IP) to the blockchain and make it programmable.\r\n\r\nStory tokenizes any type of IP; whether that’s an idea, an image, a real world asset, a song, an AI model, an NFT or anything in-between. By embedding usage terms, attribution, and royalty agreements directly into the blockchain, Story provides a transparent, decentralized solution for IP management. This enables IP holders to protect their work, collaborate on IP seamlessly, and unlock revenue opportunities in an AI-powered economy."
+  },
+  "links": {
+    "homepage": [
+      "https://www.story.foundation/"
+    ],
+    "whitepaper": "https://www.story.foundation/whitepaper.pdf",
+    "blockchain_site": [
+      "https://www.storyscan.xyz/"
+    ],
+    "official_forum_url": [
+      "https://www.story.foundation/blog"
+    ],
+    "chat_url": [
+      "https://discord.gg/storyprotocol"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "StoryProtocol",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [
+        "https://github.com/storyprotocol"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/54035/thumb/Transparent_bg.png?1738075331",
+    "small": "https://coin-images.coingecko.com/coins/images/54035/small/Transparent_bg.png?1738075331",
+    "large": "https://coin-images.coingecko.com/coins/images/54035/large/Transparent_bg.png?1738075331"
+  },
+  "country_origin": "",
+  "genesis_date": null,
+  "sentiment_votes_up_percentage": 100.0,
+  "sentiment_votes_down_percentage": 0.0,
+  "watchlist_portfolio_users": 17652,
+  "market_cap_rank": 117,
+  "status_updates": [],
+  "last_updated": "2026-01-05T01:15:00.465Z"
+}
