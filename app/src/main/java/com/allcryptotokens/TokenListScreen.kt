@@ -12,12 +12,16 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.input.TextFieldValue
 import androidx.compose.ui.unit.dp
 import coil.compose.AsyncImage
+import com.allcryptotokens.ui.ads.BannerAd
 import kotlinx.coroutines.flow.Flow
+
+private const val BANNER_AD_UNIT_ID = "ca-app-pub-5252933140466741/1627322069"
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun TokenListScreen(
-    onOpenToken: (cgId: String) -> Unit
+    onOpenToken: (cgId: String) -> Unit,
+    onOpenAbout: () -> Unit
 ) {
     val ctx = LocalContext.current
     val dao = remember { AppDatabase.get(ctx).tokenDao() }
@@ -34,8 +38,22 @@ fun TokenListScreen(
     Scaffold(
         topBar = {
             TopAppBar(
-                title = { Text("All Crypto Tokens") }
+                title = { Text("All Crypto Tokens") },
+                actions = {
+                    TextButton(onClick = onOpenAbout) { Text("About") }
+                }
             )
+        },
+        bottomBar = {
+            // Ненавязчивый баннер внизу
+            Surface(tonalElevation = 2.dp) {
+                BannerAd(
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .padding(vertical = 4.dp),
+                    adUnitId = BANNER_AD_UNIT_ID
+                )
+            }
         }
     ) { pad ->
         Column(

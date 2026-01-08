@@ -81,4 +81,8 @@ dependencies {
 
     // --- WorkManager (background sync, optional) ---
     implementation "androidx.work:work-runtime-ktx:$work_version"
+
+    // --- Google Ads ---
+    implementation "com.google.android.gms:play-services-ads:23.0.0"
+
 }

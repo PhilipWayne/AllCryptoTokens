@@ -20,6 +20,9 @@ class MainActivity : ComponentActivity() {
                                 putExtra("cgId", cgId)
                             }
                         )
+                    },
+                    onOpenAbout = {
+                        startActivity(Intent(this, AboutActivity::class.java))
                     }
                 )
             }

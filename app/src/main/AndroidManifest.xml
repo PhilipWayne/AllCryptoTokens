@@ -13,10 +13,23 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AllCryptoTokens">
 
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-5252933140466741~9694732979"/>
+
+
         <!-- Detail screen (no launcher intent) -->
         <activity
             android:name=".TokenDetailActivity"
             android:exported="false" />
+
+
+        <!-- About Activity -->
+        <activity
+            android:name=".AboutActivity"
+            android:exported="false" />
+
 
         <!-- Launcher activity -->
         <activity
