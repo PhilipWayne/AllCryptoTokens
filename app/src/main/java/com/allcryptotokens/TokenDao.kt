@@ -15,15 +15,12 @@ interface TokenDao {
     @Query("SELECT * FROM tokens WHERE cgId = :cgId LIMIT 1")
     fun observeToken(cgId: String): Flow<TokenEntity?>
 
-    @Query("SELECT * FROM tokens WHERE cgId = :cgId LIMIT 1")
-    suspend fun getTokenOnce(cgId: String): TokenEntity?
-
+    // ✅ Search ONLY by user-friendly fields (name + symbol)
     @Query(
         """
         SELECT * FROM tokens
         WHERE (name LIKE '%' || :q || '%' COLLATE NOCASE)
            OR (symbol LIKE '%' || :q || '%' COLLATE NOCASE)
-           OR (cgId LIKE '%' || :q || '%' COLLATE NOCASE)
         ORDER BY name COLLATE NOCASE ASC
         """
     )
@@ -32,7 +29,7 @@ interface TokenDao {
     @Query("SELECT COUNT(*) FROM tokens")
     suspend fun countTokens(): Int
 
-    // Not used in normal flow now, but harmless to keep
+    // Used by OfflineDbImporter
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun insertAll(tokens: List<TokenEntity>)
 }

@@ -45,7 +45,6 @@ fun TokenListScreen(
             )
         },
         bottomBar = {
-            // Ненавязчивый баннер внизу
             Surface(tonalElevation = 2.dp) {
                 BannerAd(
                     modifier = Modifier
@@ -68,7 +67,7 @@ fun TokenListScreen(
                     .fillMaxWidth()
                     .padding(12.dp),
                 singleLine = true,
-                label = { Text("Search (name / symbol / cgId)") }
+                label = { Text("Search (name / symbol)") }
             )
 
             if (tokens.isEmpty()) {
@@ -109,7 +108,7 @@ private fun TokenRow(
                 modifier = Modifier.size(40.dp)
             )
         },
-        headlineContent = { Text("${token.name} (${token.symbol.uppercase()})") },
-        supportingContent = { Text(token.cgId) }
+        headlineContent = { Text("${token.name} (${token.symbol.uppercase()})") }
+        // supportingContent removed: cgId is not user-friendly
     )
 }
