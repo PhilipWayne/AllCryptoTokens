@@ -1,0 +1,118 @@
+{
+  "bone-bone": [
+    "https://www.bonebone.online/"
+  ],
+  "bridged-curve-dao-token-stargate": [
+    "https://stargate.finance/",
+    "https://stargate.finance/about"
+  ],
+  "bridged-nxpc": [
+    "https://msu.io/"
+  ],
+  "celer-network": [
+    "https://www.celer.network/",
+    "https://github.com/celer-network/sgn-v2-contracts"
+  ],
+  "covalent-x-token": [
+    "https://www.covalenthq.com/",
+    "https://www.covalenthq.com/about-us",
+    "https://www.covalenthq.com/docs"
+  ],
+  "crob-mob": [
+    "https://crobcoin.com/"
+  ],
+  "cronos-zkevm-bridged-cro-cronos-zkevm": [
+    "https://cronos-pos.org/"
+  ],
+  "cronos-zkevm-cro": [
+    "https://cronos-pos.org/"
+  ],
+  "decentraland": [
+    "https://decentraland.org/"
+  ],
+  "dogelon-mars": [
+    "https://dogelonmars.com/"
+  ],
+  "ethena": [
+    "https://www.ethena.fi/"
+  ],
+  "ether-fi": [
+    "https://www.ether.fi/"
+  ],
+  "ethereum-classic": [
+    "http://ethereumclassic.org"
+  ],
+  "gelato": [
+    "https://www.gelato.network/"
+  ],
+  "grass": [
+    "https://grass.io/"
+  ],
+  "gunz": [
+    "https://gunbygunz.com/"
+  ],
+  "h": [
+    "https://x.com/HCR_BOT"
+  ],
+  "heima": [
+    "https://www.heima.network/"
+  ],
+  "aurora-dao": [
+    "https://idex.io/",
+    "https://idex.io/about",
+    "https://idex.io/about-us",
+    "https://idex.io/docs",
+    "https://idex.io/documentation",
+    "https://idex.io/whitepaper",
+    "https://idex.io/learn",
+    "https://idex.io/what-is",
+    "https://github.com/idexio/IDEXd"
+  ],
+  "layer3": [
+    "https://layer3.xyz/"
+  ],
+  "levva-protocol": [
+    "https://levva.fi/"
+  ],
+  "lido-dao": [
+    "https://stake.lido.fi/"
+  ],
+  "lumia": [
+    "https://lumia.org/"
+  ],
+  "numeraire": [
+    "https://numer.ai/",
+    "https://numer.ai/about",
+    "https://numer.ai/about-us",
+    "https://numer.ai/docs",
+    "https://numer.ai/documentation",
+    "https://numer.ai/whitepaper",
+    "https://numer.ai/learn"
+  ],
+  "succinct": [
+    "https://www.succinct.xyz/"
+  ],
+  "superrare": [
+    "https://superrare.com/"
+  ],
+  "tac-bridged-ton-tac": [
+    "https://tac.build/"
+  ],
+  "talos-2": [
+    "https://talos.is/"
+  ],
+  "verasity": [
+    "https://verasity.io/",
+    "https://verasity.io/about",
+    "https://verasity.io/about-us",
+    "https://verasity.io/docs",
+    "https://verasity.io/documentation",
+    "https://verasity.io/whitepaper",
+    "https://verasity.io/learn",
+    "https://verasity.io/what-is",
+    "https://github.com/verasitytech/SmartContracts"
+  ],
+  "zksync": [
+    "https://zksync.io/"
+  ]
+}

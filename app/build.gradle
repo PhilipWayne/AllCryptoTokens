@@ -86,3 +86,42 @@ dependencies {
     implementation "com.google.android.gms:play-services-ads:23.0.0"
 
 }
+
+def genDir = "$buildDir/generated/source/dbversion"
+
+tasks.register("generateDbVersionFromAsset") {
+    doLast {
+        def assetDb = file("$projectDir/src/main/assets/prebuilt_tokens.db")
+        if (!assetDb.exists()) {
+            throw new GradleException("Asset DB not found: " + assetDb)
+        }
+
+        // читаем PRAGMA user_version через sqlite3 (у тебя Linux, должно быть ок)
+        def cmd = ["bash", "-lc", "sqlite3 '${assetDb.absolutePath}' 'PRAGMA user_version;'"]
+        def proc = cmd.execute()
+        def out = proc.text.trim()
+        def code = proc.waitFor()
+        if (code != 0 || !out.isInteger()) {
+            throw new GradleException("Failed to read PRAGMA user_version from asset DB. Output: " + out)
+        }
+
+        def v = Integer.parseInt(out)
+        if (v < 1) v = 1
+
+        def outDir = file("$genDir/com/allcryptotokens")
+        outDir.mkdirs()
+
+        file("${outDir}/DbVersion.kt").text = """
+            package com.allcryptotokens
+            object DbVersion {
+                const val ROOM_DB_VERSION: Int = ${v}
+            }
+        """.stripIndent()
+    }
+}
+
+android.applicationVariants.all { variant ->
+    variant.registerJavaGeneratingTask(tasks.named("generateDbVersionFromAsset").get(), file(genDir))
+}
+
+

@@ -10,7 +10,8 @@ import kotlinx.coroutines.flow.Flow
 class OfflineFirstTokenRepository(
     context: Context
 ) {
-    private val dao = AppDatabase.get(context).tokenDao()
+    private val dao = AppDatabase.get(context.applicationContext).tokenDao()
+
 
     fun observe(cgId: String): Flow<TokenEntity?> = dao.observeToken(cgId)
     fun observeAll(): Flow<List<TokenEntity>> = dao.observeAllTokens()

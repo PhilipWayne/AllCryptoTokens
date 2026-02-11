@@ -1,0 +1,146 @@
+[
+  {
+    "cgId": "binance-peg-near-protocol",
+    "symbol": "near",
+    "name": "Binance-Peg NEAR Protocol",
+    "error": "No description found meeting min_len=250 for Binance-Peg NEAR Protocol (near) [binance-peg-near-protocol]"
+  },
+  {
+    "cgId": "binance-peg-shib",
+    "symbol": "shib",
+    "name": "Binance-Peg SHIB",
+    "error": "No description found meeting min_len=250 for Binance-Peg SHIB (shib) [binance-peg-shib]"
+  },
+  {
+    "cgId": "binance-peg-tezos-token",
+    "symbol": "xtz",
+    "name": "Binance-Peg Tezos Token",
+    "error": "No description found meeting min_len=250 for Binance-Peg Tezos Token (xtz) [binance-peg-tezos-token]"
+  },
+  {
+    "cgId": "catwifmask",
+    "symbol": "mask",
+    "name": "catwifmask",
+    "error": "No description found meeting min_len=250 for catwifmask (mask) [catwifmask]"
+  },
+  {
+    "cgId": "dar-open-network",
+    "symbol": "d",
+    "name": "Dar Open Network",
+    "error": "No description found meeting min_len=250 for Dar Open Network (d) [dar-open-network]"
+  },
+  {
+    "cgId": "drift-protocol",
+    "symbol": "drift",
+    "name": "Drift Protocol",
+    "error": "No description found meeting min_len=250 for Drift Protocol (drift) [drift-protocol]"
+  },
+  {
+    "cgId": "dymension",
+    "symbol": "dym",
+    "name": "Dymension",
+    "error": "No description found meeting min_len=250 for Dymension (dym) [dymension]"
+  },
+  {
+    "cgId": "elizaos",
+    "symbol": "elizaos",
+    "name": "ElizaOS",
+    "error": "No description found meeting min_len=250 for ElizaOS (elizaos) [elizaos]"
+  },
+  {
+    "cgId": "famous-fox-federation",
+    "symbol": "foxy",
+    "name": "Famous Fox Federation",
+    "error": "No description found meeting min_len=250 for Famous Fox Federation (foxy) [famous-fox-federation]"
+  },
+  {
+    "cgId": "humidifi",
+    "symbol": "wet",
+    "name": "HumidiFi",
+    "error": "No description found meeting min_len=250 for HumidiFi (wet) [humidifi]"
+  },
+  {
+    "cgId": "katana-bridged-pol-katana",
+    "symbol": "pol",
+    "name": "Katana Bridged POL (Katana)",
+    "error": "No description found meeting min_len=250 for Katana Bridged POL (Katana) (pol) [katana-bridged-pol-katana]"
+  },
+  {
+    "cgId": "layerzero",
+    "symbol": "zro",
+    "name": "LayerZero",
+    "error": "No description found meeting min_len=250 for LayerZero (zro) [layerzero]"
+  },
+  {
+    "cgId": "layerzero-bridged-sei",
+    "symbol": "sei",
+    "name": "LayerZero Bridged Sei",
+    "error": "No description found meeting min_len=250 for LayerZero Bridged Sei (sei) [layerzero-bridged-sei]"
+  },
+  {
+    "cgId": "linea-bridged-uni-linea",
+    "symbol": "uni",
+    "name": "Linea Bridged UNI (Linea)",
+    "error": "No description found meeting min_len=250 for Linea Bridged UNI (Linea) (uni) [linea-bridged-uni-linea]"
+  },
+  {
+    "cgId": "milk-alliance",
+    "symbol": "mlk",
+    "name": "MiL.k",
+    "error": "No description found meeting min_len=250 for MiL.k (mlk) [milk-alliance]"
+  },
+  {
+    "cgId": "moo-deng",
+    "symbol": "moodeng",
+    "name": "Moo Deng",
+    "error": "No description found meeting min_len=250 for Moo Deng (moodeng) [moo-deng]"
+  },
+  {
+    "cgId": "ordinals",
+    "symbol": "ordi",
+    "name": "ORDI",
+    "error": "No description found meeting min_len=250 for ORDI (ordi) [ordinals]"
+  },
+  {
+    "cgId": "polyhedra-network",
+    "symbol": "zkj",
+    "name": "Polyhedra Network",
+    "error": "No description found meeting min_len=250 for Polyhedra Network (zkj) [polyhedra-network]"
+  },
+  {
+    "cgId": "spell-token",
+    "symbol": "spell",
+    "name": "Spell",
+    "error": "No description found meeting min_len=250 for Spell (spell) [spell-token]"
+  },
+  {
+    "cgId": "stupid-world-liberty-financial",
+    "symbol": "wlfi",
+    "name": "Stupid World Liberty Financial",
+    "error": "No description found meeting min_len=250 for Stupid World Liberty Financial (wlfi) [stupid-world-liberty-financial]"
+  },
+  {
+    "cgId": "luna-wormhole",
+    "symbol": "lunc",
+    "name": "Terra Classic (Wormhole)",
+    "error": "No description found meeting min_len=250 for Terra Classic (Wormhole) (lunc) [luna-wormhole]"
+  },
+  {
+    "cgId": "towns",
+    "symbol": "towns",
+    "name": "Towns",
+    "error": "No description found meeting min_len=250 for Towns (towns) [towns]"
+  },
+  {
+    "cgId": "useless-3",
+    "symbol": "useless",
+    "name": "Useless Coin",
+    "error": "No description found meeting min_len=250 for Useless Coin (useless) [useless-3]"
+  },
+  {
+    "cgId": "zora",
+    "symbol": "zora",
+    "name": "Zora",
+    "error": "No description found meeting min_len=250 for Zora (zora) [zora]"
+  }
+]
