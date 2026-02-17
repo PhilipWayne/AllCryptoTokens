@@ -10,7 +10,7 @@ import java.io.FileOutputStream
 
 @Database(
     entities = [TokenEntity::class],
-    version = 5,
+    version = 8,
     exportSchema = false
 )
 abstract class AppDatabase : RoomDatabase() {
