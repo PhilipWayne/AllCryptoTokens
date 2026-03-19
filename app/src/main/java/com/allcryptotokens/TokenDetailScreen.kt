@@ -10,6 +10,10 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.dp
 import coil.compose.AsyncImage
+import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.ui.draw.clip
+import androidx.compose.ui.layout.ContentScale
+import androidx.compose.foundation.layout.size
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -37,7 +41,11 @@ fun TokenDetailScreen(
             AsyncImage(
                 model = token?.imageUrl?.takeIf { it.isNotBlank() },
                 contentDescription = null,
-                modifier = Modifier.padding(bottom = 12.dp)
+                contentScale = ContentScale.Crop,
+                modifier = Modifier
+                    .padding(bottom = 12.dp)
+                    .size(72.dp)
+                    .clip(RoundedCornerShape(16.dp))
             )
             Text(desc)
         }
