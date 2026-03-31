@@ -17,5 +17,6 @@ data class TokenEntity(
     val name: String,
     val description: String?,
     val imageUrl: String?,
-    val updatedAt: Long
+    val updatedAt: Long,
+    val youtubeId: String? // optional YouTube video id for this token
 )
