@@ -1,11 +1,9 @@
 package com.allcryptotokens
 
-import android.annotation.SuppressLint
-import android.view.ViewGroup
-import android.webkit.WebChromeClient
-import android.webkit.WebSettings
-import android.webkit.WebView
-import android.webkit.WebViewClient
+import android.content.Intent
+import android.net.Uri
+import androidx.compose.foundation.background
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -16,22 +14,26 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.verticalScroll
+import androidx.compose.material3.Button
+import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.material3.TopAppBar
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.DisposableEffect
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.remember
+import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalContext
-import androidx.compose.ui.viewinterop.AndroidView
+import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import coil.compose.AsyncImage
 
@@ -40,22 +42,14 @@ import coil.compose.AsyncImage
 fun TokenDetailScreen(
     cgId: String
 ) {
-    val ctx = LocalContext.current
-    val dao = remember { AppDatabase.get(ctx).tokenDao() }
+    val context = LocalContext.current
+    val dao = remember { AppDatabase.get(context).tokenDao() }
 
     val token by dao.observeToken(cgId).collectAsState(initial = null)
     val scroll = rememberScrollState()
 
     val title = token?.let { "${it.name} (${it.symbol.uppercase()})" } ?: cgId
-
-    val desc = buildString {
-        append(token?.description?.takeIf { it.isNotBlank() } ?: "No description yet.")
-        append("\n\nDEBUG youtubeId=")
-        append(token?.youtubeId ?: "NULL")
-        append("\nDEBUG cgId=")
-        append(token?.cgId ?: "NULL")
-    }
-
+    val desc = token?.description?.takeIf { it.isNotBlank() } ?: "No description yet."
     val youtubeId = token?.youtubeId?.takeIf { it.isNotBlank() }
 
     Scaffold(
@@ -84,8 +78,9 @@ fun TokenDetailScreen(
             Spacer(modifier = Modifier.height(4.dp))
 
             if (youtubeId != null) {
-                YoutubeEmbedPlayer(
+                YoutubePreviewCard(
                     videoId = youtubeId,
+                    title = token?.name ?: "Video",
                     modifier = Modifier.fillMaxWidth()
                 )
             }
@@ -95,118 +90,101 @@ fun TokenDetailScreen(
     }
 }
 
-@SuppressLint("SetJavaScriptEnabled")
 @Composable
-private fun YoutubeEmbedPlayer(
+private fun YoutubePreviewCard(
     videoId: String,
+    title: String,
     modifier: Modifier = Modifier
 ) {
     val context = LocalContext.current
-    var webViewRef: WebView? = remember { null }
+    val watchUrl = "https://www.youtube.com/watch?v=$videoId"
+    val thumbnailUrl = "https://img.youtube.com/vi/$videoId/hqdefault.jpg"
 
-    val html = remember(videoId) {
-        """
-        <!DOCTYPE html>
-        <html>
-        <head>
-            <meta
-                name="viewport"
-                content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
-            />
-            <style>
-                html, body {
-                    margin: 0;
-                    padding: 0;
-                    background: #000000;
-                    width: 100%;
-                    height: 100%;
-                    overflow: hidden;
-                }
-                .wrap {
-                    position: relative;
-                    width: 100%;
-                    height: 100%;
-                }
-                iframe {
-                    position: absolute;
-                    inset: 0;
-                    width: 100%;
-                    height: 100%;
-                    border: 0;
-                }
-            </style>
-        </head>
-        <body>
-            <div class="wrap">
-                <iframe
-                    src="https://www.youtube.com/embed/$videoId?autoplay=0&modestbranding=1&rel=0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowfullscreen
-                ></iframe>
-            </div>
-        </body>
-        </html>
-        """.trimIndent()
+    val openYoutube: () -> Unit = {
+        val appIntent = Intent(Intent.ACTION_VIEW, Uri.parse("vnd.youtube:$videoId")).apply {
+            addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
+        }
+
+        val webIntent = Intent(Intent.ACTION_VIEW, Uri.parse(watchUrl)).apply {
+            addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
+        }
+
+        try {
+            context.startActivity(appIntent)
+        } catch (_: Exception) {
+            context.startActivity(webIntent)
+        }
     }
 
     Box(
         modifier = modifier
-            .fillMaxWidth()
-            .aspectRatio(16f / 9f)
-            .clip(RoundedCornerShape(16.dp))
+            .clip(RoundedCornerShape(20.dp))
+            .background(Color(0xFF111111))
+            .clickable { openYoutube() }
     ) {
-        AndroidView(
-            modifier = Modifier.fillMaxWidth(),
-            factory = {
-                WebView(context).apply {
-                    layoutParams = ViewGroup.LayoutParams(
-                        ViewGroup.LayoutParams.MATCH_PARENT,
-                        ViewGroup.LayoutParams.MATCH_PARENT
-                    )
+        Box(
+            modifier = Modifier
+                .fillMaxWidth()
+                .aspectRatio(16f / 9f)
+        ) {
+            AsyncImage(
+                model = thumbnailUrl,
+                contentDescription = null,
+                contentScale = ContentScale.Crop,
+                modifier = Modifier.matchParentSize()
+            )
 
-                    settings.javaScriptEnabled = true
-                    settings.domStorageEnabled = true
-                    settings.mediaPlaybackRequiresUserGesture = false
-                    settings.cacheMode = WebSettings.LOAD_DEFAULT
-                    settings.mixedContentMode = WebSettings.MIXED_CONTENT_COMPATIBILITY_MODE
+            Box(
+                modifier = Modifier
+                    .matchParentSize()
+                    .background(Color.Black.copy(alpha = 0.28f))
+            )
 
-                    webChromeClient = WebChromeClient()
-                    webViewClient = WebViewClient()
-
-                    loadDataWithBaseURL(
-                        "https://www.youtube.com",
-                        html,
-                        "text/html",
-                        "utf-8",
-                        null
-                    )
-
-                    webViewRef = this
-                }
-            },
-            update = { webView ->
-                webView.loadDataWithBaseURL(
-                    "https://www.youtube.com",
-                    html,
-                    "text/html",
-                    "utf-8",
-                    null
+            Box(
+                modifier = Modifier
+                    .align(Alignment.Center)
+                    .size(74.dp)
+                    .clip(CircleShape)
+                    .background(Color.Black.copy(alpha = 0.62f)),
+                contentAlignment = Alignment.Center
+            ) {
+                Text(
+                    text = "▶",
+                    color = Color.White,
+                    fontWeight = FontWeight.Bold
                 )
-                webViewRef = webView
             }
-        )
-    }
+        }
 
-    DisposableEffect(Unit) {
-        onDispose {
-            webViewRef?.apply {
-                stopLoading()
-                loadUrl("about:blank")
-                clearHistory()
-                removeAllViews()
-                destroy()
+        Column(
+            modifier = Modifier
+                .align(Alignment.BottomStart)
+                .fillMaxWidth()
+                .background(Color.Black.copy(alpha = 0.58f))
+                .padding(12.dp),
+            verticalArrangement = Arrangement.spacedBy(8.dp)
+        ) {
+            Text(
+                text = "Watch on YouTube",
+                color = Color.White,
+                fontWeight = FontWeight.SemiBold
+            )
+
+            Text(
+                text = title,
+                color = Color.White.copy(alpha = 0.86f)
+            )
+
+            Button(
+                onClick = openYoutube,
+                colors = ButtonDefaults.buttonColors(
+                    containerColor = Color.Red,
+                    contentColor = Color.White
+                ),
+                shape = RoundedCornerShape(12.dp)
+            ) {
+                Text("Open Video")
             }
-            webViewRef = null
         }
     }
 }
