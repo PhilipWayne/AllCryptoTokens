@@ -57,6 +57,7 @@ object OfflineDbImporter {
                 val img = if (cursor.isNull(iImg)) null else cursor.getString(iImg)
                 val updatedAt = if (cursor.isNull(iUpd)) 0L else cursor.getLong(iUpd)
                 val youtubeId = if (cursor.isNull(iYoutube)) null else cursor.getString(iYoutube)
+                val officialUrl = if (cursor.isNull(cursor.getColumnIndexOrThrow("officialUrl"))) null else cursor.getString(cursor.getColumnIndexOrThrow("officialUrl"))
 
                 batch.add(
                     TokenEntity(
@@ -66,7 +67,8 @@ object OfflineDbImporter {
                         description = desc,
                         imageUrl = img,
                         updatedAt = updatedAt,
-                        youtubeId = youtubeId
+                        youtubeId = youtubeId,
+                        officialUrl = officialUrl,
                     )
                 )
 

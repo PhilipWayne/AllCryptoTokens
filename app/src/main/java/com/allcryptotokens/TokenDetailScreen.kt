@@ -51,6 +51,7 @@ fun TokenDetailScreen(
     val title = token?.let { "${it.name} (${it.symbol.uppercase()})" } ?: cgId
     val desc = token?.description?.takeIf { it.isNotBlank() } ?: "No description yet."
     val youtubeId = token?.youtubeId?.takeIf { it.isNotBlank() }
+    val officialUrl = token?.officialUrl?.takeIf { it.isNotBlank() }
 
     Scaffold(
         topBar = {
@@ -86,6 +87,29 @@ fun TokenDetailScreen(
             }
 
             Text(text = desc)
+
+            if (officialUrl != null) {
+                Button(
+                    onClick = {
+                        context.startActivity(
+                            Intent(Intent.ACTION_VIEW, Uri.parse(officialUrl))
+                        )
+                    },
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .height(56.dp),
+                    shape = RoundedCornerShape(16.dp),
+                    colors = ButtonDefaults.buttonColors(
+                        containerColor = Color(0xFFFFD600),
+                        contentColor = Color.Black
+                    )
+                ) {
+                    Text(
+                        text = "Go to Website",
+                        fontWeight = FontWeight.ExtraBold
+                    )
+                }
+            }
         }
     }
 }
