@@ -66,4 +66,12 @@ object NetworkModule {
             .addConverterFactory(GsonConverterFactory.create())
             .build()
             .create(CryptoComApiService::class.java)
+
+    fun marketService(context: Context, debug: Boolean = false): MarketApiService =
+        Retrofit.Builder()
+            .baseUrl("https://allcryptotokens-api.cash99tan.workers.dev/")
+            .client(httpClient(context, debug))
+            .addConverterFactory(GsonConverterFactory.create())
+            .build()
+            .create(MarketApiService::class.java)
 }

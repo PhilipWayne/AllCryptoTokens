@@ -67,7 +67,7 @@ fun TokenListScreen(
                     .fillMaxWidth()
                     .padding(12.dp),
                 singleLine = true,
-                label = { Text("Search (name / symbol)") }
+                label = { Text("Search") }
             )
 
             if (tokens.isEmpty()) {
