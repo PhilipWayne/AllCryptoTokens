@@ -7,4 +7,10 @@ class MarketRepository(
         val response = service.getMarketCurrent(cgId)
         return if (response.success) response.data else null
     }
+
+
+    suspend fun getPriceHistory(cgId: String, range: String): List<PriceHistoryPoint> {
+        val response = service.getPriceHistory(cgId, range)
+        return if (response.success) response.data?.points.orEmpty() else emptyList()
+    }
 }

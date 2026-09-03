@@ -2,6 +2,7 @@ package com.allcryptotokens
 
 import android.content.Intent
 import android.net.Uri
+import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
@@ -12,8 +13,10 @@ import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.aspectRatio
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.navigationBarsPadding
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
@@ -24,6 +27,7 @@ import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.ExperimentalMaterial3Api
+import androidx.compose.material3.Divider
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Surface
@@ -39,7 +43,9 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.Path
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.font.FontWeight
@@ -72,6 +78,10 @@ fun TokenDetailScreen(
     var marketData by remember(cgId) { mutableStateOf<MarketCurrentData?>(null) }
     var marketLoading by remember(cgId) { mutableStateOf(true) }
     var marketUnavailable by remember(cgId) { mutableStateOf(false) }
+    var chartRange by remember(cgId) { mutableStateOf(PriceChartRange.ONE_WEEK) }
+    var priceHistory by remember(cgId, chartRange) { mutableStateOf<List<PriceHistoryPoint>>(emptyList()) }
+    var historyLoading by remember(cgId, chartRange) { mutableStateOf(true) }
+    var historyUnavailable by remember(cgId, chartRange) { mutableStateOf(false) }
 
     LaunchedEffect(cgId) {
         marketLoading = true
@@ -88,6 +98,20 @@ fun TokenDetailScreen(
         }
     }
 
+    LaunchedEffect(cgId, chartRange) {
+        historyLoading = true
+        historyUnavailable = false
+        try {
+            priceHistory = marketRepository.getPriceHistory(cgId, chartRange.apiValue)
+            historyUnavailable = priceHistory.size < 2
+        } catch (_: Exception) {
+            priceHistory = emptyList()
+            historyUnavailable = true
+        } finally {
+            historyLoading = false
+        }
+    }
+
     val title = token?.let { "${it.name} (${it.symbol.uppercase()})" } ?: cgId
     val desc = token?.description?.takeIf { it.isNotBlank() } ?: "No description yet."
     val youtubeId = token?.youtubeId?.takeIf { it.isNotBlank() }
@@ -100,7 +124,10 @@ fun TokenDetailScreen(
             )
         },
         bottomBar = {
-            Surface(tonalElevation = 2.dp) {
+            Surface(
+                modifier = Modifier.navigationBarsPadding(),
+                tonalElevation = 2.dp
+            ) {
                 BannerAd(
                     modifier = Modifier
                         .fillMaxWidth()
@@ -126,13 +153,6 @@ fun TokenDetailScreen(
                     .clip(RoundedCornerShape(16.dp))
             )
 
-            MarketDataCard(
-                marketData = marketData,
-                loading = marketLoading,
-                unavailable = marketUnavailable,
-                modifier = Modifier.fillMaxWidth()
-            )
-
             if (youtubeId != null) {
                 YoutubePreviewCard(
                     videoId = youtubeId,
@@ -142,6 +162,18 @@ fun TokenDetailScreen(
             }
 
             Text(text = desc)
+
+            MarketDataCard(
+                marketData = marketData,
+                loading = marketLoading,
+                unavailable = marketUnavailable,
+                points = priceHistory,
+                selectedRange = chartRange,
+                onRangeSelected = { chartRange = it },
+                historyLoading = historyLoading,
+                historyUnavailable = historyUnavailable,
+                modifier = Modifier.fillMaxWidth()
+            )
 
             if (officialUrl != null) {
                 Button(
@@ -169,18 +201,33 @@ fun TokenDetailScreen(
     }
 }
 
+private enum class PriceChartRange(val label: String, val apiValue: String) {
+    ONE_WEEK("1W", "1w"),
+    ONE_MONTH("1M", "1m"),
+    SIX_MONTHS("6M", "6m"),
+    ONE_YEAR("1Y", "1y")
+}
+
+private fun formatChartDate(epochSeconds: Long): String =
+    SimpleDateFormat("MMM d", Locale.getDefault()).format(Date(epochSeconds * 1000L))
+
 @Composable
 private fun MarketDataCard(
     marketData: MarketCurrentData?,
     loading: Boolean,
     unavailable: Boolean,
+    points: List<PriceHistoryPoint>,
+    selectedRange: PriceChartRange,
+    onRangeSelected: (PriceChartRange) -> Unit,
+    historyLoading: Boolean,
+    historyUnavailable: Boolean,
     modifier: Modifier = Modifier
 ) {
     Card(
         modifier = modifier,
         shape = RoundedCornerShape(20.dp),
         colors = CardDefaults.cardColors(
-            containerColor = MaterialTheme.colorScheme.surfaceVariant
+            containerColor = Color(0xFF242424)
         )
     ) {
         Column(
@@ -265,6 +312,154 @@ private fun MarketDataCard(
                         style = MaterialTheme.typography.bodySmall,
                         color = MaterialTheme.colorScheme.onSurfaceVariant
                     )
+                }
+            }
+
+            Divider(
+                color = Color(0xFFFFD600).copy(alpha = 0.18f)
+            )
+
+            Text(
+                text = "Price Chart",
+                style = MaterialTheme.typography.titleMedium,
+                fontWeight = FontWeight.Bold
+            )
+
+            Row(
+                modifier = Modifier.fillMaxWidth(),
+                horizontalArrangement = Arrangement.spacedBy(8.dp)
+            ) {
+                PriceChartRange.values().forEach { range ->
+                    val selected = range == selectedRange
+                    Surface(
+                        modifier = Modifier
+                            .weight(1f)
+                            .clickable { onRangeSelected(range) },
+                        shape = RoundedCornerShape(12.dp),
+                        color = if (selected) Color(0xFFFFD600) else Color(0xFF111111)
+                    ) {
+                        Box(
+                            modifier = Modifier.padding(vertical = 9.dp),
+                            contentAlignment = Alignment.Center
+                        ) {
+                            Text(
+                                range.label,
+                                fontWeight = FontWeight.Bold,
+                                color = if (selected) Color.Black else MaterialTheme.colorScheme.onSurface
+                            )
+                        }
+                    }
+                }
+            }
+
+            when {
+                historyLoading -> Box(
+                    Modifier.fillMaxWidth().height(190.dp),
+                    contentAlignment = Alignment.Center
+                ) {
+                    CircularProgressIndicator(color = Color(0xFFFFD600))
+                }
+
+                historyUnavailable || points.size < 2 -> Box(
+                    Modifier.fillMaxWidth().height(190.dp),
+                    contentAlignment = Alignment.Center
+                ) {
+                    Text(
+                        "Price history is currently unavailable.",
+                        color = MaterialTheme.colorScheme.onSurfaceVariant
+                    )
+                }
+
+                else -> {
+                    val clean = points
+                        .filter { it.price.isFinite() }
+                        .sortedBy { it.timestamp }
+
+                    if (clean.size < 2) {
+                        Box(
+                            Modifier.fillMaxWidth().height(190.dp),
+                            contentAlignment = Alignment.Center
+                        ) {
+                            Text(
+                                "Price history is currently unavailable.",
+                                color = MaterialTheme.colorScheme.onSurfaceVariant
+                            )
+                        }
+                    } else {
+                        val minPrice = clean.minOf { it.price }
+                        val maxPrice = clean.maxOf { it.price }
+                        val firstPrice = clean.first().price
+                        val lastPrice = clean.last().price
+                        val lineColor = when {
+                            lastPrice > firstPrice -> Color(0xFF4CAF50)
+                            lastPrice < firstPrice -> Color(0xFFE53935)
+                            else -> Color(0xFFFFD600)
+                        }
+                        val gridColor = MaterialTheme.colorScheme.outline.copy(alpha = 0.22f)
+
+                        Row(
+                            Modifier.fillMaxWidth(),
+                            horizontalArrangement = Arrangement.SpaceBetween
+                        ) {
+                            Text(
+                                formatPrice(maxPrice),
+                                style = MaterialTheme.typography.bodySmall
+                            )
+                            Text(
+                                formatPrice(clean.last().price),
+                                style = MaterialTheme.typography.bodySmall,
+                                fontWeight = FontWeight.Bold
+                            )
+                        }
+
+                        Canvas(
+                            modifier = Modifier
+                                .fillMaxWidth()
+                                .height(180.dp)
+                        ) {
+                            val priceRange = (maxPrice - minPrice).takeIf { it > 0.0 } ?: 1.0
+
+                            for (i in 0..3) {
+                                val y = size.height * i / 3f
+                                drawLine(
+                                    gridColor,
+                                    Offset(0f, y),
+                                    Offset(size.width, y),
+                                    strokeWidth = 1f
+                                )
+                            }
+
+                            val path = Path()
+                            clean.forEachIndexed { index, point ->
+                                val x = size.width * index / (clean.size - 1).toFloat()
+                                val normalized = ((point.price - minPrice) / priceRange).toFloat()
+                                val y = size.height - (normalized * size.height)
+                                if (index == 0) path.moveTo(x, y) else path.lineTo(x, y)
+                            }
+
+                            drawPath(
+                                path,
+                                lineColor,
+                                style = androidx.compose.ui.graphics.drawscope.Stroke(width = 4f)
+                            )
+                        }
+
+                        Row(
+                            Modifier.fillMaxWidth(),
+                            horizontalArrangement = Arrangement.SpaceBetween
+                        ) {
+                            Text(
+                                formatChartDate(clean.first().timestamp),
+                                style = MaterialTheme.typography.bodySmall,
+                                color = MaterialTheme.colorScheme.onSurfaceVariant
+                            )
+                            Text(
+                                formatChartDate(clean.last().timestamp),
+                                style = MaterialTheme.typography.bodySmall,
+                                color = MaterialTheme.colorScheme.onSurfaceVariant
+                            )
+                        }
+                    }
                 }
             }
         }

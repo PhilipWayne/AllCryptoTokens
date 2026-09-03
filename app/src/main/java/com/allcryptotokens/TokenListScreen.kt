@@ -45,7 +45,10 @@ fun TokenListScreen(
             )
         },
         bottomBar = {
-            Surface(tonalElevation = 2.dp) {
+            Surface(
+                modifier = Modifier.navigationBarsPadding(),
+                tonalElevation = 2.dp
+            ) {
                 BannerAd(
                     modifier = Modifier
                         .fillMaxWidth()

@@ -8,4 +8,11 @@ interface MarketApiService {
     suspend fun getMarketCurrent(
         @Query("cgId") cgId: String
     ): MarketCurrentResponse
+
+
+    @GET("price-history")
+    suspend fun getPriceHistory(
+        @Query("cgId") cgId: String,
+        @Query("range") range: String
+    ): PriceHistoryResponse
 }
