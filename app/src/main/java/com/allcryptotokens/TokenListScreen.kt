@@ -6,6 +6,8 @@ import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Info
 import androidx.compose.material.icons.filled.Menu
 import androidx.compose.material.icons.filled.RemoveCircleOutline
+import androidx.compose.material.icons.filled.Star
+import androidx.compose.material.icons.outlined.StarBorder
 import androidx.compose.ui.graphics.Color
 import kotlinx.coroutines.launch
 import androidx.compose.foundation.layout.*
@@ -39,12 +41,31 @@ fun TokenListScreen(
 
     var query by remember { mutableStateOf(TextFieldValue("")) }
 
+    val favoritesPrefs = remember {
+        ctx.getSharedPreferences("token_favorites", android.content.Context.MODE_PRIVATE)
+    }
+    var favoriteIds by remember {
+        mutableStateOf(favoritesPrefs.getStringSet("favorite_cg_ids", emptySet())?.toSet() ?: emptySet())
+    }
+    var favoritesOnly by remember { mutableStateOf(false) }
+
+    fun toggleFavorite(cgId: String) {
+        val updated = favoriteIds.toMutableSet().apply {
+            if (!add(cgId)) remove(cgId)
+        }.toSet()
+        favoriteIds = updated
+        favoritesPrefs.edit().putStringSet("favorite_cg_ids", updated).apply()
+    }
+
     val flow: Flow<List<TokenEntity>> = remember(query.text) {
         val q = query.text.trim()
         if (q.isEmpty()) dao.observeAllTokens() else dao.searchTokens(q)
     }
 
     val tokens by flow.collectAsState(initial = emptyList())
+    val visibleTokens = remember(tokens, favoriteIds, favoritesOnly) {
+        if (favoritesOnly) tokens.filter { it.cgId in favoriteIds } else tokens
+    }
 
     ModalNavigationDrawer(
         drawerState = drawerState,
@@ -98,10 +119,19 @@ fun TokenListScreen(
                     .fillMaxWidth()
                     .padding(12.dp),
                 singleLine = true,
-                label = { Text("Search") }
+                label = { Text("Search") },
+                trailingIcon = {
+                    IconButton(onClick = { favoritesOnly = !favoritesOnly }) {
+                        Icon(
+                            imageVector = if (favoritesOnly) Icons.Filled.Star else Icons.Outlined.StarBorder,
+                            contentDescription = if (favoritesOnly) "Show all tokens" else "Show favorites only",
+                            tint = if (favoritesOnly) Color(0xFFFFD600) else LocalContentColor.current
+                        )
+                    }
+                }
             )
 
-            if (tokens.isEmpty()) {
+            if (visibleTokens.isEmpty()) {
                 Box(
                     modifier = Modifier.fillMaxSize(),
                     contentAlignment = Alignment.Center
@@ -112,9 +142,11 @@ fun TokenListScreen(
                 LazyColumn(
                     modifier = Modifier.fillMaxSize()
                 ) {
-                    items(tokens, key = { it.cgId }) { t ->
+                    items(visibleTokens, key = { it.cgId }) { t ->
                         TokenRow(
                             token = t,
+                            isFavorite = t.cgId in favoriteIds,
+                            onToggleFavorite = { toggleFavorite(t.cgId) },
                             onClick = { onOpenToken(t.cgId) }
                         )
                         Divider()
@@ -129,6 +161,8 @@ fun TokenListScreen(
 @Composable
 private fun TokenRow(
     token: TokenEntity,
+    isFavorite: Boolean,
+    onToggleFavorite: () -> Unit,
     onClick: () -> Unit
 ) {
     ListItem(
@@ -140,7 +174,16 @@ private fun TokenRow(
                 modifier = Modifier.size(40.dp)
             )
         },
-        headlineContent = { Text("${token.name} (${token.symbol.uppercase()})") }
+        headlineContent = { Text("${token.name} (${token.symbol.uppercase()})") },
+        trailingContent = {
+            IconButton(onClick = onToggleFavorite) {
+                Icon(
+                    imageVector = if (isFavorite) Icons.Filled.Star else Icons.Outlined.StarBorder,
+                    contentDescription = if (isFavorite) "Remove from favorites" else "Add to favorites",
+                    tint = if (isFavorite) Color(0xFFFFD600) else LocalContentColor.current
+                )
+            }
+        }
         // supportingContent removed: cgId is not user-friendly
     )
 }
