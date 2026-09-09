@@ -11,9 +11,9 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.aspectRatio
+import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
-import androidx.compose.foundation.layout.navigationBarsPadding
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
@@ -51,7 +51,7 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import coil.compose.AsyncImage
-import com.allcryptotokens.ui.ads.BannerAd
+import com.allcryptotokens.ui.ads.LocalAdOverlayBottomPadding
 import java.text.DecimalFormat
 import java.text.NumberFormat
 import java.text.SimpleDateFormat
@@ -59,7 +59,6 @@ import java.util.Date
 import java.util.Locale
 import kotlin.math.abs
 
-private const val BANNER_AD_UNIT_ID = "ca-app-pub-5252933140466741/1627322069"
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -74,6 +73,7 @@ fun TokenDetailScreen(
 
     val token by dao.observeToken(cgId).collectAsState(initial = null)
     val scroll = rememberScrollState()
+    val bottomOverlayPadding = LocalAdOverlayBottomPadding.current
 
     var marketData by remember(cgId) { mutableStateOf<MarketCurrentData?>(null) }
     var marketLoading by remember(cgId) { mutableStateOf(true) }
@@ -118,30 +118,23 @@ fun TokenDetailScreen(
     val officialUrl = token?.officialUrl?.takeIf { it.isNotBlank() }
 
     Scaffold(
+        contentWindowInsets = androidx.compose.foundation.layout.WindowInsets(0, 0, 0, 0),
         topBar = {
             TopAppBar(
                 title = { Text(title) }
             )
-        },
-        bottomBar = {
-            Surface(
-                modifier = Modifier.navigationBarsPadding(),
-                tonalElevation = 2.dp
-            ) {
-                BannerAd(
-                    modifier = Modifier
-                        .fillMaxWidth()
-                        .padding(vertical = 4.dp),
-                    adUnitId = BANNER_AD_UNIT_ID
-                )
-            }
         }
     ) { pad ->
         Column(
             modifier = Modifier
-                .padding(pad)
-                .padding(16.dp)
-                .verticalScroll(scroll),
+                .fillMaxSize()
+                .verticalScroll(scroll)
+                .padding(
+                    start = 16.dp,
+                    top = pad.calculateTopPadding() + 16.dp,
+                    end = 16.dp,
+                    bottom = bottomOverlayPadding + 16.dp
+                ),
             verticalArrangement = Arrangement.spacedBy(12.dp)
         ) {
             AsyncImage(

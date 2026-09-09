@@ -1,6 +1,13 @@
 package com.allcryptotokens
 
 import androidx.compose.foundation.clickable
+import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.Info
+import androidx.compose.material.icons.filled.Menu
+import androidx.compose.material.icons.filled.RemoveCircleOutline
+import androidx.compose.ui.graphics.Color
+import kotlinx.coroutines.launch
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
@@ -11,19 +18,23 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.input.TextFieldValue
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
+import androidx.compose.ui.text.font.FontWeight
 import coil.compose.AsyncImage
-import com.allcryptotokens.ui.ads.BannerAd
 import kotlinx.coroutines.flow.Flow
 
-private const val BANNER_AD_UNIT_ID = "ca-app-pub-5252933140466741/1627322069"
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun TokenListScreen(
+    isAdFree: Boolean,
     onOpenToken: (cgId: String) -> Unit,
+    onOpenRemoveAds: () -> Unit,
     onOpenAbout: () -> Unit
 ) {
     val ctx = LocalContext.current
+    val drawerState = rememberDrawerState(DrawerValue.Closed)
+    val scope = rememberCoroutineScope()
     val dao = remember { AppDatabase.get(ctx).tokenDao() }
 
     var query by remember { mutableStateOf(TextFieldValue("")) }
@@ -35,27 +46,44 @@ fun TokenListScreen(
 
     val tokens by flow.collectAsState(initial = emptyList())
 
+    ModalNavigationDrawer(
+        drawerState = drawerState,
+        drawerContent = {
+            ModalDrawerSheet(
+                modifier = Modifier.fillMaxWidth(0.80f),
+                drawerShape = RoundedCornerShape(topEnd = 24.dp, bottomEnd = 24.dp),
+                drawerContainerColor = Color(0xFF1F1F1F)
+            ) {
+                Column(Modifier.fillMaxHeight().statusBarsPadding().navigationBarsPadding().padding(20.dp)) {
+                    Text("AllCryptoTokens", fontSize = 28.sp, fontWeight = FontWeight.Bold, color = Color(0xFFFFD600))
+                    Spacer(Modifier.height(8.dp))
+                    Text("Explore • Learn • Discover", color = Color.LightGray)
+                    Spacer(Modifier.height(30.dp))
+                    NavigationDrawerItem(
+                        label = { Text(if (isAdFree) "Ads Removed" else "Remove Ads") },
+                        selected = false,
+                        icon = { Icon(Icons.Default.RemoveCircleOutline, null, tint = Color(0xFFFFD600)) },
+                        onClick = { scope.launch { drawerState.close() }; onOpenRemoveAds() }
+                    )
+                    Spacer(Modifier.height(10.dp))
+                    NavigationDrawerItem(
+                        label = { Text("About") },
+                        selected = false,
+                        icon = { Icon(Icons.Default.Info, null, tint = Color(0xFFFFD600)) },
+                        onClick = { scope.launch { drawerState.close() }; onOpenAbout() }
+                    )
+                }
+            }
+        }
+    ) {
     Scaffold(
         topBar = {
             TopAppBar(
                 title = { Text("All Crypto Tokens") },
-                actions = {
-                    TextButton(onClick = onOpenAbout) { Text("About") }
+                navigationIcon = {
+                    IconButton(onClick = { scope.launch { drawerState.open() } }) { Icon(Icons.Default.Menu, contentDescription = "Menu") }
                 }
             )
-        },
-        bottomBar = {
-            Surface(
-                modifier = Modifier.navigationBarsPadding(),
-                tonalElevation = 2.dp
-            ) {
-                BannerAd(
-                    modifier = Modifier
-                        .fillMaxWidth()
-                        .padding(vertical = 4.dp),
-                    adUnitId = BANNER_AD_UNIT_ID
-                )
-            }
         }
     ) { pad ->
         Column(
@@ -94,6 +122,7 @@ fun TokenListScreen(
                 }
             }
         }
+    }
     }
 }
 

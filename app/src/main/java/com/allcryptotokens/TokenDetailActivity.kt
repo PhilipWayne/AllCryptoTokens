@@ -4,6 +4,7 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.enableEdgeToEdge
 import androidx.activity.compose.setContent
+import com.allcryptotokens.ui.ads.AdSupportedContent
 import com.allcryptotokens.ui.theme.AllCryptoTokensTheme
 
 class TokenDetailActivity : ComponentActivity() {
@@ -16,7 +17,9 @@ class TokenDetailActivity : ComponentActivity() {
 
         setContent {
             AllCryptoTokensTheme {
-                TokenDetailScreen(cgId = cgId)
+                AdSupportedContent {
+                    TokenDetailScreen(cgId = cgId)
+                }
             }
         }
     }

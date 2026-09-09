@@ -4,13 +4,14 @@ import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
 import androidx.activity.ComponentActivity
-import androidx.activity.enableEdgeToEdge
 import androidx.activity.compose.setContent
+import androidx.activity.enableEdgeToEdge
 import androidx.compose.foundation.layout.*
 import androidx.compose.material3.*
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
+import com.allcryptotokens.ui.ads.AdSupportedContent
 import com.allcryptotokens.ui.theme.AllCryptoTokensTheme
 
 class AboutActivity : ComponentActivity() {
@@ -21,12 +22,14 @@ class AboutActivity : ComponentActivity() {
 
         setContent {
             AllCryptoTokensTheme {
-                AboutScreen(
-                    privacyUrl = "https://philipwayne.github.io/AllCryptoTokens/privacy-policy.html",
-                    onOpenUrl = { url ->
-                        startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(url)))
-                    }
-                )
+                AdSupportedContent {
+                    AboutScreen(
+                        privacyUrl = "https://philipwayne.github.io/AllCryptoTokens/privacy-policy.html",
+                        onOpenUrl = { url ->
+                            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(url)))
+                        }
+                    )
+                }
             }
         }
     }

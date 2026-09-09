@@ -3,8 +3,11 @@ package com.allcryptotokens
 import android.app.Application
 
 class App : Application() {
+    lateinit var billingManager: BillingManager
+        private set
+
     override fun onCreate() {
         super.onCreate()
-        // Nothing here. DB update happens inside AppDatabase.get()
+        billingManager = BillingManager(this).also { it.start() }
     }
 }
