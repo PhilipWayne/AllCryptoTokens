@@ -35,7 +35,7 @@ object OfflineDbImporter {
             }
 
             val cursor = src.rawQuery(
-                "SELECT cgId, symbol, name, description, imageUrl, updatedAt, youtubeId FROM tokens",
+                "SELECT cgId, symbol, name, description, imageUrl, updatedAt, youtubeId, officialUrl FROM tokens",
                 null
             )
 

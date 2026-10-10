@@ -43,22 +43,6 @@ object NetworkModule {
         return b.build()
     }
 
-    fun coinGeckoService(context: Context, debug: Boolean = false): CoinGeckoApiService =
-        Retrofit.Builder()
-            .baseUrl("https://api.coingecko.com/api/v3/")
-            .client(httpClient(context, debug))
-            .addConverterFactory(GsonConverterFactory.create())
-            .build()
-            .create(CoinGeckoApiService::class.java)
-
-    fun coinGeckoService(debug: Boolean = false): CoinGeckoApiService =
-        Retrofit.Builder()
-            .baseUrl("https://api.coingecko.com/api/v3/")
-            .client(httpClient(null, debug))
-            .addConverterFactory(GsonConverterFactory.create())
-            .build()
-            .create(CoinGeckoApiService::class.java)
-
     fun cryptoComService(debug: Boolean = false): CryptoComApiService =
         Retrofit.Builder()
             .baseUrl("https://api.crypto.com/v2/")

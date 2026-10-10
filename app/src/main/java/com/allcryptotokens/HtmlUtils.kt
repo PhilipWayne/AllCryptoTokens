@@ -3,7 +3,7 @@ package com.allcryptotokens
 
 import androidx.core.text.HtmlCompat
 
-/** Clean CoinGecko HTML to plain text, decoding entities. */
+/** Clean HTML to plain text, decoding entities. */
 fun stripHtml(src: String): String =
     HtmlCompat.fromHtml(src, HtmlCompat.FROM_HTML_MODE_LEGACY)
         .toString()
